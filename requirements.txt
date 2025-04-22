@@ -37,3 +37,7 @@ sqlalchemy
 psycopg2-binary
 qdrant-client
 open_clip_torch
+torch
+pillow
+numpy
+pandas
