@@ -17,7 +17,5 @@ class ImageResult(BaseModel):
     restaurant_rating: Optional[float]
     restaurant_url: Optional[str]
 
-    path: Optional[str] = None  
-
 class SearchResponse(BaseModel):
     results: list[ImageResult]

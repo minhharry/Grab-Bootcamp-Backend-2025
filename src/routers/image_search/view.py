@@ -7,7 +7,7 @@ from database import get_db
 
 router = APIRouter()
 
-@router.post("/search", response_model=SearchResponse)
+@router.post("/search_image", response_model=SearchResponse)
 async def search_image(file: UploadFile = File(...), db: Session = Depends(get_db)):
     if not file.content_type.startswith("image/"):
         raise HTTPException(status_code=400, detail="File isn't an image")

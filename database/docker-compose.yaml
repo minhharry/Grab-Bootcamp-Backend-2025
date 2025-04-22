@@ -17,16 +17,14 @@ services:
       timeout: 5s
       retries: 5
       start_period: 10s
-    networks:
-      - grab-network
+
 
   adminer:
     container_name: grab-adminer
     image: adminer
     ports:
       - "8080:8080"
-    networks:
-      - grab-network
+
 
   app:
     build: .
@@ -37,12 +35,8 @@ services:
         condition: service_healthy
     volumes:
       - ./input:/app/input
-    networks:
-      - grab-network
+
 
 volumes:
   pgdata:
 
-networks:
-  grab-network:
-    external: true

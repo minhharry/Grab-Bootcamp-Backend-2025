@@ -10,6 +10,8 @@ from sqlalchemy.orm import Session
 from dotenv import load_dotenv
 import os
 from pathlib import Path
+from typing import List, Dict
+from .model import ImageResult
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=env_path)
@@ -24,12 +26,25 @@ client = QdrantClient(
     api_key=os.getenv("API_KEY")  
 )
 
+def fetch_image_restaurant_data(db: Session, img_ids: List[str]) -> Dict[str, dict]:
+    query = text("""
+        SELECT
+            i.img_id, i.restaurant_id, i.food_name, i.food_price, i.img_url,
+            r.restaurant_name, r.address, r.restaurant_rating, r.restaurant_url
+        FROM images i
+        LEFT JOIN restaurants r ON i.restaurant_id = r.restaurant_id
+        WHERE i.img_id = ANY(ARRAY[:img_ids]::uuid[])
+    """)
+    rows = db.execute(query, {"img_ids": img_ids}).fetchall()
+    return {str(row.img_id): dict(row._mapping) for row in rows}
+
 async def search_similar_images(
     image_bytes: bytes,
     db: Session,
     collection_name: str = "food_image_embeddings",
     limit: int = 5
-):
+) -> List[ImageResult]:
+
     image = Image.open(BytesIO(image_bytes)).convert("RGB")
     image_tensor = preprocess(image).unsqueeze(0).to(device)
 
@@ -50,34 +65,17 @@ async def search_similar_images(
         limit=limit,
     )
 
+    img_ids = [str(r.id) for r in search_result]
+    data_map = fetch_image_restaurant_data(db, img_ids)
+
     results = []
     for r in search_result:
         img_id = str(r.id)
+        data = data_map.get(img_id)
 
-        food_row = db.execute(text("""
-            SELECT img_id, restaurant_id, food_name, food_price, img_url
-            FROM images
-            WHERE img_id = :img_id
-        """), {"img_id": img_id}).fetchone()
+        if data:
+            result = ImageResult(score=r.score, **data)
+            results.append(result)
 
-        if food_row:
-            food_data = dict(food_row._mapping)
-
-            rest_data = {}
-            if food_data.get("restaurant_id"):
-                restaurant_row = db.execute(text("""
-                    SELECT restaurant_name, address, restaurant_rating, restaurant_url
-                    FROM restaurants
-                    WHERE restaurant_id = :rest_id
-                """), {"rest_id": food_data["restaurant_id"]}).fetchone()
-
-                if restaurant_row:
-                    rest_data = dict(restaurant_row._mapping)
-
-            results.append({
-                "score": r.score,
-                **food_data,
-                **rest_data
-            })
-
+    results.sort(key=lambda x: x.score, reverse=True)
     return results
