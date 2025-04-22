@@ -1,5 +1,6 @@
 __pycache__/
 .env
 **/.env
+src/.env
 .venv/
 vector_db/
