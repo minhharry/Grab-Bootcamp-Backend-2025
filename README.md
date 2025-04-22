@@ -11,28 +11,28 @@ uv venv --python 3.12.0
 uv pip install -r requirements.txt
 ```
 ## Config database
-``bash
+```bash
 cd database
-``__
-and follow this README file https://github.com/minhharry/Grab-Bootcamp-Backend-2025/blob/phuc/database/readme.md__
-``bash
+```
+and follow this README file https://github.com/minhharry/Grab-Bootcamp-Backend-2025/blob/phuc/database/readme.md
+```bash
 cd ..
-``
+```
 ## In src/ add file .env
-``bash
+```bash
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=example
 POSTGRES_DB=restaurants
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
 DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
-``
+```
 
 ## In src/routers/image_search add file .env
-``bash
+```bash
 QDRANT_URL=
 API_KEY=
-``
+```
 ## Dev
 
 ```bash
