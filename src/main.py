@@ -6,7 +6,7 @@ from sqlalchemy import text
 
 app = FastAPI()
 
-app.include_router(dummy.router)
-app.include_router(image_search.router)
+app.include_router(dummy.router, prefix="/dummy")
+app.include_router(image_search.router, prefix="/image_search")
 
 
