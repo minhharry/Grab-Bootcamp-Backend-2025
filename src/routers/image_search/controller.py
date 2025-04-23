@@ -12,14 +12,10 @@ import os
 from pathlib import Path
 from typing import List, Dict
 from .model import ImageResult
+from model_loader import model, preprocess, device
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=env_path)
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model, _, preprocess = open_clip.create_model_and_transforms("ViT-H-14-378-quickgelu", pretrained="dfn5b")
-model.to(device)
-model.eval()
 
 client = QdrantClient(
     url=os.getenv("QDRANT_URL"), 
