@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from .model import DummyItem
 from .controller import create_dummy, get_dummy
 
-router = APIRouter(prefix="/dummy")
+router = APIRouter()
 
 @router.post("/")
 async def create(item: DummyItem):
