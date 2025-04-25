@@ -10,6 +10,15 @@ uv venv --python 3.12.0
 .venv\Scripts\activate
 uv pip install -r requirements.txt
 ```
+## In database/ add file .env
+```bash
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=example
+POSTGRES_DB=restaurants
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+```
 ## In src/ add file .env
 ```bash
 POSTGRES_USER=postgres
