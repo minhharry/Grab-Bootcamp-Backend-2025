@@ -1,0 +1,45 @@
+from sqlalchemy import Column, String, Float, Integer, ForeignKey, Text
+from sqlalchemy.dialects.postgresql import UUID as PG_UUID
+from sqlalchemy.orm import relationship, declarative_base
+import uuid
+
+Base = declarative_base()
+
+class RestaurantModel(Base):
+    __tablename__ = "restaurants"
+
+    restaurant_id = Column(PG_UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    restaurant_name = Column(Text, nullable=True)
+    address = Column(Text, nullable=True)
+    source = Column(Text)
+    restaurant_rating = Column(Float, nullable=True)
+    restaurant_rating_count = Column(Integer, nullable=True)
+    restaurant_url = Column(Text, nullable=True)
+    crawl_time = Column(String, nullable=True)
+    crawl_id = Column(Text, nullable=True)
+
+    images = relationship("ImageModel", back_populates="restaurant")
+    reviews = relationship("ReviewModel", back_populates="restaurant")
+
+
+class ImageModel(Base):
+    __tablename__ = "images"
+
+    img_id = Column(PG_UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    restaurant_id = Column(PG_UUID(as_uuid=True), ForeignKey('restaurants.restaurant_id'), nullable=True)
+    food_name = Column(Text, nullable=True)
+    food_price = Column(Text, nullable=True)
+    img_url = Column(Text, nullable=True)
+
+    restaurant = relationship("RestaurantModel", back_populates="images")
+
+
+class ReviewModel(Base):
+    __tablename__ = "reviews"
+
+    review_id = Column(PG_UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    restaurant_id = Column(PG_UUID(as_uuid=True), ForeignKey('restaurants.restaurant_id'), nullable=True)
+    user_rating = Column(Float, nullable=True)
+    user_review = Column(Text, nullable=True)
+
+    restaurant = relationship("RestaurantModel", back_populates="reviews")

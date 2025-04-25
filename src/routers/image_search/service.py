@@ -14,16 +14,17 @@ from .repository import get_image_restaurant_data
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
-client = QdrantClient(
-    url=os.getenv("QDRANT_URL"), 
-    api_key=os.getenv("API_KEY")  
-)
+# client = QdrantClient(
+#     url=os.getenv("QDRANT_URL"), 
+#     api_key=os.getenv("API_KEY")  
+# )
 
+client = QdrantClient(host="localhost", port=6333)
 
 async def search_similar_images(
     image_bytes: bytes,
     db: Session,
-    collection_name: str = "food_image_embeddings",
+    collection_name: str = "images_embedding",
     limit: int = 5
 ) -> List[ImageResult]:
 

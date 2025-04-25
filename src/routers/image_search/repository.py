@@ -1,15 +1,28 @@
-from sqlalchemy.sql import text
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 from typing import List, Dict
+from models import ImageModel
 
 def get_image_restaurant_data(db: Session, img_ids: List[str]) -> Dict[str, dict]:
-    query = text("""
-        SELECT
-            i.img_id, i.restaurant_id, i.food_name, i.food_price, i.img_url,
-            r.restaurant_name, r.address, r.restaurant_rating, r.restaurant_url
-        FROM images i
-        LEFT JOIN restaurants r ON i.restaurant_id = r.restaurant_id
-        WHERE i.img_id = ANY(ARRAY[:img_ids]::uuid[])
-    """)
-    rows = db.execute(query, {"img_ids": img_ids}).fetchall()
-    return {str(row.img_id): dict(row._mapping) for row in rows}
+    results = (
+        db.query(ImageModel)
+        .options(joinedload(ImageModel.restaurant))
+        .filter(ImageModel.img_id.in_(img_ids))
+        .all()
+    )
+
+    data = {}
+    for img in results:
+        rest = img.restaurant
+        data[str(img.img_id)] = {
+            "img_id": img.img_id,
+            "restaurant_id": img.restaurant_id,
+            "food_name": img.food_name,
+            "food_price": img.food_price,
+            "img_url": img.img_url,
+            "restaurant_name": rest.restaurant_name if rest else None,
+            "address": rest.address if rest else None,
+            "restaurant_rating": rest.restaurant_rating if rest else None,
+            "restaurant_url": rest.restaurant_url if rest else None,
+        }
+
+    return data

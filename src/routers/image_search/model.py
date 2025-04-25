@@ -18,4 +18,4 @@ class ImageResult(BaseModel):
     restaurant_url: Optional[str]
 
 class SearchResponse(BaseModel):
-    results: list[ImageResult]
+    results: List[ImageResult]
