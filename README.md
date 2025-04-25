@@ -33,6 +33,16 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}
 QDRANT_URL=
 API_KEY=
 ```
+
+## If using qdrant local
+In folder vector_db, download this file and add to this folder (this file contains embedding vectors of images) : [Image Embedding](https://drive.google.com/file/d/1TfGRQ-N2x_ZW1r-qQQXJ-0FzUQqjFg1H/view?usp=sharing)
+In folder root (Grab-Bootcamp-Backend-2025)
+```bash
+docker run -d -p 6333:6333 qdrant/qdrant
+python -m vector_db.load_embedding
+```
+
+
 ## Dev
 
 ```bash
