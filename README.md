@@ -42,7 +42,7 @@ API_KEY=
 ```
 
 ## If using qdrant local
-In folder vector_db, download this file and add to this folder (this file contains embedding vectors of images) : [Image Embedding](https://drive.google.com/file/d/1TfGRQ-N2x_ZW1r-qQQXJ-0FzUQqjFg1H/view?usp=sharing)  
+In folder vector_db, download image_vectors.csv in this folder [Image Embedding](https://drive.google.com/drive/folders/1nKzVk1eyjutBAYo34F7gatrBIcarMyNY?usp=sharing) and add to vector_db folder  
 
 In folder root (Grab-Bootcamp-Backend-2025)
 ```bash

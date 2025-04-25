@@ -31,7 +31,11 @@ def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetail
     return RestaurantDetail(
         restaurant_id=raw_data["restaurant_id"],
         restaurant_name=raw_data.get("restaurant_name"),
+        avatar_url=raw_data.get("avatar_url"),
         address=raw_data.get("address"),
+        restaurant_description=raw_data.get("restaurant_description"),
+        opening_hours=raw_data.get("opening_hours"),
+        price_range=raw_data.get("price_range"),
         restaurant_rating=raw_data.get("restaurant_rating"),
         restaurant_rating_count=raw_data.get("restaurant_rating_count"),
         restaurant_url=raw_data.get("restaurant_url"),

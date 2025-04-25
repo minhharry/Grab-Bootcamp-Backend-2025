@@ -10,7 +10,6 @@ from typing import List
 from .model import ImageResult
 from model_loader import model, preprocess, device
 from .repository import get_image_restaurant_data
-import time
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
@@ -27,7 +26,6 @@ async def search_similar_images(
     collection_name: str = "images_embedding",
     limit: int = 5
 ) -> List[ImageResult]:
-    start_time = time.time()
     image = Image.open(BytesIO(image_bytes)).convert("RGB")
     image_tensor = preprocess(image).unsqueeze(0).to(device)
 
@@ -40,14 +38,12 @@ async def search_similar_images(
 
     embedding /= embedding.norm(dim=-1, keepdim=True)
     embedding = embedding.squeeze().cpu().numpy()
-    print(f"Finish Embedding | Time elapsed: {time.time() - start_time:.4f} seconds")
     search_result = client.search(
         collection_name=collection_name,
         query_vector=embedding.tolist(),
         with_payload=True,
         limit=limit,
     )
-    print(f"Finish Search | Time elapsed: {time.time() - start_time:.4f} seconds")
     img_ids = [str(r.id) for r in search_result]
     data_map = get_image_restaurant_data(db, img_ids)
 
