@@ -25,12 +25,12 @@ for img in tqdm(images):
         response = requests.get(img.img_url, timeout=10)
         image = Image.open(BytesIO(response.content)).convert("RGB")
         image_tensor = preprocess(image).unsqueeze(0).to(device)
-
+        
         with torch.no_grad():
             features = model.encode_image(image_tensor)
             features /= features.norm(dim=-1, keepdim=True)
             vector = features.cpu().numpy().tolist()[0]
-
+        
         rows.append({
             "image_id": str(img.img_id),
             "img_url": img.img_url,
