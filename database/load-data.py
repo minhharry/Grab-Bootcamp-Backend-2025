@@ -86,13 +86,13 @@ def insert_data(jsonl_data):
     try:
         with engine.begin() as conn:
             conn.execute(text("""
-                INSERT INTO users (user_id, username, email, password_hash, created_at, updated_at)
+                INSERT INTO users (user_id, fullname, email, password_hash)
                 VALUES
-                    ('123e4567-e89b-12d3-a456-426614174001', 'vegan_love', 'vegan@example.com', 'bcrypt_hash_001', '2025-04-24 10:00:00', '2025-04-24 10:00:00'),
-                    ('123e4567-e89b-12d3-a456-426614174002', 'foodie_vn', 'foodie@example.com', 'bcrypt_hash_002', '2025-04-24 11:00:00', '2025-04-24 11:00:00'),
-                    ('123e4567-e89b-12d3-a456-426614174003', 'new_user', 'newbie@example.com', 'bcrypt_hash_003', '2025-04-24 12:00:00', '2025-04-24 12:00:00'),
-                    ('123e4567-e89b-12d3-a456-426614174004', 'pizza_fan', 'pizza@example.com', 'bcrypt_hash_004', '2025-04-24 13:00:00', '2025-04-24 13:00:00'),
-                    ('123e4567-e89b-12d3-a456-426614174005', 'indian_spice', 'indian@example.com', 'bcrypt_hash_005', '2025-04-24 14:00:00', '2025-04-24 14:00:00')
+                    ('123e4567-e89b-12d3-a456-426614174001', 'Nguyen Phuc an chay', 'vegan@example.com', 'bcrypt_hash_001'),
+                    ('123e4567-e89b-12d3-a456-426614174002', 'foodie_vn', 'foodie@example.com', 'bcrypt_hash_002'),
+                    ('123e4567-e89b-12d3-a456-426614174003', 'Son Tung mtp', 'newbie@example.com', 'bcrypt_hash_003'),
+                    ('123e4567-e89b-12d3-a456-426614174004', 'pizza_fan', 'pizza@example.com', 'bcrypt_hash_004'),
+                    ('123e4567-e89b-12d3-a456-426614174005', 'indian_spice', 'indian@example.com', 'bcrypt_hash_005')
                 ON CONFLICT (user_id) DO NOTHING
             """))
             print("Chèn dữ liệu users thành công!")
@@ -104,20 +104,47 @@ def insert_data(jsonl_data):
     try:
         with engine.begin() as conn:
             conn.execute(text("""
-                INSERT INTO profile (user_id, location, preference, search_keywords, clicked_dishes, clicked_restaurants, last_updated)
+                INSERT INTO user_profiles (user_id, location, preference, gender, date_of_birth)
                 VALUES
-                    ('123e4567-e89b-12d3-a456-426614174001', 'Hà Nội', 'VEGAN', ARRAY['chả giò chay', 'phở chay', 'salad'], 
-                    ARRAY['123e4567-e89b-12d3-a456-426614171001', '123e4567-e89b-12d3-a456-426614171002']::UUID[], ARRAY['123e4567-e89b-12d3-a456-426614172001']::UUID[], '2025-04-24 15:00:00'),
-                    ('123e4567-e89b-12d3-a456-426614174002', 'TP.HCM', 'OMNIVORE', ARRAY['phở bò', 'bún chả', 'cơm tấm'], 
-                    ARRAY['123e4567-e89b-12d3-a456-426614171003', '123e4567-e89b-12d3-a456-426614171004']::UUID[], ARRAY['123e4567-e89b-12d3-a456-426614172002', '123e4567-e89b-12d3-a456-426614172003']::UUID[], '2025-04-24 15:30:00'),
-                    ('123e4567-e89b-12d3-a456-426614174003', 'Đà Nẵng', 'OMNIVORE', '{}', '{}', '{}', '2025-04-24 12:00:00'),
-                    ('123e4567-e89b-12d3-a456-426614174004', 'Hà Nội', 'OMNIVORE', ARRAY['pizza', 'pasta', 'tiramisu'], 
-                    ARRAY['123e4567-e89b-12d3-a456-426614171005', '123e4567-e89b-12d3-a456-426614171006', '123e4567-e89b-12d3-a456-426614171007']::UUID[], ARRAY['123e4567-e89b-12d3-a456-426614172004']::UUID[], '2025-04-24 16:00:00'),
-                    ('123e4567-e89b-12d3-a456-426614174005', 'TP.HCM', 'VEGAN', ARRAY['cà ri chay', 'naan', 'samosa'], 
-                    ARRAY['123e4567-e89b-12d3-a456-426614171008']::UUID[], '{}', '2025-04-24 16:30:00')
+                    ('123e4567-e89b-12d3-a456-426614174001', '384 Nguyễn Trọng Tuyển, P. 2, Quận Tân Bình, TP. HCM', 'VEGAN', 'MALE', '1990-01-01'),
+                    ('123e4567-e89b-12d3-a456-426614174002', '28 Phan Phú Tiên, P. 10, Quận 5, TP. HCM', 'OMNIVORE', 'FEMALE', '1995-05-05'),
+                    ('123e4567-e89b-12d3-a456-426614174003', '577 Nguyễn Đình Chiểu, P. 2, Quận 3, TP. HCM', 'OMNIVORE', 'FEMALE', '1998-08-08'),
+                    ('123e4567-e89b-12d3-a456-426614174004', '83 Hoàng Hoa Thám, P. 6, Quận Bình Thạnh, TP. HCM', 'OMNIVORE', 'MALE', '1992-02-02'),
+                    ('123e4567-e89b-12d3-a456-426614174005', '113 Đào Duy Từ, Quận 10, TP. HCM', 'VEGAN', 'MALE', '1993-03-03')
                 ON CONFLICT (user_id) DO NOTHING
             """))
-            print("Chèn dữ liệu profile thành công!")
+            print("Chèn dữ liệu user_profiles thành công!")
+    except Exception as e:
+        print(f"Lỗi khi chèn user_profiles: {e}")
+        raise
+    
+    try:
+        with engine.begin() as conn:
+            conn.execute(text("""
+                INSERT INTO user_activies (user_id, search_keywords, clicked_dishes, clicked_restaurants)
+                VALUES ('123e4567-e89b-12d3-a456-426614174001', 
+                            ARRAY['chả giò chay', 'phở chay', 'salad'], 
+                            ARRAY['123e4567-e89b-12d3-a456-426614171001', '123e4567-e89b-12d3-a456-426614171002']::UUID[], 
+                            ARRAY['123e4567-e89b-12d3-a456-426614172001']::UUID[]),
+                    ('123e4567-e89b-12d3-a456-426614174002', 
+                            ARRAY['phở bò', 'bún chả', 'cơm tấm'], 
+                            ARRAY['123e4567-e89b-12d3-a456-426614171003', '123e4567-e89b-12d3-a456-426614171004']::UUID[], 
+                            ARRAY['123e4567-e89b-12d3-a456-426614172002', '123e4567-e89b-12d3-a456-426614172003']::UUID[]),
+                    ('123e4567-e89b-12d3-a456-426614174003',
+                            '{}', 
+                            '{}', 
+                            '{}'),
+                    ('123e4567-e89b-12d3-a456-426614174004', 
+                            ARRAY['pizza', 'pasta', 'tiramisu'], 
+                            ARRAY['123e4567-e89b-12d3-a456-426614171005', '123e4567-e89b-12d3-a456-426614171006', '123e4567-e89b-12d3-a456-426614171007']::UUID[],
+                            ARRAY['123e4567-e89b-12d3-a456-426614172004']::UUID[]),
+                    ('123e4567-e89b-12d3-a456-426614174005', 
+                            ARRAY['cà ri chay', 'naan', 'samosa'], 
+                            ARRAY['123e4567-e89b-12d3-a456-426614171008']::UUID[], 
+                            '{}')
+                ON CONFLICT (user_id) DO NOTHING
+            """))
+            print("Chèn dữ liệu user_favorites thành công!")
     except Exception as e:
         print(f"Lỗi khi chèn profile: {e}")
         raise
