@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from .model import RestaurantDetail, FoodItem, Review
-from repository import get_restaurant_detail
+from .repository import get_restaurant_detail
 
 
 def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetail | None:
@@ -33,6 +33,7 @@ def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetail
         restaurant_name=raw_data.get("restaurant_name"),
         address=raw_data.get("address"),
         restaurant_rating=raw_data.get("restaurant_rating"),
+        restaurant_rating_count=raw_data.get("restaurant_rating_count"),
         restaurant_url=raw_data.get("restaurant_url"),
         food_items=food_items,
         reviews=reviews

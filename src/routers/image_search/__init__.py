@@ -1,1 +1,1 @@
-from .view import router
+from .controller import router

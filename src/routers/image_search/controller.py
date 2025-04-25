@@ -1,6 +1,6 @@
 
 from fastapi import APIRouter, UploadFile, File, HTTPException, Depends
-from .controller import search_similar_images
+from .service import search_similar_images
 from .model import SearchResponse
 from sqlalchemy.orm import Session
 from database import get_db

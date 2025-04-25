@@ -1,3 +1,7 @@
+from pydantic import BaseModel
+from typing import List, Optional
+from uuid import UUID
+
 class Review(BaseModel):
     review_id: UUID
     user_rating: Optional[float]
@@ -14,6 +18,7 @@ class RestaurantDetail(BaseModel):
     restaurant_name: Optional[str]
     address: Optional[str]
     restaurant_rating: Optional[float]
+    restaurant_rating_count: Optional[int]
     restaurant_url: Optional[str]
     food_items: List[FoodItem] = []
     reviews: List[Review] = []

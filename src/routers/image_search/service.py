@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import List
 from .model import ImageResult
 from model_loader import model, preprocess, device
-import repository
+from .repository import get_image_restaurant_data
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=env_path)
@@ -48,7 +48,7 @@ async def search_similar_images(
     )
 
     img_ids = [str(r.id) for r in search_result]
-    data_map = repository.get_image_restaurant_data(db, img_ids)
+    data_map = get_image_restaurant_data(db, img_ids)
 
     results = []
     for r in search_result:
