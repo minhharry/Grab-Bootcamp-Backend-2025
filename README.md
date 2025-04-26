@@ -68,4 +68,9 @@ fastapi dev src/main.py
 
 ## Test
 
+```bash
+cd src
+pytest test.py
+```
+
 Go to `http://127.0.0.1:8000/docs` to see the API docs.

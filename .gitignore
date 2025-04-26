@@ -4,3 +4,4 @@ __pycache__/
 src/.env
 .venv/
 vector_db/image_vectors.csv
+.pytest_cache/
