@@ -8,14 +8,15 @@ class ImageResult(BaseModel):
 
     img_id: Optional[UUID]
     restaurant_id: Optional[UUID]
-    food_name: Optional[str]
-    food_price: Optional[str]
-    img_url: Optional[str]
+    food_name: Optional[str] = None
+    food_price: Optional[str] = None
+    img_url: Optional[str] = None
     
     restaurant_name: Optional[str]
-    address: Optional[str]
-    restaurant_rating: Optional[float]
-    restaurant_url: Optional[str]
+    avatar_url: Optional[str] = None
+    address: Optional[str] = None
+    restaurant_rating: Optional[float] = None
+    restaurant_url: Optional[str] = None
 
 class SearchResponse(BaseModel):
-    results: list[ImageResult]
+    results: List[ImageResult]

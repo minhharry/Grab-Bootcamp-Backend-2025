@@ -10,6 +10,15 @@ uv venv --python 3.12.0
 .venv\Scripts\activate
 uv pip install -r requirements.txt
 ```
+## In database/ add file .env
+```bash
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=example
+POSTGRES_DB=restaurants
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+```
 ## In src/ add file .env
 ```bash
 POSTGRES_USER=postgres
@@ -40,6 +49,17 @@ Go to `http://localhost:8080/` to view all the data.
 QDRANT_URL=
 API_KEY=
 ```
+
+## If using qdrant local
+In folder vector_db, download image_vectors.csv in this folder [Image Embedding](https://drive.google.com/drive/folders/1nKzVk1eyjutBAYo34F7gatrBIcarMyNY?usp=sharing) and add to vector_db folder  
+
+In folder root (Grab-Bootcamp-Backend-2025)
+```bash
+docker run -d -p 6333:6333 qdrant/qdrant
+python -m vector_db.load_embedding
+```
+
+
 ## Dev
 
 ```bash

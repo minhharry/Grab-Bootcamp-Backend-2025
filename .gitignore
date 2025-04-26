@@ -3,4 +3,4 @@ __pycache__/
 **/.env
 src/.env
 .venv/
-vector_db/
+vector_db/image_vectors.csv

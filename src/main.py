@@ -1,4 +1,4 @@
-from routers import dummy, image_search
+from routers import dummy, restaurant, image_search
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from database import SessionLocal, Base, engine
@@ -8,5 +8,7 @@ app = FastAPI()
 
 app.include_router(dummy.router, prefix="/dummy")
 app.include_router(image_search.router, prefix="/image_search")
+app.include_router(restaurant.router, prefix="/restaurant")
+
 
 
