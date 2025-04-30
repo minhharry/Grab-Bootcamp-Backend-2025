@@ -1,6 +1,5 @@
 import torch
 import open_clip
-from contextlib import asynccontextmanager
 
 ml_models = {}
 
@@ -12,7 +11,7 @@ def load_model():
     )
     model.to(device)
     model.eval()
-    ml_models["clip_model"] = model
+    ml_models["model"] = model
     ml_models["preprocess"] = preprocess
     ml_models["device"] = device
     print("[INFO] Model loaded on", device)

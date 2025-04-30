@@ -23,9 +23,6 @@ client = QdrantClient(host="localhost", port=6333)
 async def search_similar_images(
     image_bytes: bytes,
     db: Session,
-    model,
-    device,
-    preprocess, 
     collection_name: str = "images_embedding",
     limit: int = 5) -> List[ImageResult]:
     model = ml_models.get("model")
