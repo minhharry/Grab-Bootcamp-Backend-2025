@@ -21,9 +21,3 @@ def cleanup_model():
     print("[INFO] Cleaning up model...")
     ml_models.clear()
 
-@asynccontextmanager
-async def custom_lifespan(app):
-    load_model()
-    yield
-    cleanup_model()
-
