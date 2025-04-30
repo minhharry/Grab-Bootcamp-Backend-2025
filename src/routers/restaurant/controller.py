@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from fastapi import APIRouter, HTTPException, Depends, Query
 from .model import RestaurantDetail, PaginatedReviews, PaginatedDishes
 from uuid import UUID
+from routers.auth.service import get_current_user 
 
 router = APIRouter()
 
@@ -21,7 +22,7 @@ def get_restaurant_dishes(
     page_size: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db)
 ):
-    data = fetch_restaurant_dishes(str(restaurant_id), db, page, page_size)
+    data = fetch_restaurant_dishes(restaurant_id, db, page, page_size)
     if not data:
         raise HTTPException(status_code=404, detail="Dishes not found")
     return data
@@ -33,7 +34,7 @@ def get_restaurant_reviews(
     page_size: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db)
 ):
-    data = fetch_restaurant_reviews(str(restaurant_id), db, page, page_size)
+    data = fetch_restaurant_reviews(restaurant_id, db, page, page_size)
     if not data:
         raise HTTPException(status_code=404, detail="Reviews not found")
     return data

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Float, Integer, ForeignKey, Text, DateTime
+from sqlalchemy import Column, String, Float, Integer, ForeignKey, Text, DateTime, Date
 from sqlalchemy.dialects.postgresql import UUID as PG_UUID
 from sqlalchemy.orm import relationship, declarative_base
 import uuid
@@ -50,3 +50,25 @@ class ReviewModel(Base):
     review_date	= Column(Text, nullable=True)
 
     restaurant = relationship("RestaurantModel", back_populates="reviews")
+
+class UserModel(Base):
+    __tablename__ = "users"
+
+    user_id = Column(PG_UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    fullname = Column(String(50), nullable=True)
+    email = Column(String(100), nullable=True, unique=True, index=True)
+    password_hash = Column(String(255), nullable=True)
+
+    profile = relationship("UserProfileModel", back_populates="user", uselist=False, cascade="all, delete")
+
+
+class UserProfileModel(Base):
+    __tablename__ = "user_profiles"
+
+    user_id = Column(PG_UUID(as_uuid=True), ForeignKey("users.user_id", ondelete="CASCADE"), primary_key=True)
+    location = Column(String(100), nullable=True)
+    preference = Column(String, nullable=True)
+    gender = Column(String, nullable=True)
+    date_of_birth = Column(Date, nullable=True)
+
+    user = relationship("UserModel", back_populates="profile")
