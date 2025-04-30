@@ -8,7 +8,7 @@ import os
 from pathlib import Path
 from typing import List
 from .model import ImageResult
-from model_loader import model, preprocess, device
+from model_loader import ml_models
 from .repository import get_image_restaurant_data
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=env_path)
@@ -23,9 +23,15 @@ client = QdrantClient(host="localhost", port=6333)
 async def search_similar_images(
     image_bytes: bytes,
     db: Session,
+    model,
+    device,
+    preprocess, 
     collection_name: str = "images_embedding",
-    limit: int = 5
-) -> List[ImageResult]:
+    limit: int = 5) -> List[ImageResult]:
+    model = ml_models.get("model")
+    device = ml_models.get("device")
+    preprocess = ml_models.get("preprocess")
+
     image = Image.open(BytesIO(image_bytes)).convert("RGB")
     image_tensor = preprocess(image).unsqueeze(0).to(device)
 

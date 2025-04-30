@@ -13,5 +13,5 @@ async def search_image(file: UploadFile = File(...), db: Session = Depends(get_d
         raise HTTPException(status_code=400, detail="File isn't an image")
 
     image_bytes = await file.read()
-    results = await search_similar_images(image_bytes, db)
+    results = await search_similar_images(image_bytes, db, model, device, preprocess)
     return {"results": results}
