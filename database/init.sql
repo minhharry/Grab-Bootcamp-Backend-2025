@@ -4,7 +4,7 @@ CREATE TABLE restaurants (
     avatar_url TEXT,
     restaurant_description TEXT,
     opening_hours TEXT,
-    price_range TEXT,
+    price_range JSON,
     address TEXT,
     source TEXT NOT NULL,
     restaurant_rating FLOAT,
@@ -31,27 +31,41 @@ CREATE TABLE images (
     img_url TEXT
 );
 
-CREATE TYPE FOOD_PREFERENCE AS ENUM ('VEGAN', 'OMNIVORE');
-CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
+CREATE TYPE food_preference AS ENUM ('VEGAN', 'OMNIVORE');
 
 CREATE TABLE users (
     user_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    fullname VARCHAR(50),
-    email VARCHAR(100),
-    password_hash VARCHAR(255)
+    username VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
+    password_hash VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE user_profiles (
+CREATE TABLE profile (
     user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
     location VARCHAR(100),
-    preference FOOD_PREFERENCE DEFAULT 'OMNIVORE',
-    gender GENDER,
-    date_of_birth DATE
-);
-
-CREATE TABLE user_activies (
-    user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
+    preference food_preference DEFAULT 'OMNIVORE',
     search_keywords TEXT[] DEFAULT '{}',
     clicked_dishes UUID[] DEFAULT '{}',
-    clicked_restaurants UUID[] DEFAULT '{}'
-)
+    clicked_restaurants UUID[] DEFAULT '{}',
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
+
+-- CREATE TABLE user_profiles (
+--     user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
+--     preference FOOD_PREFERENCE DEFAULT 'OMNIVORE',
+--     gender GENDER,
+--     date_of_birth DATE,
+--     price_range TEXT CHECK (price_range IN ('Low', 'Medium', 'High')),
+--     food_categories JSONB, -- {"Vietnamese": 0.6, "Italian": 0.2}
+--     avg_embedding VECTOR(512) -- Trung bình/tổng hợp embeddings của các ảnh trong lịch sử
+-- );
+
+-- CREATE TABLE uploaded_images (
+--     uploaded_images_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+--     user_id UUID REFERENCES users(user_id) ON DELETE CASCADE,
+--     embedding VECTOR(512)
+-- );
