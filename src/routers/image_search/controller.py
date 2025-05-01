@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, UploadFile, File, HTTPException, Depends
 from .service import search_similar_images
 from .model import SearchResponse

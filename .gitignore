@@ -5,3 +5,6 @@ src/.env
 .venv/
 vector_db/image_vectors.csv
 .pytest_cache/
+.vscode
+takenote.txt
+jars
