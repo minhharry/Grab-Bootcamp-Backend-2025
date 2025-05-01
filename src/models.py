@@ -59,16 +59,16 @@ class UserModel(Base):
     email = Column(String(100), nullable=True, unique=True, index=True)
     password_hash = Column(String(255), nullable=True)
 
-    profile = relationship("UserProfileModel", back_populates="user", uselist=False, cascade="all, delete")
+    # profile = relationship("UserProfileModel", back_populates="user", uselist=False, cascade="all, delete")
 
 
-class UserProfileModel(Base):
-    __tablename__ = "user_profiles"
+# class UserProfileModel(Base):
+#     __tablename__ = "user_profiles"
 
-    user_id = Column(PG_UUID(as_uuid=True), ForeignKey("users.user_id", ondelete="CASCADE"), primary_key=True)
-    location = Column(String(100), nullable=True)
-    preference = Column(String, nullable=True)
-    gender = Column(String, nullable=True)
-    date_of_birth = Column(Date, nullable=True)
+#     user_id = Column(PG_UUID(as_uuid=True), ForeignKey("users.user_id", ondelete="CASCADE"), primary_key=True)
+#     location = Column(String(100), nullable=True)
+#     preference = Column(String, nullable=True)
+#     gender = Column(String, nullable=True)
+#     date_of_birth = Column(Date, nullable=True)
 
-    user = relationship("UserModel", back_populates="profile")
+#     user = relationship("UserModel", back_populates="profile")
