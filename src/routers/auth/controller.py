@@ -21,19 +21,12 @@ def signup(data: UserSignup, db: Session = Depends(get_db)):
     Returns:
         ApiResponse: Standardized response containing the access token.
     """
-    try:
-        # Signup the user and log them in to generate a token
-        signup_user(db, data)
-        token = login_user(db, UserLogin(email=data.email, password=data.password))
-        
-        return ApiResponse(
-            status=200,
-            message="User signed up successfully",
-            data={"access_token": token, "token_type": "bearer"},
-            metadata=None
-        )
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+    result = signup_user(db, data)
+    if result.status != 200:  # Check if the status is not 200 (success)
+        return result  # Return the ApiResponse from signup_user, which already has the error message.
+    
+    return result  # Return successful signup ApiResponse.
+
 
 @router.post("/login", response_model=ApiResponse)
 def login(data: UserLogin, db: Session = Depends(get_db)):
@@ -47,16 +40,11 @@ def login(data: UserLogin, db: Session = Depends(get_db)):
     Returns:
         ApiResponse: Standardized response containing the access token.
     """
-    try:
-        token = login_user(db, data)
-        return ApiResponse(
-            status=200,
-            message="User logged in successfully",
-            data={"access_token": token, "token_type": "bearer"},
-            metadata=None
-        )
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+    result = login_user(db, data)
+    if result.status != 200:  # Check if the status is not 200 (success)
+        return result  # Return the ApiResponse from login_user, which already has the error message.
+    
+    return result  # Return successful login ApiResponse.
 
 @router.post("/logout", response_model=ApiResponse)
 def logout(token: str = Depends(oauth2_scheme)):

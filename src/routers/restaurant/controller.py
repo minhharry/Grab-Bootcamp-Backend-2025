@@ -23,7 +23,10 @@ def get_restaurant_info(restaurant_id: UUID, db: Session = Depends(get_db)):
     """
     data = fetch_restaurant_detail(restaurant_id, db)
     if not data:
-        raise HTTPException(status_code=404, detail="Restaurant not found")
+        return ApiResponse(
+            status=404,
+            message="Restaurant not found"
+        )
     
     return ApiResponse(
         status=200,
@@ -55,7 +58,10 @@ def get_restaurant_dishes(
     """
     data = fetch_restaurant_dishes(restaurant_id, db, page, page_size)
     if not data:
-        raise HTTPException(status_code=404, detail="Dishes not found")
+        return ApiResponse(
+            status=404,
+            message="Dishes not found"
+        )
 
     return ApiResponse(
         status=200,
@@ -91,7 +97,10 @@ def get_restaurant_reviews(
     """
     data = fetch_restaurant_reviews(restaurant_id, db, page, page_size)
     if not data:
-        raise HTTPException(status_code=404, detail="Reviews not found")
+        return ApiResponse(
+            status=404,
+            message="Reviews not found"
+        )
 
     return ApiResponse(
         status=200,

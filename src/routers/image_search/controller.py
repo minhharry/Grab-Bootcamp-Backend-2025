@@ -30,7 +30,10 @@ async def search_image(file: UploadFile = File(...), db: Session = Depends(get_d
     results = await search_similar_images(image_bytes, db)
     
     if not results:
-        raise HTTPException(status_code=404, detail="No similar images found")
+        return ApiResponse(
+            status=404,
+            message="No similar images found"
+        )
 
     # Return the response with data and metadata
     return ApiResponse(
