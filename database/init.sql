@@ -31,28 +31,27 @@ CREATE TABLE images (
     img_url TEXT
 );
 
-CREATE TYPE food_preference AS ENUM ('VEGAN', 'OMNIVORE');
-
 CREATE TABLE users (
     user_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     username VARCHAR(50),
     email VARCHAR(100) UNIQUE,
     password_hash VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    -- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    -- updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE profile (
+CREATE TYPE FOOD_PREFERENCE  AS ENUM ('VEGAN', 'OMNIVORE');
+CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
+CREATE TYPE PRICE_RANGE_LEVEL AS ENUM ('1', '2', '3');
+
+CREATE TABLE profiles (
     user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
-    location VARCHAR(100),
-    preference food_preference DEFAULT 'OMNIVORE',
-    search_keywords TEXT[] DEFAULT '{}',
-    clicked_dishes UUID[] DEFAULT '{}',
-    clicked_restaurants UUID[] DEFAULT '{}',
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    preference FOOD_PREFERENCE  DEFAULT 'OMNIVORE',
+    gender GENDER,
+    date_of_birth DATE,
+    price_range PRICE_RANGE_LEVEL
 );
 
--- CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
 
 -- CREATE TABLE user_profiles (
 --     user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
