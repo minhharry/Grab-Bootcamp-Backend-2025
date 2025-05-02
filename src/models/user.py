@@ -3,6 +3,7 @@ from sqlalchemy import Column, String
 from sqlalchemy.dialects.postgresql import UUID as PG_UUID
 import uuid
 from .base import Base
+from sqlalchemy.orm import relationship
 
 class UserModel(Base):
     __tablename__ = "users"
@@ -11,3 +12,5 @@ class UserModel(Base):
     fullname = Column(String(50), nullable=True)
     email = Column(String(100), nullable=True, unique=True, index=True)
     password_hash = Column(String(255), nullable=True)
+
+    profile = relationship("UserProfileModel", back_populates="user", uselist=False, cascade="all, delete")

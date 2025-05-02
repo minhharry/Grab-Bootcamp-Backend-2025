@@ -2,8 +2,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 from uuid import UUID
 
-
-class ImageResult(BaseModel):
+class ImageResultItem(BaseModel):
     score: float
     restaurant_id: Optional[UUID]
     restaurant_name: Optional[str]
@@ -12,5 +11,3 @@ class ImageResult(BaseModel):
     restaurant_rating: Optional[float] = None
     price_level: Optional[int] = None
 
-class SearchResponse(BaseModel):
-    results: List[ImageResult]

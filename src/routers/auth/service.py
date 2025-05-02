@@ -1,4 +1,4 @@
-from .model import UserSignup, UserLogin
+from .model import UserSignup, UserLogin, Token
 from .repository import get_user_by_email, create_user_with_profile
 from fastapi import HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
@@ -7,6 +7,7 @@ from passlib.context import CryptContext
 import jwt
 from datetime import timedelta, datetime
 import os
+from common_schemas.response import ApiResponse
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
@@ -15,7 +16,6 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
 
 def hash_password(password: str) -> str:
     return pwd_context.hash(password)
@@ -29,7 +29,6 @@ def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode.update({"exp": expire})
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
-
 def decode_access_token(token: str):
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
@@ -38,21 +37,72 @@ def decode_access_token(token: str):
         raise HTTPException(status_code=401, detail="Token expired")
     except jwt.InvalidTokenError:
         raise HTTPException(status_code=401, detail="Invalid token")
-    
-def signup_user(db, user: UserSignup):
+
+def signup_user(db, user: UserSignup) -> ApiResponse:
+    """
+    Handles the user signup process, including checking for an existing email,
+    hashing the password, and creating the user in the database.
+
+    Args:
+        db: Database session
+        user: The user data received during signup
+
+    Returns:
+        ApiResponse: A response model containing the user data and token
+    """
     if get_user_by_email(db, user.email):
         raise HTTPException(status_code=400, detail="Email already registered")
 
     hashed = hash_password(user.password)
-    return create_user_with_profile(db, user, hashed)
+    created_user = create_user_with_profile(db, user, hashed)
 
-def login_user(db, user: UserLogin):
+    token = create_access_token({"email": created_user.email, "sub": str(created_user.user_id)})
+    
+    return ApiResponse(
+        status=200,
+        message="User signed up successfully",
+        data={"access_token": token, "token_type": "bearer"},
+        metadata=None
+    )
+
+def login_user(db, user: UserLogin) -> ApiResponse:
+    """
+    Handles the user login process, including checking credentials and generating
+    a JWT token for the user.
+
+    Args:
+        db: Database session
+        user: The user login data (email and password)
+
+    Returns:
+        ApiResponse: A response model containing the JWT token
+    """
     db_user = get_user_by_email(db, user.email)
     if not db_user or not verify_password(user.password, db_user.password_hash):
         raise HTTPException(status_code=401, detail="Invalid credentials")
-    return create_access_token({"email": db_user.email, "sub": str(db_user.user_id)})
+
+    token = create_access_token({"email": db_user.email, "sub": str(db_user.user_id)})
+    
+    return ApiResponse(
+        status=200,
+        message="User logged in successfully",
+        data={"access_token": token, "token_type": "bearer"},
+        metadata=None
+    )
 
 def get_current_user(token: str = Depends(oauth2_scheme)) -> str:
+    """
+    Retrieves the current logged-in user based on the JWT token.
+
+    Args:
+        token: The JWT token passed in the Authorization header.
+
+    Returns:
+        str: The user ID of the currently authenticated user.
+
+    Raises:
+        HTTPException: If the token is invalid or expired.
+    """
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         user_id = payload.get("sub")
@@ -63,3 +113,17 @@ def get_current_user(token: str = Depends(oauth2_scheme)) -> str:
         raise HTTPException(status_code=401, detail="Token expired")
     except InvalidTokenError:
         raise HTTPException(status_code=401, detail="Invalid token")
+
+def logout_user() -> ApiResponse:
+    """
+    Handles the user logout process. 
+
+    Returns:
+        ApiResponse: A standardized response indicating successful logout.
+    """
+    return ApiResponse(
+        status=200,
+        message="User logged out successfully",
+        data=None,
+        metadata=None
+    )

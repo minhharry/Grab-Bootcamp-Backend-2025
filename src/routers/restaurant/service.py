@@ -1,63 +1,101 @@
 from sqlalchemy.orm import Session
-from .model import RestaurantDetail, FoodItem, Review, PaginatedDishes, PaginatedReviews
+from .model import RestaurantDetailResponse, FoodItem, ReviewItem
 from .repository import get_restaurant_detail, get_restaurant_dishes, get_restaurant_reviews
 import math
-
-
-
-def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetail | None:
+def extract_price_level(value):
+    if not isinstance(value, str) or value.strip().lower() in ['null', 'n/a', '']:
+        return None
+    try:
+        parts = value.split('-')
+        upper_str = parts[-1].strip().replace('.', '')
+        upper = int(upper_str)
+        if upper > 150000:
+            return 3
+        elif 50000 < upper <= 150000:
+            return 2
+        else:
+            return 1
+    except:
+        return None
+    
+def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetailResponse | None:
+    """
+    Fetches restaurant details from the database.
+    
+    Args:
+        restaurant_id (str): Unique identifier of the restaurant.
+        db (Session): The database session to interact with the DB.
+    
+    Returns:
+        RestaurantDetailResponse: The restaurant details or None if not found.
+    """
     raw_data = get_restaurant_detail(db, restaurant_id)
-
     if not raw_data:
         return None
 
-
-    return RestaurantDetail(
+    return RestaurantDetailResponse(
         restaurant_id=raw_data["restaurant_id"],
         restaurant_name=raw_data.get("restaurant_name"),
         avatar_url=raw_data.get("avatar_url"),
         address=raw_data.get("address"),
         restaurant_description=raw_data.get("restaurant_description"),
         opening_hours=raw_data.get("opening_hours"),
-        price_level=raw_data.get("price_level"),
+        price_level=extract_price_level(raw_data.get("price_level")),
         restaurant_rating=raw_data.get("restaurant_rating"),
         restaurant_rating_count=raw_data.get("restaurant_rating_count"),
         restaurant_url=raw_data.get("restaurant_url"),
     )
 
-def fetch_restaurant_dishes(restaurant_id: str, db: Session, page: int, page_size: int) -> PaginatedDishes | None:
+def fetch_restaurant_dishes(restaurant_id: str, db: Session, page: int, page_size: int):
+    """
+    Fetches a paginated list of dishes for a specific restaurant.
+    
+    Args:
+        restaurant_id (str): Unique identifier of the restaurant.
+        db (Session): The database session to interact with the DB.
+        page (int): Current page for pagination.
+        page_size (int): Number of items per page.
+    
+    Returns:
+        dict: A dictionary containing paginated data of dishes.
+    """
     skip = (page - 1) * page_size
     data, total = get_restaurant_dishes(db, restaurant_id, skip, page_size)
     if data is None:
         return None
 
     total_pages = math.ceil(total / page_size)
-    return PaginatedDishes(
-        restaurant_id=restaurant_id,
-        total_items=total,
-        page=page,
-        page_size=page_size,
-        total_pages=total_pages,
-        has_next=page < total_pages,
-        has_previous=page > 1,
-        dishes=[FoodItem.model_validate(d) for d in data]
-    )
+    return {
+        "dishes": [FoodItem.model_validate(d) for d in data],
+        "page": page,
+        "page_size": page_size,
+        "total_items": total,
+        "total_pages": total_pages
+    }
 
-
-def fetch_restaurant_reviews(restaurant_id: str, db: Session, page: int, page_size: int) -> PaginatedReviews | None:
+def fetch_restaurant_reviews(restaurant_id: str, db: Session, page: int, page_size: int):
+    """
+    Fetches a paginated list of reviews for a specific restaurant.
+    
+    Args:
+        restaurant_id (str): Unique identifier of the restaurant.
+        db (Session): The database session to interact with the DB.
+        page (int): Current page for pagination.
+        page_size (int): Number of items per page.
+    
+    Returns:
+        dict: A dictionary containing paginated data of reviews.
+    """
     skip = (page - 1) * page_size
     data, total = get_restaurant_reviews(db, restaurant_id, skip, page_size)
     if data is None:
         return None
 
     total_pages = math.ceil(total / page_size)
-    return PaginatedReviews(
-        restaurant_id=restaurant_id,
-        total_reviews=total,
-        page=page,
-        page_size=page_size,
-        total_pages=total_pages,
-        has_next=page < total_pages,
-        has_previous=page > 1,
-        reviews=[Review.model_validate(r) for r in data]
-    )
+    return {
+        "reviews": [ReviewItem.model_validate(r) for r in data],
+        "page": page,
+        "page_size": page_size,
+        "total_reviews": total,
+        "total_pages": total_pages
+    }
