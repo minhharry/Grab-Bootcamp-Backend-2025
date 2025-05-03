@@ -35,7 +35,7 @@ CREATE TABLE users (
     user_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     username VARCHAR(50),
     email VARCHAR(100) UNIQUE,
-    password_hash VARCHAR(255),
+    password_hash VARCHAR(255)
 );
 
 CREATE TYPE FOOD_PREFERENCE  AS ENUM ('VEGAN', 'OMNIVORE');
@@ -49,5 +49,5 @@ CREATE TABLE profiles (
     date_of_birth DATE,
     preferred_price_range PRICE_RANGE_LEVEL,
     preferred_restaurant_types JSONB, -- [ "Vietnamese", "Italian", "Vegan" ]
-    preferred_foods JSONB, -- [ "Pho", "Pizza" ]
+    preferred_foods JSONB -- [ "Pho", "Pizza" ]
 );
