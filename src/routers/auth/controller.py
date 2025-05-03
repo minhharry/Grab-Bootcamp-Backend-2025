@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from .model import UserSignup, UserLogin
+from .model import UserSignup, UserLogin, UserProfile
 from common_schemas.response import ApiResponse
-from .service import signup_user, login_user, logout_user
+from .service import signup_user, login_user, logout_user, get_current_user, get_profile_current_user
 from database import get_db
 from fastapi.security import OAuth2PasswordBearer
 
@@ -58,3 +58,14 @@ def logout(token: str = Depends(oauth2_scheme)):
         ApiResponse: A standardized response indicating successful logout.
     """
     return logout_user()
+
+@router.get("/profile", response_model=ApiResponse)
+def get_profile(current_user: dict = Depends(get_current_user), db: Session = Depends(get_db)):
+    user_id = current_user.data.get("user_id")
+    
+    result = get_profile_current_user(db, user_id)  
+    
+    if result.status != 200:  # Check if the status is not 200 (success)
+        return result  # Return the ApiResponse from login_user, which already has the error message.
+    
+    return result  # Return successful login ApiResponse.

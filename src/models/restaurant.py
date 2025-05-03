@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Text, Float, Integer, DateTime
+from sqlalchemy import Column, Text, Float, Integer, DateTime, JSON
 from sqlalchemy.dialects.postgresql import UUID as PG_UUID
 from sqlalchemy.orm import relationship
 import uuid
@@ -12,7 +12,7 @@ class RestaurantModel(Base):
     avatar_url = Column(Text, nullable=True)
     restaurant_description = Column(Text, nullable=True)
     opening_hours = Column(Text, nullable=True)
-    price_range = Column(Text, nullable=True)
+    price_range = Column(JSON, nullable=True)
     address = Column(Text, nullable=True)
     source = Column(Text, nullable=True)
     restaurant_rating = Column(Float, nullable=True)

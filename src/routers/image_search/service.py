@@ -20,7 +20,7 @@ async def search_similar_images(
     image_bytes: bytes,
     db: Session,
     collection_name: str = "images_embedding",
-    limit: int = 5
+    limit: int = 10
 ) -> List[ImageResultItem]:
     """
     Searches for similar images based on the provided image bytes using a model and a Qdrant database.
@@ -65,17 +65,21 @@ async def search_similar_images(
 
     # Get image restaurant data from the repository
     img_ids = [str(r.id) for r in search_result]
-    data_map = get_image_restaurant_data(db, img_ids)
 
+    data_map = get_image_restaurant_data(db, img_ids)
     # Create result list with data from the search and database
     results = []
+    seen_restaurant_ids = set()
     for r in search_result:
         img_id = str(r.id)
         data = data_map.get(img_id)
 
         if data:
-            result = ImageResultItem(score=r.score, **data)
-            results.append(result)
+            restaurant_id = data.get("restaurant_id")
+            if restaurant_id not in seen_restaurant_ids:
+                seen_restaurant_ids.add(restaurant_id)  # Mark this restaurant_id as processed
+                result = ImageResultItem(score=r.score, **data)
+                results.append(result)
 
     # Sort the results by score
     results.sort(key=lambda x: x.score, reverse=True)

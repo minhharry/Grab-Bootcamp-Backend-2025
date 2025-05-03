@@ -4,7 +4,7 @@ CREATE TABLE restaurants (
     avatar_url TEXT,
     restaurant_description TEXT,
     opening_hours TEXT,
-    price_range TEXT,
+    price_range JSON,
     address TEXT,
     source TEXT NOT NULL,
     restaurant_rating FLOAT,
@@ -31,27 +31,23 @@ CREATE TABLE images (
     img_url TEXT
 );
 
-CREATE TYPE FOOD_PREFERENCE AS ENUM ('VEGAN', 'OMNIVORE');
-CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
-
 CREATE TABLE users (
     user_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    fullname VARCHAR(50),
-    email VARCHAR(100),
+    username VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
     password_hash VARCHAR(255)
 );
 
-CREATE TABLE user_profiles (
-    user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
-    location VARCHAR(100),
-    preference FOOD_PREFERENCE DEFAULT 'OMNIVORE',
-    gender GENDER,
-    date_of_birth DATE
-);
+CREATE TYPE FOOD_PREFERENCE  AS ENUM ('VEGAN', 'OMNIVORE');
+CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
+CREATE TYPE PRICE_RANGE_LEVEL AS ENUM ('1', '2', '3');
 
-CREATE TABLE user_activies (
+CREATE TABLE profiles (
     user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
-    search_keywords TEXT[] DEFAULT '{}',
-    clicked_dishes UUID[] DEFAULT '{}',
-    clicked_restaurants UUID[] DEFAULT '{}'
-)
+    dietary_preference FOOD_PREFERENCE DEFAULT 'OMNIVORE',
+    gender GENDER,
+    date_of_birth DATE,
+    preferred_price_range PRICE_RANGE_LEVEL,
+    preferred_restaurant_types JSONB, -- [ "Vietnamese", "Italian", "Vegan" ]
+    preferred_foods JSONB -- [ "Pho", "Pizza" ]
+);

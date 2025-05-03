@@ -18,6 +18,8 @@ POSTGRES_DB=restaurants
 POSTGRES_HOST=db
 POSTGRES_PORT=5432
 DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+MINIO_ROOT_USER=admin
+MINIO_ROOT_PASSWORD=12345678
 ```
 ## In src/ add file .env
 ```bash
@@ -30,19 +32,35 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}
 ```
 ## Run the database
 
-Just run docker compose to initalize the database:
-```sh
-docker compose -f database/docker-compose.yaml up
-```
-Note: Add the --build flag to force a rebuild of the image if you make changes to the code in load-data.py to ensure the updated code is built into the new image. (`docker compose -f database/docker-compose.yaml up --build`)
+`Running these commands for the first time may take a while.`
 
-If any errors occur, try deleting everything and running again with:
+Navigate to the `database` directory:
 ```sh
-docker compose -f database/docker-compose.yaml down -v
+cd database
 ```
-Note: The -v flag deletes everything (including data). Afterward, run `docker compose -f database/docker-compose.yaml up` to load the data into the database again.
 
-Go to `http://localhost:8080/` to view all the data.
+Download Spark libraries: (skip if previously done)
+```sh
+bash download_jars.sh
+pip install minio==7.2.15 
+```
+
+Run Docker Compose to initialize the containers:
+```sh
+docker compose up -d
+```
+
+Load data to Postgres:
+```sh
+bash load_data.sh
+```
+
+Go to `http://localhost:8088/` to view all the data. (`Note: Adminer port has been change from 8080 to 8088.`)
+
+Delete everything with the `-v` flag:
+```sh
+docker compose down -v
+```
 
 ## In src/routers/image_search add file .env
 ```bash
@@ -58,7 +76,7 @@ In folder root (Grab-Bootcamp-Backend-2025)
 docker run -d -p 6333:6333 qdrant/qdrant
 python -m vector_db.load_embedding
 ```
-
+Stop and remove this container to update embedding if necessary
 
 ## Dev
 

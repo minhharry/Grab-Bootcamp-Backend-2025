@@ -1,5 +1,5 @@
-from .model import UserSignup, UserLogin, Token
-from .repository import get_user_by_email, create_user_with_profile
+from .model import UserSignup, UserLogin, Token, UserProfile
+from .repository import get_user_by_email, create_user_with_profile, get_user_by_id
 from fastapi import Depends
 from fastapi.security import OAuth2PasswordBearer
 from jwt import InvalidTokenError, ExpiredSignatureError
@@ -93,7 +93,7 @@ def validate_date_of_birth(dob: str) -> bool:
         bool: True if the date_of_birth is valid, False otherwise.
     """
     try:
-        datetime.strptime(dob, '%Y-%m-%d')
+        datetime.strptime(str(dob), '%Y-%m-%d')
         return True
     except ValueError:
         return False
@@ -248,4 +248,39 @@ def logout_user() -> ApiResponse:
     return ApiResponse(
         status=200,
         message="User logged out successfully"
+    )
+
+def get_profile_current_user(db, user_id) -> ApiResponse:
+    """
+    Fetches the current user's profile by their email.
+    
+    Args:
+        db (Session): The database session to interact with the DB.
+        email (str): The email of the current user (provided by an authentication system).
+    
+    Returns:
+        UserProfile: The profile data of the current user.
+    
+    Raises:
+        HTTPException: If the user is not found in the database.
+    """
+    # Fetch the user by email
+    user = get_user_by_id(db, user_id)
+    
+    if not user:
+        return ApiResponse(
+            status=404,
+            message="User not found"
+        )
+
+    # Return the user's profile data
+    return ApiResponse(
+        status=200,
+        message="User profile retrieved successfully",
+        data=UserProfile(
+            user_id=str(user.user_id),
+            username=user.username,
+            email=user.email
+        ),
+        metadata=None
     )

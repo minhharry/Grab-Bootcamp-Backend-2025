@@ -2,21 +2,7 @@ from sqlalchemy.orm import Session
 from .model import RestaurantDetailResponse, FoodItem, ReviewItem
 from .repository import get_restaurant_detail, get_restaurant_dishes, get_restaurant_reviews
 import math
-def extract_price_level(value):
-    if not isinstance(value, str) or value.strip().lower() in ['null', 'n/a', '']:
-        return None
-    try:
-        parts = value.split('-')
-        upper_str = parts[-1].strip().replace('.', '')
-        upper = int(upper_str)
-        if upper > 150000:
-            return 3
-        elif 50000 < upper <= 150000:
-            return 2
-        else:
-            return 1
-    except:
-        return None
+
     
 def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetailResponse | None:
     """
@@ -40,7 +26,7 @@ def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetail
         address=raw_data.get("address"),
         restaurant_description=raw_data.get("restaurant_description"),
         opening_hours=raw_data.get("opening_hours"),
-        price_level=extract_price_level(raw_data.get("price_level")),
+        price_level=raw_data.get("price_level"),
         restaurant_rating=raw_data.get("restaurant_rating"),
         restaurant_rating_count=raw_data.get("restaurant_rating_count"),
         restaurant_url=raw_data.get("restaurant_url"),
