@@ -55,15 +55,6 @@ schema = StructType([
 
 parse_price_range_udf = udf(parse_price_range_str, schema)
 
-try:
-    files = spark.sparkContext._jvm.org.apache.hadoop.fs.FileSystem.get(
-        spark.sparkContext._jsc.hadoopConfiguration()
-    ).listStatus(spark.sparkContext._jvm.org.apache.hadoop.fs.Path("s3a://grab-project-data/raw/shopee_food/"))
-    for f in files:
-        print(f.getPath().toString())
-except Exception as e:
-    print("Error accessing S3:", str(e))
-
 shopee_path = "s3a://grab-project-data/raw/shopeefood/data-shopee-food.jsonl"
 google_path = "s3a://grab-project-data/raw/googlemaps/quan_an_tp_hcm_google_maps_selenium.jsonl"
 
