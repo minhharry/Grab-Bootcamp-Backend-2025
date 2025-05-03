@@ -32,7 +32,9 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}
 ```
 ## Run the database
 
-`Running these commands for the first time may take a while.`
+`Note: These commands should be run in Windows Subsystem for Linux (WSL) for best results.`
+
+Running these commands for the first time may take a while.
 
 Navigate to the `database` directory:
 ```sh
