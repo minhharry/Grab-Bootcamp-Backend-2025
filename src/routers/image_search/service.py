@@ -84,4 +84,4 @@ async def search_similar_images(
     # Sort the results by score
     results.sort(key=lambda x: x.score, reverse=True)
 
-    return results
+    return results[:5]
