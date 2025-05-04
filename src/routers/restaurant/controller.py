@@ -23,15 +23,15 @@ def get_restaurant_info(restaurant_id: UUID, db: Session = Depends(get_db)):
     """
     data = fetch_restaurant_detail(restaurant_id, db)
     if not data:
-        return ApiResponse(
-            status=404,
-            message="Restaurant not found"
+        raise HTTPException(
+            status_code=404,
+            detail="Restaurants not found"
         )
     
     return ApiResponse(
         status=200,
         message="Data details retrieved successfully",
-        data=data,  # Data is a dict or Pydantic model
+        data=data, 
         metadata=None  # No pagination for this route
     )
 
@@ -58,9 +58,9 @@ def get_restaurant_dishes(
     """
     data = fetch_restaurant_dishes(restaurant_id, db, page, page_size)
     if not data:
-        return ApiResponse(
-            status=404,
-            message="Dishes not found"
+        raise HTTPException(
+            status_code=404,
+            detail="Dishes not found"
         )
 
     return ApiResponse(
@@ -96,10 +96,11 @@ def get_restaurant_reviews(
         ApiResponse: List of reviews and pagination metadata.
     """
     data = fetch_restaurant_reviews(restaurant_id, db, page, page_size)
+
     if not data:
-        return ApiResponse(
-            status=404,
-            message="Reviews not found"
+        raise HTTPException(
+            status_code=404,
+            detail="Reviews not found"
         )
 
     return ApiResponse(

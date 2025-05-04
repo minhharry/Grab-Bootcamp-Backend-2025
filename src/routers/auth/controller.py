@@ -22,10 +22,7 @@ def signup(data: UserSignup, db: Session = Depends(get_db)):
         ApiResponse: Standardized response containing the access token.
     """
     result = signup_user(db, data)
-    if result.status != 200:  # Check if the status is not 200 (success)
-        return result  # Return the ApiResponse from signup_user, which already has the error message.
-    
-    return result  # Return successful signup ApiResponse.
+    return result 
 
 
 @router.post("/login", response_model=ApiResponse)
@@ -41,10 +38,7 @@ def login(data: UserLogin, db: Session = Depends(get_db)):
         ApiResponse: Standardized response containing the access token.
     """
     result = login_user(db, data)
-    if result.status != 200:  # Check if the status is not 200 (success)
-        return result  # Return the ApiResponse from login_user, which already has the error message.
-    
-    return result  # Return successful login ApiResponse.
+    return result
 
 @router.post("/logout", response_model=ApiResponse)
 def logout(token: str = Depends(oauth2_scheme)):
@@ -64,8 +58,5 @@ def get_profile(current_user: dict = Depends(get_current_user), db: Session = De
     user_id = current_user.data.get("user_id")
     
     result = get_profile_current_user(db, user_id)  
-    
-    if result.status != 200:  # Check if the status is not 200 (success)
-        return result  # Return the ApiResponse from login_user, which already has the error message.
     
     return result  # Return successful login ApiResponse.

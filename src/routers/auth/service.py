@@ -1,6 +1,6 @@
 from .model import UserSignup, UserLogin, Token, UserProfile
 from .repository import get_user_by_email, create_user_with_profile, get_user_by_id
-from fastapi import Depends
+from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 from jwt import InvalidTokenError, ExpiredSignatureError
 from passlib.context import CryptContext
@@ -112,37 +112,37 @@ def signup_user(db, user: UserSignup) -> ApiResponse:
     """
     # Validate email format
     if not validate_email(user.email):
-        return ApiResponse(
-            status=400,
-            message="Invalid email format"
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid email format"
         )
 
     # Validate gender
     if not validate_gender(user.gender):
-        return ApiResponse(
-            status=400,
-            message="Gender must be 'MALE' or 'FEMALE'"
+        raise HTTPException(
+            status_code=400,
+            detail="Gender must be 'MALE' or 'FEMALE'"
         )
 
     # Validate password length
     if not validate_password(user.password):
-        return ApiResponse(
-            status=400,
-            message="Password must be at least 6 characters long"
+        raise HTTPException(
+            status_code=400,
+            detail="Password must be at least 6 characters long"
         )
 
     # Validate date of birth
     if not validate_date_of_birth(user.date_of_birth):
-        return ApiResponse(
-            status=400,
-            message="Date of birth must be in the format 'yyyy-mm-dd'"
+        raise HTTPException(
+            status_code=400,
+            detail="Date of birth must be in the format 'yyyy-mm-dd'"
         )
 
     # Check if email is already registered
     if get_user_by_email(db, user.email):
-        return ApiResponse(
-            status=400,
-            message="Email already registered"
+        raise HTTPException(
+            status_code=400,
+            detail="Email already registered"
         )
 
     # Hash the password
@@ -177,17 +177,17 @@ def login_user(db, user: UserLogin) -> ApiResponse:
     """
     # Validate email format
     if not validate_email(user.email):
-        return ApiResponse(
-            status=400,
-            message="Invalid email format"
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid email format"
         )
 
     # Check if user exists in the database
     db_user = get_user_by_email(db, user.email)
     if not db_user or not verify_password(user.password, db_user.password_hash):
-        return ApiResponse(
-            status=401,
-            message="Invalid credentials"
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid credentials"
         )
 
     # Create and return the JWT token
@@ -214,30 +214,39 @@ def get_current_user(token: str = Depends(oauth2_scheme)) -> ApiResponse:
         HTTPException: If the token is invalid or expired.
     """
     try:
+        # Decode the token and extract the payload
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-        user_id = payload.get("sub")
+        user_id = payload.get("sub")  # 'sub' is typically the user ID in JWT tokens
+
         if user_id is None:
-            return ApiResponse(
-                status=401,
-                message="Invalid token (no user_id)"
+            # If there's no user ID in the payload, return error
+            raise HTTPException(
+                status_code=401,
+                detail="Invalid token (no user_id)"
             )
+        
+        # Return the successful response with user_id
         return ApiResponse(
             status=200,
             message="Current user retrieved successfully",
             data={"user_id": user_id},
             metadata=None
         )
+
     except ExpiredSignatureError:
-        return ApiResponse(
-            status=401,
-            message="Token expired"
-        )
-    except InvalidTokenError:
-        return ApiResponse(
-            status=401,
-            message="Invalid token"
+        # Handle expired token error
+        raise HTTPException(
+            status_code=401,
+            detail="Token expired"
         )
 
+    except InvalidTokenError:
+        # Handle invalid token error
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid token"
+        )
+    
 def logout_user() -> ApiResponse:
     """
     Handles the user logout process. 
@@ -268,9 +277,10 @@ def get_profile_current_user(db, user_id) -> ApiResponse:
     user = get_user_by_id(db, user_id)
     
     if not user:
-        return ApiResponse(
-            status=404,
-            message="User not found"
+        # Raise an HTTPException if the user is not found
+        raise HTTPException(
+            status_code=404,
+            detail="User not found"
         )
 
     # Return the user's profile data

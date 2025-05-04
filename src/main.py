@@ -1,11 +1,9 @@
 from routers import dummy, restaurant, image_search, auth
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from contextlib import asynccontextmanager
 from model_loader import load_model, cleanup_model
 from fastapi.middleware.cors import CORSMiddleware
-from exception_handlers import http_exception_handler, validation_exception_handler, internal_server_error_handler
-from starlette.exceptions import HTTPException as StarletteHTTPException
-from fastapi.exceptions import RequestValidationError
+from exception_handlers import http_exception_handler
 
 
 @asynccontextmanager
@@ -29,4 +27,5 @@ app.include_router(restaurant.router, prefix="/restaurant")
 app.include_router(auth.router, prefix="/auth")
 
 
+app.add_exception_handler(HTTPException, http_exception_handler)
 
