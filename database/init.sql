@@ -59,6 +59,5 @@ CREATE TABLE user_restaurant_clicks (
     PRIMARY KEY (user_id, restaurant_id)
 );
 
-
 CREATE INDEX idx_reviews_restaurant_id ON reviews(restaurant_id); -- Tăng tốc tìm các đánh giá của một nhà hàng
 CREATE INDEX idx_images_restaurant_id ON images(restaurant_id); -- Tăng tốc tìm các ảnh của một nhà hàng
