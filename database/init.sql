@@ -6,6 +6,8 @@ CREATE TABLE restaurants (
     opening_hours TEXT,
     price_range JSON,
     address TEXT,
+    latitude FLOAT,
+    longitude FLOAT,
     source TEXT NOT NULL,
     restaurant_rating FLOAT,
     restaurant_rating_count INTEGER,
@@ -44,10 +46,18 @@ CREATE TYPE PRICE_RANGE_LEVEL AS ENUM ('1', '2', '3');
 
 CREATE TABLE profiles (
     user_id UUID PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
-    dietary_preference FOOD_PREFERENCE DEFAULT 'OMNIVORE',
     gender GENDER,
     date_of_birth DATE,
     preferred_price_range PRICE_RANGE_LEVEL,
-    preferred_restaurant_types JSONB, -- [ "Vietnamese", "Italian", "Vegan" ]
-    preferred_foods JSONB -- [ "Pho", "Pizza" ]
+    dietary_preference FOOD_PREFERENCE DEFAULT 'OMNIVORE'
 );
+
+CREATE TABLE user_restaurant_clicks (
+    user_id UUID REFERENCES users(user_id) ON DELETE CASCADE,
+    restaurant_id UUID REFERENCES restaurants(restaurant_id) ON DELETE CASCADE,
+    click_count INTEGER DEFAULT 1,
+    PRIMARY KEY (user_id, restaurant_id)
+);
+
+CREATE INDEX idx_reviews_restaurant_id ON reviews(restaurant_id); -- Tăng tốc tìm các đánh giá của một nhà hàng
+CREATE INDEX idx_images_restaurant_id ON images(restaurant_id); -- Tăng tốc tìm các ảnh của một nhà hàng

@@ -1,3 +1,5 @@
+from pyspark.sql.functions import udf
+from schemas.price_range_schema import price_range_schema
 import re
 
 def parse_price_range_str(price_str: str) -> dict:
@@ -37,3 +39,5 @@ def parse_price_range_str(price_str: str) -> dict:
         }
     
     return {"price_min": None, "price_max": None}
+
+parse_price_range_udf = udf(parse_price_range_str, price_range_schema)
