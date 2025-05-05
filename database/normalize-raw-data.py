@@ -1,21 +1,17 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import when, size, array, flatten, col, lit, udf, to_timestamp, concat_ws, transform, struct, explode, to_json
-from pyspark.sql.types import StringType, FloatType, IntegerType, StructType, StructField, ArrayType
+from pyspark.sql.types import StringType, FloatType, DoubleType, StructType, StructField, ArrayType
 from pyspark.sql.functions import regexp_extract
 from pyspark.sql.functions import expr
 from uuid import uuid4
 from utils.format_price_range import parse_price_range_str
 from minio import Minio
-# from dotenv import load_dotenv
 import os
-# load_dotenv()
 
 client = Minio(
     "minio:9000",
     access_key=os.getenv("MINIO_ROOT_USER"),
     secret_key=os.getenv("MINIO_ROOT_PASSWORD"),
-    # access_key="admin",
-    # secret_key="12345678",
     region="ap-southeast-1",
     secure=False
 )
@@ -44,27 +40,21 @@ sc._jsc.hadoopConfiguration().set("fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFi
 sc._jsc.hadoopConfiguration().set("fs.s3a.connection.ssl.enabled", "false")
 sc._jsc.hadoopConfiguration().set("fs.s3a.endpoint.region", "ap-southeast-1")
 
-# @udf(StringType())
-# def uuid_gen():
-#     return str(uuid4())
 
-schema = StructType([
+price_range_schema = StructType([
     StructField("price_min", FloatType(), True),
     StructField("price_max", FloatType(), True)
 ])
 
-parse_price_range_udf = udf(parse_price_range_str, schema)
+parse_price_range_udf = udf(parse_price_range_str, price_range_schema)
 
 shopee_path = "s3a://grab-project-data/raw/shopeefood/data-shopee-food.jsonl"
-google_path = "s3a://grab-project-data/raw/googlemaps/quan_an_tp_hcm_google_maps_selenium.jsonl"
+google_path = "s3a://grab-project-data/raw/googlemaps/googlemaps-restaurants-with-locations.jsonl"
 
 df_shopee = spark.read.json(shopee_path)
 df_google = spark.read.json(google_path)
 
-# df_google.show(10, truncate=False)
-
 df_shopee_normalized = df_shopee.select(
-    # uuid_gen().alias("restaurant_id"),
     expr("uuid()").alias("restaurant_id"),
     col("name").alias("restaurant_name"),
     col("avatar_url"),
@@ -72,6 +62,8 @@ df_shopee_normalized = df_shopee.select(
     col("opening_hours"),
     to_json(parse_price_range_udf(col("price_range"))).alias("price_range"),
     col("address"),
+    col("longitude"), 
+    col("latitude"),
     lit("ShopeeFood").alias("source"),
     (col("avgRating").cast("float") / 2).alias("restaurant_rating"),
     col("rating_count").cast("int").alias("restaurant_rating_count"),
@@ -89,7 +81,6 @@ df_shopee_normalized = df_shopee.select(
             x.Review_date.alias("review_date"),
             (x.AvgRating.cast("float") / 2).alias("user_rating"),
             concat_ws(", ", x["Title"], x["Description"]).alias("user_review"),
-            # uuid_gen().alias("review_id")
             expr("uuid()").alias("review_id")
         )
     )
@@ -101,7 +92,6 @@ df_shopee_normalized = df_shopee.select(
             x['name'].alias("food_name"),
             x.current_price.alias("food_price"),
             x.img_url.alias("img_url"),
-            # uuid_gen().alias("img_id")
             expr("uuid()").alias("img_id")
         )
     )
@@ -109,7 +99,6 @@ df_shopee_normalized = df_shopee.select(
     
 
 df_google_normalized = df_google.select(
-    # uuid_gen().alias("restaurant_id"),
     expr("uuid()").alias("restaurant_id"),
     col("name").alias("restaurant_name"),
     col("avatar_url"),
@@ -117,6 +106,8 @@ df_google_normalized = df_google.select(
     col("closing_time").alias("opening_hours"),
     to_json(parse_price_range_udf(col("price_range"))).alias("price_range"),
     col("address"),
+    expr("search_results[0].geometry.location.lng").alias("longitude"),
+    expr("search_results[0].geometry.location.lat").alias("latitude"),
     lit("GoogleMaps").alias("source"),
     col("restaurant_rating").cast("float").alias("restaurant_rating"),
     col("restaurant_rating_count").cast("int").alias("restaurant_rating_count"),
@@ -130,12 +121,10 @@ df_google_normalized = df_google.select(
     transform(
         col("reviews"),
         lambda x: struct(
-            # parse_user_rating(x["rating"]).alias("user_rating"),
             x.review_author.alias("review_author"),
             x.review_date.alias("review_date"),
             regexp_extract(x["rating"], r"(\d+(\.\d+)?)", 1).cast("float").alias("user_rating"),
             x["text"].alias("user_review"),
-            # uuid_gen().alias("review_id")
             expr("uuid()").alias("review_id")
         )
     )
@@ -148,7 +137,6 @@ df_google_normalized = df_google.select(
                  lit(None).alias("food_name"),
                  lit(None).alias("food_price"),
                  x.alias("img_url"),
-                #  uuid_gen().alias("img_id")
                 expr("uuid()").alias("img_id")
              )
          )).otherwise(array().cast("array<struct<food_name:string,food_price:string,img_url:string,img_id:string>>"))
@@ -174,6 +162,8 @@ df_restaurants = df_unified.select(
     "opening_hours",
     "price_range",
     "address",
+    "longitude",
+    "latitude",
     "source",
     "restaurant_rating",
     "restaurant_rating_count",
