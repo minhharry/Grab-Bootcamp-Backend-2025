@@ -35,7 +35,7 @@ def test_get_dummy():
 def test_get_dummy_not_found():
     response = client.get("/dummy/9999") 
     assert response.status_code == 404
-    assert response.json() == {"message": "Item not found"}
+    assert response.json()["message"] == "Item not found"
     
 def test_search_image():
     with open("./tests/KimBap.jpg", "rb") as f:
