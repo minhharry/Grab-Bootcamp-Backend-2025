@@ -20,7 +20,11 @@ driver.delete_all_cookies()
 driver.maximize_window()
 
 
-output_file = "../raw-data/shopeefood/data-shopee-food.jsonl"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+input_relative_path = "../raw-data/shopeefood/data-shopee-food.jsonl"
+
+output_file = os.path.join(script_dir, input_relative_path)
+
 if not os.path.exists(output_file):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump([], f, ensure_ascii=False)
@@ -81,6 +85,8 @@ for place in list_places:
     crawl_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     crawl_id = datetime.datetime.now().strftime("%Y-%m-%d") + str("-001") 
     name = restaurant.get("Name", "")
+    longitude = place['longitude']
+    latitude = place['latitude']
     
     restaurant_data = {"name": name,
                 "restaurant_type": restaurant_type,
@@ -88,6 +94,8 @@ for place in list_places:
                 "price_range": price_range,
                 "opening_hours": opening_hours,
                 "address": restaurant.get("Address", ""),
+                "longitude": longitude,
+                "latitude": latitude,
                 "avgRating": restaurant.get("AvgRating", None),
                 "rating_count": avgReview.get("Total", 0),
                 "source": "ShopeeFood",

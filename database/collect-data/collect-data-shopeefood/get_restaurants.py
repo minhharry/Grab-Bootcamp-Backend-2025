@@ -6,10 +6,16 @@ def extract_shopURL_and_ID(list_place):
     for item in list_place['Items']:
         shop_url = 'https://shopeefood.vn' + item.get('Url', '')
         shop_id = int(item.get('Id'))
+        latitude = float(item.get('Latitude'))
+        longitude = float(item.get('Longitude'))
+        
         result.append({
             'Id': shop_id,
-            'shop_url': shop_url
+            'shop_url': shop_url,
+            'latitude': latitude,
+            'longitude': longitude
         })
+        
     return result
 
 def get_list_place(count = 5, page=1):
