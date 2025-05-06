@@ -1,0 +1,839 @@
+img_id,restaurant_id,food_name,food_price,img_url
+69c6c5b5-0916-48e6-a967-45dab3168708,ab50d021-4971-44ef-9405-c7eeeaae7aa2,Cơm chiên Cá Mặn,75.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+6dbc0548-d296-4d81-9f47-a5a573fc9402,ab50d021-4971-44ef-9405-c7eeeaae7aa2,Cơm chiên Cá Mặn,75.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+c80d19ea-77a1-4b68-b385-9f8d9ead9bfc,3f42acaa-c239-4505-ada3-9bbcf86b2f8a,CB Tiệc 1 (4-5 người),329.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7wymh8n429ufe
+45332735-fc0d-4c83-b792-80ceab25e372,3f42acaa-c239-4505-ada3-9bbcf86b2f8a,1 Miếng gà sốt cay,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0ctub3nsplbc8
+29e4282d-fcd8-4338-b2e7-bfcc04c89af6,3f42acaa-c239-4505-ada3-9bbcf86b2f8a,1 Mỳ Ý Jolly vừa + 2 Gà giòn không xương + 1 Khoai tây chiên vừa + 1 Nước ngọt lớn,80.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-m0cu8e3tuvf36a
+b9efaa03-33f2-4f3f-9f4e-a6f963207b91,3f42acaa-c239-4505-ada3-9bbcf86b2f8a,Khoai tây chiên - lớn,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0cuxbxe1l731a
+0da0f0e1-98c5-453c-bbca-c6f3b1791303,3f42acaa-c239-4505-ada3-9bbcf86b2f8a,Nước ép xoài đào,20.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0cuyg4x5vxpc3
+347b3003-6282-4b6e-a2ac-6fd6828d705d,3f42acaa-c239-4505-ada3-9bbcf86b2f8a,Nước ép xoài đào,20.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0cuyg4x5vxpc3
+2ef17151-e291-42d8-895f-3e0b2a7c8632,2789a3ac-a5c2-4b58-b3d2-7f0105d71f6a,Mỳ.cay.bạch.tuột.tcua,90.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxn2qiq9tp5f3
+2aa4a7b1-9061-40cc-a51d-70324286b9f3,2789a3ac-a5c2-4b58-b3d2-7f0105d71f6a,Mì cay bò + trứng,80.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxmklphmg903d
+40d3c0d8-ed7b-46b9-a163-1d0892fc013a,2789a3ac-a5c2-4b58-b3d2-7f0105d71f6a,Xúc.xích.đức.1p,20.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr60l3we5zfdb7
+9e3160e0-2cc9-4b5b-8170-eca529ec3fa0,2789a3ac-a5c2-4b58-b3d2-7f0105d71f6a,Trà tắc,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3fkm9g3xjt3f
+d82c06a2-3eac-417f-904a-1a56fd55f07d,2789a3ac-a5c2-4b58-b3d2-7f0105d71f6a,7up,17.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr61urmz6m55d5
+9b420013-1efe-47f1-97d8-a88ff5e5b938,2789a3ac-a5c2-4b58-b3d2-7f0105d71f6a,7up,17.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr61urmz6m55d5
+ff5e4902-0e9a-4277-be75-55c182fe0870,ef77764b-fd55-4945-9e95-cfe9d380a48b,Banh Bao Trà Xanh,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6tppxzjpuhd8
+e2571bb2-bc61-45e8-85e1-26ee84211d93,ef77764b-fd55-4945-9e95-cfe9d380a48b,Bánh Bao Socola,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6tq62zxh957a
+1cbbc49a-17c6-4de6-b4ae-f54ba52867e6,ef77764b-fd55-4945-9e95-cfe9d380a48b,Bánh Bao Socola,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6tq62zxh957a
+3a20d43f-bd1b-48a2-81b0-17fc5624439c,6dd40c2a-d2ba-4ce3-a024-33005539305d,"Cơm sườn cốt lếch,trứng kho",49.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7v36sllgziecd
+46e71d49-4810-48fa-b33f-b4257eea6647,6dd40c2a-d2ba-4ce3-a024-33005539305d,Cơm Cá Ngừ Kho Nước Dừa (phần đuôi),43.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxpqz04gkp0b1
+844d90e3-324c-4a1b-a26f-6bdfaa17dd1a,6dd40c2a-d2ba-4ce3-a024-33005539305d,Cơm Ếch Xào Sả Nghệ,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxlmmqt8r7o39
+c0ebb50d-65f1-4804-af3b-b80f5a0d3f7a,6dd40c2a-d2ba-4ce3-a024-33005539305d,Cơm Mực Dồn Thịt - 1 con,42.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7v39j7r5rd2dc
+ea3b4d39-f0b7-4c82-b4b9-96b564f3bf61,6dd40c2a-d2ba-4ce3-a024-33005539305d,Canh Khổ Qua Dồn Thịt,14.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxlhw8grhdwa0
+571c052f-7cd4-4500-8d8c-78603c676fa5,6dd40c2a-d2ba-4ce3-a024-33005539305d,Trứng kho (không cơm),10.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxpb5jxqpj835
+510857a4-16b1-432b-b4cb-0974b1385cf7,6dd40c2a-d2ba-4ce3-a024-33005539305d,Bì ( không cơm),10.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr66o1dn07gkf4
+74f4e111-7b56-405a-a083-ad9b07776a92,6dd40c2a-d2ba-4ce3-a024-33005539305d,Coca,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3gtwhcharoa9
+6c12f99a-5f34-4f75-be82-5fb2812eb3bd,6dd40c2a-d2ba-4ce3-a024-33005539305d,Nước Suối Dasani 500ml,8.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7v3dty4q6rqb6
+7ddac271-e37d-4b0f-b254-b3e87f8d59d0,6dd40c2a-d2ba-4ce3-a024-33005539305d,Nước Suối Dasani 500ml,8.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7v3dty4q6rqb6
+fe77f93b-563a-4d1b-9b95-105fe028c78e,615296e8-82ee-46ae-b61d-f8941fbe6cd4,"MUA 1 CHAI, CHAI THỨ 2 GIẢM 50%",57.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7cg05jv02nq95
+a9032746-cd38-4e67-beff-5c6ec34422e8,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Cơm gà sốt H&S + Pepsi cỡ vừa,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m6bc3q86vzjsf8
+52d1512a-149d-44e2-8d4b-bcdeca272221,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Gà Sốt HS Phần,95.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355pamssp0b52
+2e441972-8f95-4d15-8f45-807bb1167c36,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Gà Sốt Phô Mai 6 Miếng,225.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355p7kx9hcp78
+458cd481-b322-4189-90d4-ca91cd7670a0,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Gà Nướng Phần,95.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355p9x9vg9l6a
+7d726c0d-c7f1-4737-b6ba-b5547e5656b3,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Burger Mozzarella,88.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355p8s7jjq354
+fea95c78-e7c6-44b9-a891-1059fe965bd5,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Value Burger Cá,75.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355p9aiu5g907
+1e51b3e3-d16f-42e0-baaf-02544d4e691d,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Mì Ý (lớn),43.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355pbdfppndac
+1dc5ffee-fe37-4b73-9dd6-a0ac9a9396af,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Cơm Gà Nướng,46.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355pbp38ntne1
+68bd363a-3983-4c5e-a3b1-4725cd42da71,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Cánh Gà Giòn Cay (4 miếng),75.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355p8tvfpgb59
+c181ef3a-a202-46e0-882b-c1f9383ea8a5,615296e8-82ee-46ae-b61d-f8941fbe6cd4,PEPSI ZERO (L),18.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355p8n7quqh10
+5351161a-9d3d-458a-bdb6-e39154205175,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Sốt Bơ Tỏi (1 hủ),5.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m3xp5hdye18c27
+f7edc83e-4dd9-42c6-8f3e-7846b71cad5e,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Sốt K-Chicken (1 hủ),5.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355pa65h1y1cd
+87450d09-98ab-4fa0-b7b2-381a2be29c25,615296e8-82ee-46ae-b61d-f8941fbe6cd4,Sốt K-Chicken (1 hủ),5.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m355pa65h1y1cd
+69dd26a1-fb5d-4878-aa2f-047654b6146b,b9d039b8-c184-4a5d-9f0b-9664a2347df2,Bánh Cuốn Tôm Tươi Sò Điệp HongKong Thượng Hạng - 港式鲜虾肠粉,88.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzbgqr81h38cd
+1c541cc1-5d58-4efb-9b9a-6a07239874b5,b9d039b8-c184-4a5d-9f0b-9664a2347df2,Pudding Thỏ Dâu Tây - 小兔布丁,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3n6kpfm74pe5
+c0c221a6-d327-4f3a-b195-87dd104e0ddc,b9d039b8-c184-4a5d-9f0b-9664a2347df2,Trôi Nước Đậu Phộng ( Phiên Bản Gấu Cony ),59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6ly6bcg79gf4
+9de57481-1950-4b2b-ab43-7504ff8de328,b9d039b8-c184-4a5d-9f0b-9664a2347df2,Bánh Bao Sầu Riêng - 榴莲包,85.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzdnsh7o68p02
+a7c5f079-1629-4a1b-b567-4d3c002d12be,b9d039b8-c184-4a5d-9f0b-9664a2347df2,Coconut Milk Jelly - 椰子大菜糕,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqywlzrpj0yh2a
+16d64691-f7c1-4401-b887-15e68d7cd0aa,b9d039b8-c184-4a5d-9f0b-9664a2347df2,白果大菜糕 - Herbal Jelly,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr46qzu216e10a
+4a39d2f1-ec64-4813-ac17-2dee9c675dc6,b9d039b8-c184-4a5d-9f0b-9664a2347df2,白果大菜糕 - Herbal Jelly,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr46qzu216e10a
+3932e0bf-1398-446a-bc6b-984c7a12b574,c59d4811-2401-4b0c-b742-03613c4e6b28,Mì Dầu Hào HongKong Kèm Soup Tôm Tươi Phỉ Thuý Thượng Hạng,88.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr66wl2ualcp9b
+af4e6b7e-b215-4b27-b4a5-a31155fc7c12,c59d4811-2401-4b0c-b742-03613c4e6b28,Quy Linh Thanh Mát 3 Món - 清凉龟苓三样,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzqse6w5uah26
+bc290847-7fd7-47d2-b63f-df581b4b3faa,c59d4811-2401-4b0c-b742-03613c4e6b28,Tặng Ngay Túi Vải,1đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lscm5se0ba9w82
+f679be43-6fe6-477e-b247-d5072b30c5dc,c59d4811-2401-4b0c-b742-03613c4e6b28,Trôi Nước Đậu Phộng ( Phiên Bản Gấu Cony ),59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3wuvbgvjix69
+186e9163-304d-4515-8783-7a0ed7deaee0,c59d4811-2401-4b0c-b742-03613c4e6b28,Trà Chanh HongKong Chai 450ml - 冻柠茶瓶装 450ml,67.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3ofgwwhqkk0e
+5c782bdd-48b0-40ce-b7be-ea3ce2e9bb0d,c59d4811-2401-4b0c-b742-03613c4e6b28,Pudding Thỏ Xoài - 芒果小兔布丁,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3x685alsck62
+2ea66dac-0d16-416b-ada0-02fa57fb4eeb,c59d4811-2401-4b0c-b742-03613c4e6b28,Pudding Thỏ Xoài - 芒果小兔布丁,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3x685alsck62
+052a86c8-4137-440f-9cb4-cd8b23b73866,8a8445c4-1199-4655-b8fb-3d80a6dd9763,Rau Câu Dừa Lá Dứa - 椰汁斑兰叶大菜糕,10.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lu0hbunr7yu71e
+bc9828cd-bded-417b-a608-de5dbd4e3335,8a8445c4-1199-4655-b8fb-3d80a6dd9763,Combo 5 Rau Câu Bạch Quả - 白果大菜糕（五粒）,9.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr02bvqllpdw89
+3cd344a3-7720-48e2-8c45-a00241b4d42a,8a8445c4-1199-4655-b8fb-3d80a6dd9763,Combo 5 Bánh Khoai Mì,12.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr42xmqw51uh65
+46d66db9-9eee-4195-8bb3-354c170b5230,8a8445c4-1199-4655-b8fb-3d80a6dd9763,Combo 5 Bánh Khoai Mì,12.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr42xmqw51uh65
+5da5c184-b4f9-4ea7-902a-bb454ffaf53c,82b78d92-6be2-4def-8908-c4790df5d973,Trà Chanh Tươi Chai 450ml - 冻柠茶瓶装 450ml,67.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3v0mpcgy4keb
+b6590a82-b044-4444-8e8b-32d1eccdf47d,82b78d92-6be2-4def-8908-c4790df5d973,Bánh Bao Kim Sa - 金沙包,80.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzby7t1i26xc3
+ad16bfd2-0d93-4abc-ad95-0c94b9f6c4ea,82b78d92-6be2-4def-8908-c4790df5d973,Canh Tôm Phỉ Thuý - 虾滑汤,58.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqz940rbccd50b
+fece0cb2-25cd-4886-8fae-407d62fb941d,82b78d92-6be2-4def-8908-c4790df5d973,Trôi Nước Đậu Phộng Hoạt Hình ( Phiên Bản Disney ),59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3v6yeh9fo986
+ebc2867c-5fba-4625-9c06-ee6f885f3129,82b78d92-6be2-4def-8908-c4790df5d973,Combo Pudding Thỏ - 小兔布丁套餐,79.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6o6ggxhk1w83
+7325002f-f772-4bc3-b78c-d373f482a5bb,82b78d92-6be2-4def-8908-c4790df5d973,Combo Pudding Thỏ - 小兔布丁套餐,79.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6o6ggxhk1w83
+7a33ed15-0262-48f0-9dea-4a2f2a8c0308,3b6a123d-f91f-48eb-88ce-6aa516c375da,Đậu Hủ Hạnh Nhân - 杏仁豆腐,33.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3yf7m4pkm174
+ab3bf2c2-fc4d-49dc-afcc-ba537b875a89,3b6a123d-f91f-48eb-88ce-6aa516c375da,Quy Linh Đậu Đỏ Sữa Tươi 龟苓红豆,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lux88louu4v991
+757be950-8a64-41fb-851c-1e5629b0d848,3b6a123d-f91f-48eb-88ce-6aa516c375da,Trà Chanh HongKong - 港式冻柠茶,32.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr03dcyp6bh5f9
+da9766c9-b44d-4914-aa47-391f0d85f511,3b6a123d-f91f-48eb-88ce-6aa516c375da,Chocolate Iceblend - Socola Đá Xay,45.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqyupy746hzt6f
+43d24fd3-9d5c-4cb2-a5b5-d2eb85b6efff,3b6a123d-f91f-48eb-88ce-6aa516c375da,Chocolate Iceblend - Socola Đá Xay,45.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqyupy746hzt6f
+22bf64e4-b4cd-461d-ac6b-459e4b30672d,78363083-35d4-4d0f-b873-15efc3137830,Mì Dầu Hào HongKong Kèm Soup Tôm Tươi Phỉ Thuý,88.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3o0pz7gbdla5
+8342a94b-8fb4-41de-80a3-9d65f0bf39f9,78363083-35d4-4d0f-b873-15efc3137830,Canh Bào Ngư - 鲍鱼汤,88.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-ltp6jjh9iznxf9
+64cc67f9-c0fb-4de8-a7d4-bb3cb5cc5893,78363083-35d4-4d0f-b873-15efc3137830,Tôm Hùm Viên Áp Chảo - 清炸龙虾丸,98.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6bzy74ctl02f
+8f4c03ee-2703-474a-b3fa-8c819881a7be,78363083-35d4-4d0f-b873-15efc3137830,Trôi Nước Đậu Phộng ( Phiên Bản Gấu Cony ),59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6ly938e11gec
+0f31fffd-f6e0-4519-b712-4828768e45e2,78363083-35d4-4d0f-b873-15efc3137830,Chè Nhãn Nhục Lạnh - 元肉冰,36.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6be1058udg2e
+5313e6d4-bb70-459e-809c-6bbf19409f88,78363083-35d4-4d0f-b873-15efc3137830,白果大菜糕 - Herbal Jelly,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6yfesc195l9c
+a36f55b7-e631-4a94-92c4-84a51dcf3289,78363083-35d4-4d0f-b873-15efc3137830,白果大菜糕 - Herbal Jelly,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6yfesc195l9c
+b1571400-6d5b-46a9-9bb4-530e5ff35fbf,3f49e256-a35e-4240-ba6e-bea0478a4063,Pudding Thỏ Xoài - Mango Pudding,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzlwxwv9r5w11
+002953b3-dbde-4ea4-b1bf-6ece60ec7350,3f49e256-a35e-4240-ba6e-bea0478a4063,Strawberry Iceblend,59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6rhag4r72xa0
+1b792535-897f-4398-940d-5677f2e26966,3f49e256-a35e-4240-ba6e-bea0478a4063,Strawberry Iceblend,59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6rhag4r72xa0
+fffb15c2-8de6-4cb3-9a94-8830756efe5e,634d4915-af08-4860-8c86-b030ed3383ac,Bạch Quả phô tai,28.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+9e347dc9-fb47-4423-bf9a-c479b7c48417,634d4915-af08-4860-8c86-b030ed3383ac,Bạch Quả phô tai,28.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+30f4364a-18db-44df-b6fa-cea397631f88,6e1d8603-5bde-4cab-a731-9eb148f2df0b,Bạch Quả Nhãn Nhục Lạnh - 白果元肉冰,45.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lspgnfpvjdzt69
+e683e8a5-592c-429c-b4f4-14846879398e,6e1d8603-5bde-4cab-a731-9eb148f2df0b,Nhãn Nhục Lạnh - 元肉冰,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lspfxv0sv6x045
+6049df45-fe97-40fa-a6dc-b09ae540d988,6e1d8603-5bde-4cab-a731-9eb148f2df0b,Nhãn Nhục Lạnh - 元肉冰,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lspfxv0sv6x045
+4bb86163-0d14-40de-885a-8c6957f22b79,4c1e3e03-2c61-4071-bede-c9049fb22907,Sữa Hạnh Nhân - 杏仁奶,32.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3yv6cxn34p39
+fde5067e-6e3c-4749-8fb7-43945596f7da,4c1e3e03-2c61-4071-bede-c9049fb22907,Nước Ép Táo - 苹果汁,32.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzp4uo4y1ll5a
+8e8c20f8-5adc-47d4-a5cd-9218f06ae40b,4c1e3e03-2c61-4071-bede-c9049fb22907,Nước Ép Táo - 苹果汁,32.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzp4uo4y1ll5a
+6637ebdf-a3f6-4f38-b50f-7a5b58b0264d,b9bd78ae-3d02-4247-905b-45c469e43dc2,Kaya Butter Toast,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m36636khsnvwb1
+ab484d83-25a3-4a4d-b1e4-6e3411419b6e,b9bd78ae-3d02-4247-905b-45c469e43dc2,Kaya Butter Toast,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m36636khsnvwb1
+2f91f923-2ec4-4cbd-80e8-0e2c3cf5b45b,e96ddf3a-5d4b-4448-a01a-6fb7abea9d27,Chân Gà Hấp Hành,90.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4lwx4pobu00d0
+b547195b-5f41-4095-978d-1bffc506d85c,e96ddf3a-5d4b-4448-a01a-6fb7abea9d27,Chả ram tôm đất,90.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4js6xdrqvifb4
+968cfa57-7ecd-46a3-a49b-e32d3efed317,e96ddf3a-5d4b-4448-a01a-6fb7abea9d27,Chả ram tôm đất,90.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4js6xdrqvifb4
+e7c20b5d-72a5-4ac7-9dd9-b317ef808637,9ba443b1-fe91-45f0-af7d-bbcdcfacd021,Bún mọc,38.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7iw258v0t8ca1
+0511cd9f-668a-4867-acc5-ee181ab783c8,9ba443b1-fe91-45f0-af7d-bbcdcfacd021,Đậu xanh đánh,23.750đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr2vu4mzv3ycd5
+8ac2aaa3-d595-4787-83a6-ee8266a2fc1d,9ba443b1-fe91-45f0-af7d-bbcdcfacd021,"Chè vải ,nhãn , táo",28.500đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxftre8xsxw78
+8877a6af-a46b-4fca-bb99-5a3791198a19,9ba443b1-fe91-45f0-af7d-bbcdcfacd021,"Đậu đỏ ,sương sáo,trân châu trắng.(nước dừa )",23.750đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m6guvxvjvfp4b4
+78a58deb-3c62-427c-925b-b3bb1eefd849,9ba443b1-fe91-45f0-af7d-bbcdcfacd021,(1 Bịch )Bánh tráng bơ chén,12.350đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lzpxisqocnd9e7
+3b66d44b-fa33-4e3b-bd3c-a21c5e1baff6,9ba443b1-fe91-45f0-af7d-bbcdcfacd021,Bánh tráng Hồng hạnh (10 Bịch),94.050đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-m08ls875dvjh44
+21823f74-d3db-477e-bbaa-719338aad4dd,9ba443b1-fe91-45f0-af7d-bbcdcfacd021,Bánh tráng Hồng hạnh (10 Bịch),94.050đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-m08ls875dvjh44
+667d3abd-13bb-42ab-a27f-9f3d10207cb3,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Trà Nhãn Sen,55.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-m00g373hy081fa
+9c437a1c-a687-44c8-9063-17a0816da6c5,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Latte,50.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m6f7f1d676uf5c
+6c7a713e-f8f3-4429-a77d-5ec3f5ba8e1f,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Matcha Đá Xay,65.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0sz39cv0q6n4c
+bd00adc3-4099-4064-9b4f-0b9cefffe551,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Hồng Trà Đào Sữa Thạch Konjac,55.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqvx09em53usa4
+a0e144b4-18bb-4bc0-88cc-a77ce65d4f57,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Trà Ô Long Quế Hoa,40.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0t0c7rynqfj95
+d6449892-c8e2-4aa7-ae40-6939e43f28cf,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Trà Lài Kem Silky,50.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr0rsgjot4n8d7
+aee7e2f3-8669-4a60-942b-6a8ddef8485e,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Mousse SC nha đam Caramel,38.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqytmqek630k12
+048aac03-ab33-4069-85fc-5aed17a21e01,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Bánh Tart Kem Nấm,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m48wu8g36ulsd2
+e78a6a75-f248-4934-a23e-462455babe99,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Hồng trà túi lọc 25 gói,37.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzd7o1334ihde
+337243c5-9f26-4a0f-aa97-21d33da11bda,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Trà Sen Lon Giấy Cao Cấp 100g,75.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzd7smqcq1058
+811c1238-6cbc-4e34-b579-d0ab87a5dbb4,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Trà xanh lon giấy 100g- loại 1,45.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7ulwj7d7a8302
+acaa7626-0adf-4efb-baaa-458846fa500e,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Cà phê Royal không bơ 200g,75.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7hrjy3lba0m3b
+41bea96c-a5f4-4243-b7ee-02f8d9361f87,e16b9d81-7dcf-40ef-ad05-ea77f39a946f,Cà phê Royal không bơ 200g,75.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7hrjy3lba0m3b
+b6d222a3-1d3b-479c-8128-d18492c43c8a,500c91d1-5040-4b5d-9f18-516a9fa42202,Rùa Quy Linh Cao Trà Sữa,29.999đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lybsozs0yye901
+d63c230d-f808-4b80-a880-30c7d41d5b10,500c91d1-5040-4b5d-9f18-516a9fa42202,Set Mì Dầu Hào Và Canh Bào Ngư Thượng Hạng,88.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6ttpezo69wbd
+015e7d75-0170-44c3-8ba2-e8d1e64370f8,500c91d1-5040-4b5d-9f18-516a9fa42202,鱼丸 - Cá Viên,49.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6bnemr61ll17
+023a14c3-90e4-4ed4-b26b-0861d6741624,500c91d1-5040-4b5d-9f18-516a9fa42202,Đậu Nành HongKong Chai 450ML - 港式豆浆瓶装,59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzpz1jwfav888
+03116913-6856-41fb-adf4-4a8e53f0b27a,500c91d1-5040-4b5d-9f18-516a9fa42202,Trôi Nước Đậu Phộng Hoạt Hình ( Phiên Bản Disney ),59.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6o8nqn211g87
+92ca2d40-e148-4d0a-9c8e-4b3aa2234451,500c91d1-5040-4b5d-9f18-516a9fa42202,白果大菜糕 - Herbal Jelly,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr46qqkj8lac86
+4cac720e-754c-4e35-b44d-7a52584733dd,500c91d1-5040-4b5d-9f18-516a9fa42202,Quy Linh Đậu Đỏ Sữa Tươi - 龟苓红豆,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lsoc19y4kx5052
+398253fb-2016-4e3b-9cd8-4a61eb24f1ec,500c91d1-5040-4b5d-9f18-516a9fa42202,Quy Linh Đậu Đỏ Sữa Tươi - 龟苓红豆,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lsoc19y4kx5052
+93fb0a9c-483d-4993-b65e-f4e40e1d8e4a,6fdb6881-4e51-4483-940d-3e31ff28568b,Cải Thảo,18.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3l0pjlpdc430
+e930aeb6-b9de-4cfb-aabe-071f816238fe,6fdb6881-4e51-4483-940d-3e31ff28568b,Cải Thảo,18.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3l0pjlpdc430
+ff3edf8a-81bc-46dc-b68f-63e4a5e43377,2b00800f-fc7f-4520-b7e5-2527469ef4fa,Bánh suông,12.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+918a7314-85b1-4108-8536-1b6510a5578b,2b00800f-fc7f-4520-b7e5-2527469ef4fa,Nguyên bộ tủy,40.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+51924867-e7c2-4ca0-907a-571c15875ccf,2b00800f-fc7f-4520-b7e5-2527469ef4fa,Nguyên bộ tủy,40.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+ccda0a3c-74f5-420f-bd97-a90c65de1382,d3e505bc-e000-4340-a9a9-eb96e5a9124e,Phong Lan - trà sữa,54.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr0trd6tac2h40
+7193def9-32ea-45a0-ae85-cbbc5995a064,d3e505bc-e000-4340-a9a9-eb96e5a9124e,"Phê Latte (hạt Ro, Ara) - Đá",54.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr0yxieivdms1f
+81c0da7f-70f9-4473-833d-50b185a40455,d3e505bc-e000-4340-a9a9-eb96e5a9124e,Trà Vỏ Cà Phê,54.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr0pubnfndtwa2
+b211aaf5-c526-4a63-9dee-e10319220696,d3e505bc-e000-4340-a9a9-eb96e5a9124e,Plus - Lụa Đào,108.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m6vwave3nj4xad
+d7201276-f169-4910-9807-e355d357b799,d3e505bc-e000-4340-a9a9-eb96e5a9124e,Cà Phê Phin Giấy - Phê Truffle,266.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4tv8v2u43sm92
+22fb2613-24f1-484f-b5de-01e99e89e947,d3e505bc-e000-4340-a9a9-eb96e5a9124e,Cà Phê Bột - Phê Phin Truffle - Túi 200gr,148.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lsb02unebd1g48
+408d02a1-3620-478c-8ed9-9ab098e40f0b,d3e505bc-e000-4340-a9a9-eb96e5a9124e,Cà Phê Phin Giấy - Phê Nguyên Bản,197.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4tv7pqskblkbd
+0cd04392-db4d-47f3-8cbb-a7579be21c17,d3e505bc-e000-4340-a9a9-eb96e5a9124e,COMBO GẶT GẠO _ 01 Khăn Lụa Gạo + 01 Nước,153.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7pzm3wtvrn574
+1ab9498c-ca1d-47a8-9751-b5ac911c75a3,d3e505bc-e000-4340-a9a9-eb96e5a9124e,COMBO GẶT GẠO _ 01 Khăn Lụa Gạo + 01 Nước,153.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7pzm3wtvrn574
+e1f9a74e-8313-4d84-b8f6-446f67830f7b,38e5702f-0d00-470f-8deb-57d4fcfca5bb,Combo Bún huế chay + Sâm thảo mộc,45.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzys2t2ibh5e2
+52eee609-dc70-4142-b32c-d86ede2a6766,38e5702f-0d00-470f-8deb-57d4fcfca5bb,70 gram Sườn non chay,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzxtbun4r0k3b
+51f93a33-b6e7-42b0-bc98-8b46b177f169,38e5702f-0d00-470f-8deb-57d4fcfca5bb,Pepsi,14.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr49fxa57x5lb1
+29bfa27c-3cc0-4bde-ab20-2e552d586c2d,38e5702f-0d00-470f-8deb-57d4fcfca5bb,Pepsi,14.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr49fxa57x5lb1
+afdec9bd-1f27-4150-9768-8d6a13e9f231,13c07c9c-6971-4bd1-a187-a37835b108c0,Cơm thêm,5.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxirf0wqye12b
+2a5fe8bc-8acc-4d05-90fe-e719a6461626,13c07c9c-6971-4bd1-a187-a37835b108c0,Cơm thêm,5.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxirf0wqye12b
+c282ce26-feb3-435c-92e5-25989f7aa5a8,656de6b1-bed8-4faf-bef1-47911ab34e8d,Nui Bỏ Lò Phô Mai Rau Củ Xốt Kem,85.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lu5r43evfy1dec
+385cd713-df68-4f20-a905-836b2a6d8b04,656de6b1-bed8-4faf-bef1-47911ab34e8d,Pizza Aloha / Aloha,155.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzc4zrci7x5d6
+6777d711-5373-4b97-b876-8d34474d7d22,656de6b1-bed8-4faf-bef1-47911ab34e8d,Pizza Thịt Nguội & Nấm / Ham & Mushroom,145.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzc52f2m4yh91
+055993cb-40d5-4b4a-8b25-bbd3ef7fb0c4,656de6b1-bed8-4faf-bef1-47911ab34e8d,Mì Ý Cay Xúc Xích / Stir fried pasta with spicy sausage,135.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4v2vl2puvg814
+b7329dd2-07ff-489a-ae7f-f898d785289a,656de6b1-bed8-4faf-bef1-47911ab34e8d,Cánh Gà Nướng BBQ / BBQ Chicken Wings,155.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4h1sxj1wi6f1e
+467897f8-a6fd-4358-a8e2-a399e8d401b6,656de6b1-bed8-4faf-bef1-47911ab34e8d,Khai Vị Tổng Hợp / Platter,195.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4h1xet9vutr0e
+0ffa3824-7126-45ac-9773-f7cf808f43ed,656de6b1-bed8-4faf-bef1-47911ab34e8d,Sting,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4o6yiwaophj4e
+083b1940-243d-470b-bb76-a0b76c4df009,656de6b1-bed8-4faf-bef1-47911ab34e8d,Sting,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4o6yiwaophj4e
+27ebb2d4-5c02-42a0-a9dd-a737c410da86,ca859578-4385-4d4d-8a2f-fd10f007cc44,COMBO 99K,99.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m93ypgtr5wnb65
+70868719-e128-4ddf-8bb6-5013d7d02980,ca859578-4385-4d4d-8a2f-fd10f007cc44,COMBO BESTIE (khoai lắc tuyết xanh),135.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m899v2hhq3pgb6
+15bf80ef-e72c-4504-81d8-56100717b50f,ca859578-4385-4d4d-8a2f-fd10f007cc44,Gà Rán 6 Miếng,200.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kr2aaviqpaf
+8a395e97-6ab7-47fa-a6ab-c400ba99ebcd,ca859578-4385-4d4d-8a2f-fd10f007cc44,Gà Sốt Phô Mai Phần,95.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqssqrcm96b
+15a5f435-dfd7-4093-83e2-4987c57614a3,ca859578-4385-4d4d-8a2f-fd10f007cc44,K-Chicken 6 Miếng,225.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqo0zqogd6a
+5eac8c21-1287-407a-b027-485ad92b01e7,ca859578-4385-4d4d-8a2f-fd10f007cc44,Combo Burger Lchicken,84.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m2mlhug1e1mid6
+bbc87065-069c-48b6-b93e-7c965175e8e2,ca859578-4385-4d4d-8a2f-fd10f007cc44,Combo Burger Phô Mai,74.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m2mlhu75pmt65b
+b90d7d13-f9e3-4e00-aa35-119516f0004d,ca859578-4385-4d4d-8a2f-fd10f007cc44,"\"Loking Set\" (dành cho 3 người)",220.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m62rsqxde52ud1
+2aecd425-64e6-4fe8-a2d1-393137f0480d,ca859578-4385-4d4d-8a2f-fd10f007cc44,Cơm Bò Trứng Phô Mai,46.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqvsedsul4b
+79d8bd16-4f88-48ec-8c44-6e64b3e034ed,ca859578-4385-4d4d-8a2f-fd10f007cc44,Khoai Tây Lắc (Vị Phô Mai),39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqv53bwypee
+4f5a7d4a-8ec9-47f2-bbe9-e0df846872fa,ca859578-4385-4d4d-8a2f-fd10f007cc44,7 UP (M),14.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqzclhggxcd
+32a6c36c-7981-47d5-be17-08801c2560f0,ca859578-4385-4d4d-8a2f-fd10f007cc44,Xà Lách Trộn,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqz35k0wx5e
+cb054b47-ef1c-4bd4-9e5e-d1f2fb8caa64,ca859578-4385-4d4d-8a2f-fd10f007cc44,Sốt K-Chicken (1 hủ),5.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqvzw2u6lec
+26a129f1-c290-4304-b00b-2265f0d2dbf9,ca859578-4385-4d4d-8a2f-fd10f007cc44,Sốt K-Chicken (1 hủ),5.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz3kqvzw2u6lec
+b866a0cd-89ef-464b-a944-250707c908e5,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,Sinh Tố Dâu - Kiwi,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5v5ag06umx21
+66ebf668-d2dc-440b-8397-741a63698c88,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,Sinh Tố Bơ - Cacao,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqy8p3s4mmqh54
+bc4d7ddf-c8bf-4d7e-ac88-55b50e9a9dc9,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,Sinh Tố Bơ - Khoai Môn,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5uwaw1o87tf3
+144817e7-9235-4c1a-a161-8a217115d48c,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,Thơm (Pineapple),30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxkazdhh9qxef
+21e06d17-c3df-4f3e-8fa8-42d3de947abd,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,Chanh Dây (Passion Fruit),30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5pmahvrdms93
+d38e52c5-6f04-4ec1-9b6a-d8fe32606373,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,Nước Ép Cần Tây - Thơm,40.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3b161iyaopaa
+dccdc0e3-f0a3-4c9e-baf4-c5172457fd61,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,CAFE Đá (Coffee),20.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5pkon8f2ys97
+68fae644-f505-4ca1-9050-098858cef8e2,e8ee6fb4-e4d9-47ac-976f-ec956c99c3b2,CAFE Đá (Coffee),20.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5pkon8f2ys97
+15993cd5-4805-4ead-b4fc-0cec97110175,39ffd545-55a2-4686-98aa-96d994d0b053,Ốc nhỏ (ốc gạo) luộc,70.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxtwl0gnct596
+62db88ab-35d8-4636-b0f4-7b03e6ea9825,39ffd545-55a2-4686-98aa-96d994d0b053,Ốc Hương xào bắp,95.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5vz5umgp0967
+8647ecc7-9210-42fe-96fc-cd0512430276,39ffd545-55a2-4686-98aa-96d994d0b053,Ốc mỡ rang me,95.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m2xqz8d983ra40
+d2296f9b-27b9-4ce8-9c32-e034f5f09076,39ffd545-55a2-4686-98aa-96d994d0b053,Nước suối,10.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5tqpgkz9vo01
+f47e2303-b6bf-4c5d-9bfd-e429de24f9f7,39ffd545-55a2-4686-98aa-96d994d0b053,Nước suối,10.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5tqpgkz9vo01
+d637471e-fd58-49b7-bcf8-37072062a398,ba2d353a-f37a-42ca-ada0-b247433a81de,L-Jasmine Green Tea,68.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0xflbmx5x65f1
+02ac8f02-6455-4006-8ee8-3ef1dcdafc69,ba2d353a-f37a-42ca-ada0-b247433a81de,L-Honey Lemon Green Tea,102.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m0xfleqgmpf345
+4acfcc3c-c8d2-4606-888b-02b1d3422d10,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Peach Pulp Lemon Green Tea,82.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45yjpt9xgha2
+22c728be-f68d-4ef9-90ca-1888cc77a44e,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Peach Pulp Lemon Black Tea,82.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45ykie43m57f
+fbdc26c3-b902-461a-bd0b-246212d9d246,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Peach Pulp Lemon Oolong Tea,82.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45y9wlmszxf2
+6725a1f1-caa3-4409-9370-964c700b9a0b,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Lychee Green Milk Tea,79.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45y3ef5i8xe2
+6970a2e4-eef8-470b-8392-33dae420cad1,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Honey Milk Tea,75.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45y80mea8d13
+76f01ecd-50b6-40d0-b8c9-0a053a46de46,ba2d353a-f37a-42ca-ada0-b247433a81de,S-Oolong Milk Tea,53.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45y29mt6zl41
+ec542cdb-1ed1-4748-aa2b-a9d71fc53ab1,ba2d353a-f37a-42ca-ada0-b247433a81de,S-Milo O Milk Tea,53.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45yginyfmp92
+83b68102-b99c-4d96-8e98-538796c46738,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Fresh Milk,86.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45y9rvtphp9d
+d0da7c64-d614-42a8-a4f2-d852e631d10a,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Green Tea Macchiato,58.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7pgahwrthfn04
+1b520d7e-12f1-42f3-b7ce-3748fcce5c76,ba2d353a-f37a-42ca-ada0-b247433a81de,M-Peach Pulp GT Macchiato,86.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45ylcwvfz526
+f4f6eaa2-dc55-4376-8379-b328652a1be8,ba2d353a-f37a-42ca-ada0-b247433a81de,S-Black Tea Macchiato,65.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45y0y6qmjl05
+f669f93a-3a86-4fd9-b233-0b86d585923c,ba2d353a-f37a-42ca-ada0-b247433a81de,S-Milk Tea Macchiato,63.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45y8rjdphp86
+47a9ea1e-529c-4628-b896-286dc90c84ee,ba2d353a-f37a-42ca-ada0-b247433a81de,S-Honey Oolong Tea Macchiato,60.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45xrsu4kzx6a
+196471c0-23a9-4277-a93a-6626d9b01a16,ba2d353a-f37a-42ca-ada0-b247433a81de,S-Buckwheat Tea Macchiato,53.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7pgasa8od4z61
+cc2ffad4-918b-44dd-9417-da0730c790e7,ba2d353a-f37a-42ca-ada0-b247433a81de,S-Lychee Lemon Juice,53.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lz45xux7k4zxef
+b064903e-19ed-4fe7-a472-e76c312092e2,ba2d353a-f37a-42ca-ada0-b247433a81de,M-HOT Milk Tea,72.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4jgov2nbqof07
+6550ce7f-a7cc-46ed-b8f5-193e59cfc08b,ba2d353a-f37a-42ca-ada0-b247433a81de,M-HOT Brown Sugar Fresh Milk,98.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m4jgomulczbj46
+7e181fb0-5d9a-4336-a2da-1bc115dd9018,ba2d353a-f37a-42ca-ada0-b247433a81de,HOT-Buckwheat Tea Macchiato,72.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7pgas3uw9ir21
+ab88903e-6adb-4834-b10a-41eea651b51d,ba2d353a-f37a-42ca-ada0-b247433a81de,HOT-Buckwheat Tea Macchiato,72.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7pgas3uw9ir21
+c7bc5987-02d1-44e5-a5dc-47e39a0875a7,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Chocolate TRÂN CHÂU PHÔ MAI DẦM,39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqyan8bw6fmh3c
+761c14e1-8a05-40d9-9df8-bfe178c8aa7d,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Thạch phô mai (3v),8.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m356qnuc8uqj1f
+348a49a8-c8d9-42c0-89a9-d6d217a11ed8,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Trân châu Hoàng kim,8.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqydr0jv7ue17d
+8503e03d-08e7-46b3-8b46-75cc5b2edddb,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Plan Khổng lồ,22.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m6ttk4cavznc32
+82582528-7c17-476d-be44-0090a55f2492,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,NGỌC TRÀ CAM DÂU,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqydgk8xw4ntb8
+99113799-d040-467d-9ab1-ca24c296be75,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,TRÀ DÂU đặc biệt ( có trái dâu),44.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3grwhk9j2c07
+4e287d21-4e09-4996-b718-aeeaa82aaf20,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,TRÀ CHANH DÂY đặc biệt,40.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqyljosqvjx518
+d344713b-0d34-4a3c-8818-683075bafa7f,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,TRÀ SEN,20.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-ls1242w0k715a9
+aac082ac-b895-461a-9927-65eca471a59d,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,TRÀ CHANH DÂY,26.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqydckj27h6s0f
+51b57157-9717-4c2e-bd3b-14709820fcd7,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,TRÀ SỮA OLONG,24.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr67edmmxdi125
+c828081c-3ec5-494d-8be1-f84ddbbb719b,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,HỒNG TRÀ SỮA MẬT ONG,28.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr436c1tnpac18
+0741a01c-22fa-4aaf-a098-41ee61676ae1,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Trà sữa truyền thống chai 350ml,36.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqyhc9gc9byc8a
+a800c3ef-7ea8-4d29-9737-89f4e1e00e2f,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Khoai tây lắc phô mai,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3d2sf6fyxl68
+838dbf12-804c-4125-b39b-149bd07e599d,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Mì trộn tokboki,50.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr63i3yuhsjob9
+2bcc9c89-fc36-478d-9610-8aac5cec1299,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Chả sò điệp,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqycytn2f0zo54
+d0500205-4d6f-4fad-9519-ce4ad493867f,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Bánh Tráng Tỏi Bò,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lwwm1bf58vdn22
+e33bdaa3-5363-4a89-91dc-b72c021ce11f,092243aa-d087-47e2-8ad3-c0ef13fbdaeb,Bánh Tráng Tỏi Bò,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lwwm1bf58vdn22
+89cf6b7c-6927-4d55-aa0e-5d421b1b5790,4d1a497b-64d4-4156-9c51-5bd6142b46d2,TRÀ TẮC XÍ MỤI,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqzwxcd66vtlaf
+c667fa52-e4aa-4a38-86d5-4a4116e468e6,4d1a497b-64d4-4156-9c51-5bd6142b46d2,TRÀ SỮA TƯƠI,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr2twtn0zr9gb3
+f24b2cf1-26e7-46ac-997d-d398b5e8ad34,4d1a497b-64d4-4156-9c51-5bd6142b46d2,BÁNH TRÁNG CHẤM SỐT THÁI,28.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m5wipzf2atkmca
+91c62d28-7bf9-4e43-9e09-10f08dfa2338,4d1a497b-64d4-4156-9c51-5bd6142b46d2,LỤC TRÀ ĐB,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr2vemjikk2h71
+a44051f0-c2f3-47db-8f33-59dae74cb385,4d1a497b-64d4-4156-9c51-5bd6142b46d2,HỒNG TRÀ,17.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3h6o3dw69w8a
+d6ad862e-f764-4bc0-baa7-e8321d873e46,4d1a497b-64d4-4156-9c51-5bd6142b46d2,MOCHI PHÔ MAI (4v),11.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr2s87zxk7mh1b
+e9ab9895-1a8c-4abd-97d1-912736665fc7,4d1a497b-64d4-4156-9c51-5bd6142b46d2,FLAN SOCOLA,12.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr2s8wc5xy8pd9
+8567fdd1-9672-47c0-bdda-027883fc4a7c,4d1a497b-64d4-4156-9c51-5bd6142b46d2,SỮA TƯƠI T.CHÂU ĐĐEN,28.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqx5jl1oec2hcd
+0e6fdb24-327e-4ad8-adc9-0f295d932b5f,4d1a497b-64d4-4156-9c51-5bd6142b46d2,TRÀ TÁO,28.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lw6nrc3sjmxlda
+cec8a75d-cdf9-4acf-b1fc-84a49432f155,4d1a497b-64d4-4156-9c51-5bd6142b46d2,GÀ CAY P.MAI,70.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxizrif0udg63
+8ea03fa2-1a7a-47e0-8f6a-b9fa6d3bee72,4d1a497b-64d4-4156-9c51-5bd6142b46d2,KHOAI TÂY LẮC PHÔ MAI,33.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr2sbri0z5w96f
+d7b1745e-2bf3-489b-b27d-20bd1e5876a3,4d1a497b-64d4-4156-9c51-5bd6142b46d2,Hồng trà chai,27.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqztu5g3z6vtb7
+1d8633c0-41f5-48dc-a1ff-9ebb0b9dfe90,4d1a497b-64d4-4156-9c51-5bd6142b46d2,TRÀ SỮA CHAI,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7lsvua6jxza27
+c31481b5-d4b2-4f56-a7f3-d50f4c0af01d,4d1a497b-64d4-4156-9c51-5bd6142b46d2,TRÀ SỮA CHAI,35.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m7lsvua6jxza27
+3930acc2-d789-485c-bed7-79f47f68b299,8bd93c25-f5e0-454a-87d7-0a346bdbac77,Miến Trộn Lươn Giòn,93.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+a8bbfeab-72f4-467c-a768-f8439af939b0,8bd93c25-f5e0-454a-87d7-0a346bdbac77,Súp Lươn Giòn + Bánh mì,88.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+3072ee76-7e43-4195-b186-06e7e7149fdc,8bd93c25-f5e0-454a-87d7-0a346bdbac77,Cà Phê Sữa Đá,25.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+9d73bf7b-d752-4b20-afd1-5b5bc252c93e,8bd93c25-f5e0-454a-87d7-0a346bdbac77,Cà Phê Đá,20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+24a38556-7f2d-4d5e-b43f-150c20940695,8bd93c25-f5e0-454a-87d7-0a346bdbac77,Cà Phê Đá,20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+7b023b1e-3a5a-4c9e-b8ce-d41b238462d4,7ec7c11a-6742-4fb9-9606-9477a072fcbb,COMBO CƠM GÀ QUAY CHIÊN GIÒN+ NƯỚC NGỌT SPVB,57.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m34x8qezloemae
+b9c39ac3-d387-40ba-b771-4ebf1c8cc5d0,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Cơm Chiên Gà Sói Mỡ,40.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5xt6amtord58
+0303a898-dd98-4b4f-93d6-625a87bd99fe,7ec7c11a-6742-4fb9-9606-9477a072fcbb,CƠM CHIÊN GA XÉ,40.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6ajaa6spzt65
+271bc8b0-9310-473d-9d69-b0cb144af44d,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Chân Gà Cóc Thái Size Lớn,80.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr60ebonjmpw4c
+76e0f952-b48e-4345-91f7-0ab7539f596d,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Nui xào bò củ hành,42.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5f1zya7puh10
+f9d934aa-47a8-4fb4-ae3c-04ae120fe0b0,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Phở xào hải sản,42.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5njm41yobded
+cb1b99d8-dcce-4c91-b820-28192ab99fb4,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Ép táo + cam,25.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr3aggm9sfx502
+442a1798-e60b-4d2a-9bea-9241e4b95666,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Sinh tố sapo,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqy7faqdqeft1e
+641fd4f6-866e-4d70-bf97-2ca7b988a787,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Hồng trà việt quất ngọc trai,30.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqy7tav200jo4e
+18f1222e-c550-4040-b0d2-1222815fc821,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Mì gói xào thập cẩm + 01 Pepsi,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr0u9rk3zmopf3
+442a3656-fff9-4eac-a335-5d4a7dbdf96c,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Pepsi,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-luvn9y0ytu6q1a
+8e24da2d-71dd-4140-aa19-9cfac556a122,7ec7c11a-6742-4fb9-9606-9477a072fcbb,Pepsi,15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-luvn9y0ytu6q1a
+148264d8-b982-45f0-9fe5-9744a3f804fd,ce5ed59e-dc3c-4f58-8e02-09ae3df604cd,Sâm lạnh,10.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+794ae0e5-2300-4d41-bb9c-2d89bd5d9b6f,ce5ed59e-dc3c-4f58-8e02-09ae3df604cd,Sâm lạnh,10.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+9d352720-cec0-4abf-9020-936bba2d4be8,6a9e2891-3efb-43cd-96fe-4b9d53d8f3a7,Kim Chi,17.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr359d2qfvt005
+aee9f9af-c39d-414a-afda-8491ccf03fbc,6a9e2891-3efb-43cd-96fe-4b9d53d8f3a7,Lạp Xưởng,390.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5vkm2eyh09bb
+3e80c5a8-88cb-4f40-8cd7-5181c225ab4a,6a9e2891-3efb-43cd-96fe-4b9d53d8f3a7,Lạp Xưởng,390.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr5vkm2eyh09bb
+8a3142b2-9830-42a8-ad5d-cb46c95850fd,b8f78d82-4c2f-4277-a08a-7284dd5dadfd,BÈO DẠT MÂY TRÔI CHAY (Bánh bèo+Bột lọc Chay),39.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lwo1doqc5p7df6
+34f98e98-84c4-41c7-8603-f8e23bffe010,b8f78d82-4c2f-4277-a08a-7284dd5dadfd,Nem thịt nướng thêm (40gr),15.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr4pacuxvzyc2f
+5b0b35fa-b522-4017-9926-61c95615c371,b8f78d82-4c2f-4277-a08a-7284dd5dadfd,BẠC XỈU ĐÁ,27.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6vz3myanr8cf
+cb493fe2-a99e-4d1d-ab77-e064745ee9ff,b8f78d82-4c2f-4277-a08a-7284dd5dadfd,Bánh Flan Cafe,10.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6cwwttwkhw3a
+af05720b-3d34-4bb0-8a34-54d9ce506478,b8f78d82-4c2f-4277-a08a-7284dd5dadfd,Bánh Flan Cafe,10.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lr6cwwttwkhw3a
+d4604684-1aa3-45cb-93d5-3548406358ca,2adbed84-10a3-4bd4-bbcc-81e535825efd,Best Friends Combo,359.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m9dcsv1a4gg4b2
+631a571b-bf46-4838-ab50-d43069b13497,2adbed84-10a3-4bd4-bbcc-81e535825efd,Pizza Núi Lửa Phô Mai Thập Cẩm Thượng Hạng/ Cheese Volcano Extravaganza Pizza,325.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ra0g-m8letmo3zalq21
+f01e2679-46c3-4b71-9bcd-3b2c7df727d3,2adbed84-10a3-4bd4-bbcc-81e535825efd,Pizza Dăm Bông Dứa Kiểu Hawaii/ Hawaiian Pizza,105.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lqxw21yncwxwda
+fb764bb6-7970-4a9a-81a1-dd1c93d974aa,2adbed84-10a3-4bd4-bbcc-81e535825efd,Pizza Thanh Cua Dứa Xốt Phô Mai/ Cheesy Crab Stick & Pineapple Pizza,105.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7r98o-lzjyrdbopphp7e
+e07422d1-5a5a-4830-9835-9b43fcec139f,2adbed84-10a3-4bd4-bbcc-81e535825efd,Pizza Siêu Topping Hải Sản Xốt Pesto Kem Chanh/ Super Topping Seafood Lime Pesto Pizza,275.000đ,https://down-spe-vn.img.susercontent.com/vn-11134517-7ras8-m3ydh5e2ttbw68
+fe87aac2-a307-408a-8a2c-2cc17e8bb940,2adbed84-10a3-4bd4-bbcc-81e535825efd,Pizza Siêu Topping Hải Sản Xốt Vải/ Super Topping Seafood Lychee Spicy Pizza,265.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m3ydedf34hlt7a
+638af01c-be97-49ce-8082-ca9894413929,2adbed84-10a3-4bd4-bbcc-81e535825efd,Pizza Bơ Gơ Bò Mỹ Xốt Phô Mai Ngập Vị Siêu Topping/ Super Topping American Cheeseburger Pizza,265.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz76cqjhizil7a
+f158a05d-0e56-437a-86b8-1f967a42457a,2adbed84-10a3-4bd4-bbcc-81e535825efd,Cánh Gà Phủ Xốt BBQ Kiểu Mỹ/ American BBQ Tossed Chicken Wings,109.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-luyq4p4jfcx12d
+e59a61d6-3334-4bf3-95cc-4f511918505b,2adbed84-10a3-4bd4-bbcc-81e535825efd,Mỳ Ý Bò Bằm Xốt Marinara/ Bolognese Pasta,119.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8brzma7jtky9b
+fda03ac7-039b-488f-b83e-940846e126f1,2adbed84-10a3-4bd4-bbcc-81e535825efd,Lon/Chai Coca - Cola Zero Sugar/Coke Zero Bottle/Can (320ML/1.5L),25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxwvo4v56s9bd
+59ba931c-0d8b-4fd8-9754-14fdd2442cc8,2adbed84-10a3-4bd4-bbcc-81e535825efd,Chai Trà Đào Hạt Chia/ Chia Seed Peach Tea 350ML,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4e5awzx0h2odf
+14153c82-3494-42a6-b31d-c2fe9bdc03c9,2adbed84-10a3-4bd4-bbcc-81e535825efd,Chai Trà Đào Hạt Chia/ Chia Seed Peach Tea 350ML,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4e5awzx0h2odf
+96a8a3ba-0f83-4bc5-85a7-0033e7e193c3,dbc08f69-cecc-4ea5-a741-c16652461bab,Sụn Heo Xóc Tỏi,132.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m66egc44mrk357
+598b5efd-c5aa-4c4a-818d-41a44271918f,dbc08f69-cecc-4ea5-a741-c16652461bab,Cá Trê Bông Xù và Gỏi Xoài,149.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5xqg9acyek603
+7ba16bbe-a853-4536-b430-7bc363ca0417,dbc08f69-cecc-4ea5-a741-c16652461bab,Cà Ri Vàng Cua,253.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5y3esh39udf8a
+35982c3f-c868-48bb-b05d-6f44a7ba16f0,dbc08f69-cecc-4ea5-a741-c16652461bab,Bò Nướng Kiểu Thái,225.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5el7izmch1z77
+8c75d6c7-7779-4343-86a8-ac48747438f9,dbc08f69-cecc-4ea5-a741-c16652461bab,Cơm Chiên Ruốc Cá Hồi,185.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m66ex8a0npj71f
+7dcb3856-049b-4926-ab6d-ef516a233e89,dbc08f69-cecc-4ea5-a741-c16652461bab,Cơm Cồi Sò Điệp Nhật Xào Lá Basil,225.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5y4oley8y6ba7
+9bb040c7-6e64-4f2e-9449-e79f0dcaa71b,dbc08f69-cecc-4ea5-a741-c16652461bab,Pad Thai Cồi Sò Điệp Nhật,212.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5y6vzn9j8xv61
+14d6466d-2bc0-47ce-a4ca-5e118188d419,dbc08f69-cecc-4ea5-a741-c16652461bab,Bún,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134505-7ra0g-m831oezsxwecba
+e993e879-bc15-4ef3-abd6-7345500518c0,dbc08f69-cecc-4ea5-a741-c16652461bab,Lẩu Thai Chay,205.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7q7k02ujgli5d
+65a2c9ee-cd1b-4bff-9e36-32783194212b,dbc08f69-cecc-4ea5-a741-c16652461bab,CocaCola,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m6gkbqmzhl5k2d
+8fa5af39-b887-47c2-b4fc-1d8ed03c4b33,dbc08f69-cecc-4ea5-a741-c16652461bab,Chè Thái Nhỏ,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5hvqkfnmqeuaa
+941cb71d-d233-435a-b829-84135cce5ba7,dbc08f69-cecc-4ea5-a741-c16652461bab,Chè Thái Nhỏ,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5hvqkfnmqeuaa
+b3dc4d29-8e4d-492b-982a-16b67ed0fd60,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Trà Sen Vàng (Dừa),45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m1y8ibhp5x234f
+5d1017c7-c07a-4898-8797-c1a4b5ab3fa1,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Cookies & Cream - Đá Xay,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz4ramm7j5fxd8
+61880afd-5118-422e-8613-21ef49160ff2,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Bánh Mì Chả Lụa và Jambon,39.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m3nq3a8fs7gcfa
+e7efd885-ba99-44b9-a618-708962d2c81b,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Mocha,69.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz62u0iww3ohf4
+2846c2bd-d207-4242-92f8-c6c0f300043e,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Bánh Su Kem Highlands,29.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz52llk3nixt6f
+c242f2c5-3230-45c0-a6dd-a536d29bbc19,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Ly Giữ Nhiệt Du Lịch Ống Hút 450ml Màu Nâu,329.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0c1amdyx0942
+f07f79fd-8c03-4f34-969b-784384c95ea1,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Ly Cao Ống Hút Hình Lá 473ml,189.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0c1b4z6b2xd8
+4b9f2f4a-14d6-4306-b564-77b86da46715,7ce8293b-63b5-4d01-9daf-7cf1a1bd470d,Ly Cao Ống Hút Hình Lá 473ml,189.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0c1b4z6b2xd8
+1647cfed-7a09-4a82-9bd4-bb9712d2e01b,79ff3e4a-b62e-4a83-9f6d-4ca6905a630d,Yến Chưng Đông Trùng 180ml,128.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m1gnxli1ingza9
+23e62746-15de-48db-b26e-8d28f4aab887,79ff3e4a-b62e-4a83-9f6d-4ca6905a630d,Yến Chưng Đông Trùng 180ml,128.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m1gnxli1ingza9
+03242785-0341-43e6-a98e-3064b99331e2,38496189-6355-45f2-b8d5-e62b80177a46,Phèo nướng,180.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5l5l95rfkp34
+019a7c70-b0d5-4f68-babc-e0213811392f,38496189-6355-45f2-b8d5-e62b80177a46,Bò lúc lắc,180.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt3tdwz3ixad
+cd13a4f6-c3dc-4a3d-bea9-72d437b8f06f,38496189-6355-45f2-b8d5-e62b80177a46,Tủy,90.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5l5z87bah0d4
+0a621d57-4559-44eb-999e-5a49e7638b81,38496189-6355-45f2-b8d5-e62b80177a46,Tủy,90.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5l5z87bah0d4
+977684a9-6d05-4ee0-ae4e-6956eac12e93,e7d28ae0-767f-4591-8b73-03068b1cd2e2,MÌ HẾN,36.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m10nxcbxfqn369
+fda79af8-5742-4c14-a677-2b6a1259baa6,e7d28ae0-767f-4591-8b73-03068b1cd2e2,CHÈ ĐẬU ĐEN,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m6piafb5652w93
+8a8f2bf1-7601-47b0-b03c-f6d0d2dc467c,e7d28ae0-767f-4591-8b73-03068b1cd2e2,Chả cua đặc biệt,119.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqykyi84t4n81f
+d950f2e4-0d31-4007-9775-c2dc6ea043f9,e7d28ae0-767f-4591-8b73-03068b1cd2e2,Chả cua đặc biệt,119.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqykyi84t4n81f
+00ec5eeb-8380-448b-8f7e-c5659802c673,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Ốc hút Trộn Xộp,89.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8g1ree1hysuc0
+8d23c217-9ce0-4526-b664-c43a88560528,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Bún hến trộn Xộp,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxixhtaktjt7b
+bcb42415-1659-4254-b0cf-6e7d7b1420de,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Bún mắm nêm chả cá,32.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5o64ci7d8k16
+ca4b86f6-f556-4596-816b-a25d5858b23d,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Nem chả trộn( MỚI),60.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy2j52nze105f
+7206a10d-d4cf-4b0c-85ca-43781140ea52,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Sò lông sốt bơ tỏi,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxp25f62jdl6c
+e4bf460c-e016-4428-b9f0-4f7ea6d66b26,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Ốc cà na rang mắm,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2tiy3zzqmx74
+918ff119-3cc1-4197-a56c-a84d4b741bde,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Thập cẩm ốc hấp thái,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqyrkoinerb85d
+6c6a515e-3471-4dca-a575-ed3347ff57fd,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Set 3 món ngẫu nhiên,190.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3gwqyiinbt26
+6db31558-6f16-4a02-87b2-282d5ff20921,6fb3dd99-e6f1-486e-b664-d6a420ab3215,Set 3 món ngẫu nhiên,190.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3gwqyiinbt26
+8c7259e4-5f76-4cdf-b2c2-94494de904cd,c05d333c-1fc7-4421-97d8-552174a37a1a,Cơm mềm gà luộc,142.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5nj88c74xw94
+944abb58-7377-4336-a294-65a22fe31212,c05d333c-1fc7-4421-97d8-552174a37a1a,Cơm Vịt Quay Tiêu,119.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxj70p4t3us1d
+df40844d-f99c-4950-a14c-9980a5eca7ed,c05d333c-1fc7-4421-97d8-552174a37a1a,Bông cải xào bò,137.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt6gs3dlfo26
+57bfd7ca-028f-4b15-9053-8d9f51453424,c05d333c-1fc7-4421-97d8-552174a37a1a,Bông cải xào lòng gà -1 người,113.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+36395c59-5637-4c94-a762-0fa621967b24,c05d333c-1fc7-4421-97d8-552174a37a1a,Canh cải Bẹ Xanh Thit -1 người,59.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+8e5c67a2-fe1f-4cff-bdbd-8b1cf7fab3ca,c05d333c-1fc7-4421-97d8-552174a37a1a,Canh cải bó xôi nấu cá thác lác - 2 người,136.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt6k0cngskb2
+0d69c94c-bb5e-4baf-99a8-e5491bbcd6b4,c05d333c-1fc7-4421-97d8-552174a37a1a,Canh bông cải nấu tôm (2 người),147.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt6lcwoeqhe9
+7826eb81-0c86-490e-b4e2-a8324245d616,c05d333c-1fc7-4421-97d8-552174a37a1a,Canh bông cải nấu lòng gà,74.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt6m3tl0ux2d
+b9fb55f1-c777-42b1-8b87-f64c7eebadd6,c05d333c-1fc7-4421-97d8-552174a37a1a,Combo nem nướng Hoàng Mao (nhỏ),221.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt6ngnlk7t29
+d0ab0f85-a3e9-4e95-abc5-3b5d2b2bf3ed,c05d333c-1fc7-4421-97d8-552174a37a1a,Sinh tố kiwi,52.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5lha9do538d0
+2f0a81b7-f230-4e49-92ca-d7aab16e647b,c05d333c-1fc7-4421-97d8-552174a37a1a,Dồi trường xào cải chua,225.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvtktip6xmsa9
+f352451f-a0aa-4c12-9604-d8e00d519a8f,c05d333c-1fc7-4421-97d8-552174a37a1a,Trà đào,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx42gp6vwk9af
+8b484820-dd5c-431c-a326-d31f996b1d72,c05d333c-1fc7-4421-97d8-552174a37a1a,7up,24.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt11bbf2c9d7
+b1825fde-065d-4584-b666-427199b628fd,c05d333c-1fc7-4421-97d8-552174a37a1a,Bia Heineken - lon,36.000đ,https://shopeefood.vn/app/assets/img/ic_warning_productcard_18only@2x.png?909d8e92875b02380b464d23f4e9d848
+4a57e0f5-1efa-4a23-8857-6fe83ba79320,c05d333c-1fc7-4421-97d8-552174a37a1a,Bia Heineken - lon,36.000đ,https://shopeefood.vn/app/assets/img/ic_warning_productcard_18only@2x.png?909d8e92875b02380b464d23f4e9d848
+4f72b85d-df9a-4223-8f5f-426965245d48,e35ba91d-2d46-4911-bcb7-0784bc49ca03,Bún mắm,85.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7c2gffh8512bb
+a4613160-78d0-4a60-9943-3f6423ac7a1b,e35ba91d-2d46-4911-bcb7-0784bc49ca03,Bún mắm,85.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7c2gffh8512bb
+f0f99c19-f15a-4bfa-bd1f-8dbce2b6842e,63f72c6e-1796-4896-ba11-3e73a61b1819,Trà Nhãn Sen,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-m00g373hy081fa
+4119fae3-e5a9-4622-88ab-e724c4e1f64f,63f72c6e-1796-4896-ba11-3e73a61b1819,Latte,50.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m6f7f1d676uf5c
+09a91fd8-f32a-4d11-a970-b93c0b221523,63f72c6e-1796-4896-ba11-3e73a61b1819,Matcha Đá Xay,65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0sz39cv0q6n4c
+41662ac2-42b8-48e6-9b3b-7903bcad0b22,63f72c6e-1796-4896-ba11-3e73a61b1819,Trà Sữa Matcha,50.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lvdc31n6xa3o61
+ab69bf2d-b1d0-4e47-b01e-8d012ead133f,63f72c6e-1796-4896-ba11-3e73a61b1819,Trà Ô Long Lài,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0t0j2pnaqy52f
+028f6b9e-e018-4eb2-905b-f1b45017800a,63f72c6e-1796-4896-ba11-3e73a61b1819,Trà Sen Kem Silky,50.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0rsh023rnocc
+02f75f00-67c2-49ee-a9fb-848c45aabe89,63f72c6e-1796-4896-ba11-3e73a61b1819,Red Velvet,38.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqyv6kj8l51g0b
+d5d1eac0-2fe4-46e8-8b50-80b8bd6e660d,63f72c6e-1796-4896-ba11-3e73a61b1819,Bánh Bông Lan Cuộn Choco,38.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m67rftgti7h353
+a5e42d77-9271-4f54-8d7a-78d3cf7c5c4b,63f72c6e-1796-4896-ba11-3e73a61b1819,Cà phê Moka không bơ 200g,90.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzd7w6n5jgkb6
+e4361682-d32b-486f-9739-e986ab692081,63f72c6e-1796-4896-ba11-3e73a61b1819,Cà phê Culi 200g,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzd7v6ulx21dd
+39f84bc7-b187-4ab8-8989-da0afb115c93,63f72c6e-1796-4896-ba11-3e73a61b1819,Cà phê Royal không bơ 200g,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7hrjy3lba0m3b
+749dd714-c25d-4caf-a8b0-dcb91da624b4,63f72c6e-1796-4896-ba11-3e73a61b1819,Trà xanh lon giấy 100g- loại 1,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7ulwj7d7a8302
+592984b1-e42d-4c86-8301-f33d9e3d474b,63f72c6e-1796-4896-ba11-3e73a61b1819,Trà xanh lon giấy 100g- loại 1,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7ulwj7d7a8302
+b6ad32f7-ddba-4f0b-afb0-2e405f3b1218,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Trà Nhãn Lài,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-m00fz7n1vjq962
+318be7f4-823b-4d87-b089-38e4e5b98ee4,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Americano,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m13pu944w49r6d
+a76b6ca8-c617-4df1-9e12-379f648b85a4,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Matcha Đá Xay,65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0sz39cv0q6n4c
+50577934-0e29-4d5e-98b3-7e613015bece,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Trà Sữa Phúc Long,50.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m13pq2evfc0vb2
+c6627225-76c7-4668-8ae0-c4e67550d636,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Trà Ô Long,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0szmodiek5r2e
+15d23180-4d0e-4adb-b75e-512551c4613a,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Trà Bá Tước Kem Silky,50.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lsbga2qzhupw8d
+e99771ce-718c-4df8-ba92-94f4de53b225,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Bánh quy Trà Xanh,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqz36b4q19l0a9
+94efd1ef-c16d-4327-b442-318e627e29a5,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Trà xanh túi lọc 25 gói,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzd7nffysntd2
+996340a9-9c35-4614-8e28-0bbd08dae7d9,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Olong hộp Oval-100g,142.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzi74taig7t57
+22118194-0ab7-401b-82c2-f6ba01f7a7cb,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Olong 80 - 150g,160.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzwmvoxenr8d8
+285e69a6-db4d-47f0-8714-7c554b83c433,8afe7fcc-6167-495e-bc28-2f8b24bc757a,Olong 80 - 150g,160.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzwmvoxenr8d8
+1da19972-e62c-4478-ae10-f35b7c44ecc5,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Trà Ngọc Trai Dâu Tằm,59.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz4pqji09j65f3
+80ecf76e-38c7-4907-999b-c545b4b49078,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Cà Phê Phin Đen Nóng (Coffee),29.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz4x2oe55gst18
+421731bf-e811-4512-aba1-cf6400bea20e,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Bánh Bông Lan Trứng Muối,39.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8xghlrpiv7r59
+dd94c8cb-0164-49dd-9aa2-e5f7c0e69833,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Cappuccino,65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz63q98sbj2l70
+3d2b60a6-21c7-46fd-a2ce-15f4c95c536b,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Bánh Phô Mai Trà Xanh Highlands,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz4zg6cexwv585
+07940214-621a-458f-83f6-9c329103198d,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Combo Tỉnh Táo Highlands,29.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m684j80p5pfn05
+5065193a-a72b-49c8-af3a-e604a936fce7,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Ly Cao Ống Hút Hình Lá 473ml,189.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4dljugmvgkbf
+16be9ce8-61c5-4f44-b51f-b6d32a113c57,e64c3ed0-b6b8-46b6-9c57-097aed416c19,Ly Cao Ống Hút Hình Lá 473ml,189.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4dljugmvgkbf
+36f9d25b-0d2b-49fc-9e1f-146b7d075cce,3af63037-4eda-4c64-b082-dc6562d6f9e8,Trà Ngọc Trai Dâu Tằm,59.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz4pima5nadp27
+1efaf2b9-b3e1-4878-98a2-fcf2281ad13d,3af63037-4eda-4c64-b082-dc6562d6f9e8,Cà Phê Phin Đen Nóng (Coffee),29.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz4x9enomjpp61
+f2405d2e-14c4-45bf-a054-4b9cc3a350ca,3af63037-4eda-4c64-b082-dc6562d6f9e8,Bánh Bông Lan Trứng Muối,39.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8xgn91a2j5ua7
+7dce513a-8490-456a-ae95-b6cf714689ae,3af63037-4eda-4c64-b082-dc6562d6f9e8,Americano,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz62d3pfto694f
+308ad54c-a155-49c1-9723-6d4e864dae9c,3af63037-4eda-4c64-b082-dc6562d6f9e8,Chanh Nóng,39.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz66lsbo6u8xd5
+186dd844-08a0-4eec-b792-f666272d1281,3af63037-4eda-4c64-b082-dc6562d6f9e8,Bạc Hà Phủ Socola,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m6bbyoioso3nad
+e9442358-e45f-4deb-90cd-b431b935de64,3af63037-4eda-4c64-b082-dc6562d6f9e8,Ly Cao Ống Hút Hình Lá Cà Phê Đỏ 473ml,189.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0we2sxq8wp05
+f7f82d45-6977-4eca-a12a-bb719dbe9055,3af63037-4eda-4c64-b082-dc6562d6f9e8,Ly Cao Ống Hút Hình Lá Cà Phê Đỏ 473ml,189.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0we2sxq8wp05
+ce210ef4-4e25-436a-a026-240df2fb0312,0f7e95af-3475-45a2-a905-359736ab1f6d,Gyudon hành và trứng hồng đào,80.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy1g81q7qo464
+3ebe750c-d8fa-4fdd-81fc-bcc9938c6f00,0f7e95af-3475-45a2-a905-359736ab1f6d,Cơm thịt heo nướng trứng cá tuyết mayo,94.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7rbufxmylddb3
+40900692-4d61-40d7-8149-902fd4e8b1ee,0f7e95af-3475-45a2-a905-359736ab1f6d,Thịt heo chiên xù,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzkzl0andzt3d
+4b7b613a-0909-4ab7-b90f-9d3ec12ce368,0f7e95af-3475-45a2-a905-359736ab1f6d,Set Yakiniku Ramen - Cơm bò nướng S + Mì ramen tokyo. + Thức uống tùy chọn,161.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2gie5p5nx6c4d
+f89e837e-7cd7-4396-aa90-33b43e6874e7,0f7e95af-3475-45a2-a905-359736ab1f6d,Family Set 4 (4 người),466.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lxev5isbkrfd14
+f0d011fe-b795-4859-86d0-d7a417cad2db,0f7e95af-3475-45a2-a905-359736ab1f6d,Cơm cà ri phô mai,89.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m3u69r73rq2020
+bdc61428-8d3a-4500-8821-13d6e59ddce1,0f7e95af-3475-45a2-a905-359736ab1f6d,Hồng Trà đào,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0cfbb1dw3o0c
+98901285-6e5d-4d3d-b51d-16ebe31af66c,0f7e95af-3475-45a2-a905-359736ab1f6d,Bia Sapporo,36.000đ,https://shopeefood.vn/app/assets/img/ic_warning_productcard_18only@2x.png?909d8e92875b02380b464d23f4e9d848
+41fec61a-285d-4b09-a841-3e5af75eb689,0f7e95af-3475-45a2-a905-359736ab1f6d,Bia Sapporo,36.000đ,https://shopeefood.vn/app/assets/img/ic_warning_productcard_18only@2x.png?909d8e92875b02380b464d23f4e9d848
+62aab146-4ab5-456b-9021-69c122e8276a,bcad514a-ff18-43af-8e3a-5e429b841218,COMBO NGÀY ĐÔI,76.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8yyrvbnm7ou50
+2c469983-7582-4941-93c5-983b0ec7ab43,bcad514a-ff18-43af-8e3a-5e429b841218,COMBO BESTIE (khoai lắc tuyết xanh),135.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m899vprzn0xze0
+a51aaf0d-bedd-4f14-a298-d1d6d917c435,bcad514a-ff18-43af-8e3a-5e429b841218,Gà Rán 6 Miếng,200.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3km86xn1y957
+e2c213b7-56a9-41f1-bf7b-e1a5d29a8ba7,bcad514a-ff18-43af-8e3a-5e429b841218,Gà Sốt Phô Mai Phần,95.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3kmki1mm5dd9
+68dba8e3-4f55-47dd-b0cf-db45a1f9c113,bcad514a-ff18-43af-8e3a-5e429b841218,Combo Burger Bulgogi,82.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2mli4bgwibe60
+60e154c2-6071-42e6-a023-9040dd927d7a,bcad514a-ff18-43af-8e3a-5e429b841218,Combo Burger Bò,58.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2mli55po9aeb2
+8d64447f-88e7-456a-8533-e790b6dbb330,bcad514a-ff18-43af-8e3a-5e429b841218,"\"Loy Set\"(dành cho 2 người)",145.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m62rsdu8jlg741
+253a4582-44fb-48a7-8e86-ca740f747836,bcad514a-ff18-43af-8e3a-5e429b841218,Cơm Gà Sốt Phô Mai,46.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3kmhfm47kd2e
+f91d819d-4308-4f29-ad9e-107a743aeebb,bcad514a-ff18-43af-8e3a-5e429b841218,Phô Mai Que,36.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3km7qualr512
+7699ca1d-8ddf-48e8-a7c0-bb5d5eca1810,bcad514a-ff18-43af-8e3a-5e429b841218,MIRINDA (M),14.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3kmb0ri15964
+95d258bf-f416-4407-9a83-f2b083c81ed1,bcad514a-ff18-43af-8e3a-5e429b841218,Phô Mai (1 miếng),7.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3kmdrth31dec
+14906998-b514-4831-9dd2-e27b903f1476,bcad514a-ff18-43af-8e3a-5e429b841218,Sốt K-Chicken (1 hủ),5.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3kmi9kwcwdcc
+2043517c-4af5-40db-9cf4-cc81924ba4ad,bcad514a-ff18-43af-8e3a-5e429b841218,Sốt K-Chicken (1 hủ),5.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz3kmi9kwcwdcc
+5f400c44-4a64-4efe-ad28-714263a1fba9,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Combo 2 Breakfast Sliders,139.320đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0gaw6i3a8pb3
+edff106a-43cb-42c3-8683-2c46300ce32d,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,The Lumberjack,214.920đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4dm8m8dvh587
+b54d5771-155e-4be5-9a12-8ece81cd2a8b,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Hash Browns,52.920đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0kacmak6mxb1
+a8da25f4-79b7-4121-8b00-460c54dd889e,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Chicken Nuggets (8pcs),128.520đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0f8uqw3amx85
+7709652a-a2ec-49e7-a6a4-2ba8d14a723b,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Greek Salad - Half,139.320đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4bzqhqfzr870
+ac278e74-1a79-4f87-ba03-316e8925fd1f,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,HERO Chicken Parmesan,214.920đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0k700t1fb8cf
+34b3cf40-cd35-4a06-9446-fe84f05913d6,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,"BLT Sandwich (Bacon, Lettuce, Tomato)",171.720đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0i0lycslnddc
+5ea16799-772e-4cf7-b7f5-40569a95730c,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Epic 1/2 lbs Wagyu Burger - Flame Grilled AUS Beef (HALAL),376.920đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0kaehptio479
+ad91b8fb-dc2e-400b-9516-f6d67bc79040,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Southern Fried Chicken Cutlet - Single,214.920đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0bojkvolac57
+9f170d2a-0385-4bf7-89cd-9e69949e2513,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,3 Bean Chili Cheese Fries,193.320đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+a60dcdef-3a89-4cb8-96bb-1725d829a9ab,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Deep Fried Chicken Bites,128.520đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0bx83sc90924
+0a3bc347-2a1d-411e-8acc-829520642455,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Chicken Chop Suey,171.720đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0f8zf198k946
+f01a896a-b4e3-4a47-ae08-081b7d716868,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Wok Fried Chicken Chow Mein,139.320đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0i0ru26sp0af
+6334e196-72f0-4ac5-939c-98172a0f0786,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Cheese Sauce,42.120đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0bol9n7o3oc9
+028bf859-4479-404d-817a-b367fbfedff9,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Oreo Cookies & Cream,128.520đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4dc0ryobyxfa
+677b0cb0-ac6b-41ba-9b28-420bcc11cc40,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Mango,128.520đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0em7jh1osk9a
+7f620f09-df40-47b0-b8e3-285f836bdb51,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Jamocha,128.520đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+2f1f2bf1-7b45-40ec-bde2-bb9b524a1b1c,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Ginger Ale,42.120đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0gp4036hfo7f
+22f98993-b7eb-4e52-9d4a-feb948f0406c,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,Lemon Meringue Pie,85.320đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0em8lrj25568
+bbebaa9f-9499-4ec3-a599-19bbb1094b5a,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,French Silk Chocolate Pie,85.320đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4dc1sl6qisf8
+096cf754-6e5d-44ee-957b-d0635a528a31,ab3fef6a-f5d0-4da8-9319-7d2a76677ab1,French Silk Chocolate Pie,85.320đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4dc1sl6qisf8
+50bfc522-122b-4d4e-87fd-6f0263b94f13,ef1147e3-d430-4e81-9ac3-53905185fdf2,Bánh Tráng Bò Củ Chi - 2 Người,363.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxjljwt5dj8ba
+da6b92e5-30ce-4614-8cca-658f3b2abcba,ef1147e3-d430-4e81-9ac3-53905185fdf2,Bánh Canh Cua Tôm,130.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvztdx0p02h1e
+93a1710b-9f6a-4414-93c4-46fe1536cc24,ef1147e3-d430-4e81-9ac3-53905185fdf2,Bún Bò Giò Gân,111.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvzre31rul531
+0e29b9be-e5d3-44a7-bda4-40d0ec85ea67,ef1147e3-d430-4e81-9ac3-53905185fdf2,Bánh Canh Giò Móng + Thịt Đùi,94.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+f18c035f-1135-4fad-b737-8991c5a3f4e1,ef1147e3-d430-4e81-9ac3-53905185fdf2,Bánh Tráng Phơi Sương,22.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxg306lwlac82
+aee3c8b5-204f-4350-af51-78a7d1544c57,ef1147e3-d430-4e81-9ac3-53905185fdf2,Nước Mía Đậu Xanh,32.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxnbvlmpbk47f
+58a76a62-e02b-48dd-a72e-04b091ad149a,ef1147e3-d430-4e81-9ac3-53905185fdf2,Cam Vắt,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx4tc6r5va12e
+d502f4e0-542b-4cff-a185-83c46f3b3805,ef1147e3-d430-4e81-9ac3-53905185fdf2,Cam Vắt,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx4tc6r5va12e
+6c0d186e-692c-4f31-bfcd-17b63c58a870,f01e8aa7-79bd-4128-b7a6-ea4519e8c3fc,Cơm thịt kho trứng,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxeiw5nyvus2c
+00e927ee-7373-4bd8-bd9c-508318a6b87f,f01e8aa7-79bd-4128-b7a6-ea4519e8c3fc,Canh rau củ,5.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3afgdcu11gdf
+b724b0b8-67e0-4392-974f-9464ef67ac79,f01e8aa7-79bd-4128-b7a6-ea4519e8c3fc,Bì thêm,7.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6046fm1nt010
+6b8c789b-7355-4e0b-858c-6d3cbf0d8d46,f01e8aa7-79bd-4128-b7a6-ea4519e8c3fc,Bì thêm,7.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6046fm1nt010
+8312e8c6-2d08-4d15-8269-708f449b01c5,7323cca7-721d-4e34-8b0d-1c3ff0435327,Long hoa hải hội,180.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx39813c97d2d
+9e802528-4996-44cf-b8a8-72178790578f,7323cca7-721d-4e34-8b0d-1c3ff0435327,Cà ri Thái,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt56x6kbes46
+417ad4c9-bcca-4ff5-a69b-edee3c876bbb,7323cca7-721d-4e34-8b0d-1c3ff0435327,Gỉa bò nấu tiêu xanh,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxmfjhe8y3d62
+9ed1ac8a-e2c1-49db-9d2f-818d0a6e1c67,7323cca7-721d-4e34-8b0d-1c3ff0435327,Chân nấm kho sả nghệ,65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx35mfizqu154
+15dec4b0-e1e1-4b59-9dd4-29f7040335ec,7323cca7-721d-4e34-8b0d-1c3ff0435327,cánh gà chiên nước mắm,70.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx29tlsb2c9bc
+cb7bcf79-1910-4114-9035-cbba6a3bd311,7323cca7-721d-4e34-8b0d-1c3ff0435327,Nấm sốt thập cẩm,65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx3567gqg908a
+831f5fbd-0d27-4b7a-a92c-e57f7d5dddb6,7323cca7-721d-4e34-8b0d-1c3ff0435327,Đậu hủ kho chả lụa,65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt1crmnp21b1
+9a7e3432-b1b1-48db-a98c-da78388184dc,7323cca7-721d-4e34-8b0d-1c3ff0435327,Salad dầu giấm,60.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt398cgvr86c
+fa34edd3-5343-4867-a610-63442aeeb077,7323cca7-721d-4e34-8b0d-1c3ff0435327,Cơm chiên Dương Châu,70.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvtpfwvqfnocc
+97c65955-8313-4519-ba11-9bdc3d05d6ff,7323cca7-721d-4e34-8b0d-1c3ff0435327,Cà tím chiên giòn,60.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx35kfxwi3d09
+530d8494-07bf-47e0-b440-d1478aa545d9,7323cca7-721d-4e34-8b0d-1c3ff0435327,Spaghetti,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt38lbekyh73
+5665988d-1d8b-47e4-b5bd-58cb722e2efc,7323cca7-721d-4e34-8b0d-1c3ff0435327,Lẩu Nam Dương,180.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx35aj4enx559
+d4256a37-6b60-4543-a1f0-333a3ee190f4,7323cca7-721d-4e34-8b0d-1c3ff0435327,Nấm thập cẩm thêm lẩu,50.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxmoaueslac8c
+a71dd156-d142-40b1-93a8-85f36c45ac9c,7323cca7-721d-4e34-8b0d-1c3ff0435327,Nước nha đam,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx366i1mffd92
+0405780f-87cd-4832-958c-280c31174cf8,7323cca7-721d-4e34-8b0d-1c3ff0435327,Táo ép,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx3at8zluisbc
+0173452c-550a-4365-8e67-5d232c830a57,7323cca7-721d-4e34-8b0d-1c3ff0435327,Pepsi,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5qoam1osska5
+d31a351e-da09-4786-9dc5-bb6ca0ef0a72,7323cca7-721d-4e34-8b0d-1c3ff0435327,Đậu Hủ Lạnh,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7ly3ikxj3qp61
+fc48fc54-ea0c-4c48-9fb6-ed011fda4bbb,7323cca7-721d-4e34-8b0d-1c3ff0435327,Chè Khúc Bạch,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqz2ehjxq07tdf
+c1ba897d-2a7a-4662-8c41-c15e1abcb5fa,7323cca7-721d-4e34-8b0d-1c3ff0435327,Chè Khúc Bạch,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqz2ehjxq07tdf
+a28cfc7c-f5d8-43d7-9cc9-62d51d04a88c,1acacb51-1fe8-4165-998b-19f14dc5c36c,Cơm chiên bò xào cải ngọt,47.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2xer6n3o8my13
+94ccde63-aa8f-4d49-80ed-ab4768e5ffed,1acacb51-1fe8-4165-998b-19f14dc5c36c,Mì Xào Thập Cẩm,67.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2xf9mlu1hh685
+06d59316-401d-45e1-a83f-35d3fb1c0611,1acacb51-1fe8-4165-998b-19f14dc5c36c,Bò xào xa tế thêm,27.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m92lt4a193la59
+66882c39-26b6-42a2-952a-19e561949b78,1acacb51-1fe8-4165-998b-19f14dc5c36c,Bò xào cải thêm,27.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m92lu45mpmx08e
+21dc1c42-249d-4860-af59-60e0bfbb36a5,1acacb51-1fe8-4165-998b-19f14dc5c36c,Bò xào cải thêm,27.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m92lu45mpmx08e
+4dc310ce-afa0-44d0-b8f3-2b0a2b6bd9f1,b34d4b39-2b40-4f1b-8ec7-5aff2771e169,Hột gà,10.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+22ff408e-d103-4797-982b-77fa89510269,b34d4b39-2b40-4f1b-8ec7-5aff2771e169,Hột gà,10.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+52ad0886-9676-4487-8a11-03ea49415f34,f8a7f068-d172-475d-8426-e9bb5b5a0ea1,Bò + Trứng + Khoai tây,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6b4whhzpg93b
+b6cddbad-391c-4e48-bfef-4c111684938b,f8a7f068-d172-475d-8426-e9bb5b5a0ea1,Mỳ Ý hải sản sốt thái,102.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr338ojffb1588
+1ca3129a-70b1-48ea-9e8d-57d606e5d6d4,f8a7f068-d172-475d-8426-e9bb5b5a0ea1,Salad Tôm,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxniztnr2kkce
+166aec2f-c597-40fd-8574-35c25b618a93,f8a7f068-d172-475d-8426-e9bb5b5a0ea1,Salad dầu giấm,39.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+3c232494-bdcd-4638-965c-e73b5a28be48,f8a7f068-d172-475d-8426-e9bb5b5a0ea1,Mojito kiwi,42.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+a4bc2a83-e7f4-493d-bba5-c991e8ce3f24,f8a7f068-d172-475d-8426-e9bb5b5a0ea1,Mojito kiwi,42.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+acabdc81-b55f-4736-abcd-475a08092d8d,db081712-1002-469d-babd-2755d44ef49e,Lẩu hải sản lớn,202.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3nodn3oog482
+4f34548a-e01b-49fa-9717-d91d1ea1ad9c,db081712-1002-469d-babd-2755d44ef49e,Thanh cua,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqz1x0zlju8474
+b5e6b34f-3c21-4e43-b277-8b546af41555,db081712-1002-469d-babd-2755d44ef49e,Combo thập cẩm,120.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr46kt31kk9lbd
+840a1d27-93bf-4b14-861e-a47b7ff9fab4,db081712-1002-469d-babd-2755d44ef49e,Ô long chai,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lxazau66z55l87
+8f59f56f-e560-4ed0-85c7-389ba6ff4c31,db081712-1002-469d-babd-2755d44ef49e,Ô long chai,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lxazau66z55l87
+13ac91f3-bbb5-47f3-9ad3-207c8f90cd64,c7a670ce-c626-4719-b81e-e723e7230576,Gà không Xương Sốt Phô Mai ( Size Lớn ),194.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lra2jaddctdwee
+f83063fe-f536-46b7-8aaa-897965e333d0,c7a670ce-c626-4719-b81e-e723e7230576,Miến Trộn Hàn Quốc,68.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lra2tijukhqcc2
+ab44bfe7-288a-4a2f-8dcb-9bb733f7cb7d,c7a670ce-c626-4719-b81e-e723e7230576,Kimbap Sốt Phô Mai,56.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lra3k1ahf89ldc
+6ef07c8a-14dc-4e18-b96b-15111f2491c2,c7a670ce-c626-4719-b81e-e723e7230576,Bắp cải tím thêm,17.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr361dqsgec9c5
+3c7647b3-6ca6-4f88-bd3d-b1c95f5fa2d8,c7a670ce-c626-4719-b81e-e723e7230576,Nước Chanh Hạt Chia,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lra3v2aegql576
+39967026-5d16-4850-9648-310ab22af7bc,c7a670ce-c626-4719-b81e-e723e7230576,Nước suối chai,14.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+50fb46f8-c375-49e9-925f-49a1636439e3,c7a670ce-c626-4719-b81e-e723e7230576,Nước suối chai,14.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+31045639-e09c-4526-a25c-a76046709f34,429c47f2-f0af-4b73-906b-76d66d1fabef,CB TEEN PARTY 719K,719.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-m0ct584h71cf9c
+807af6ef-04f4-4083-a225-4e486659742e,429c47f2-f0af-4b73-906b-76d66d1fabef,1 Miếng gà sốt cay + 1 Khoai tây chiên vừa + 1 Nước ngọt lớn,60.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0cttymq1ocvfb
+cfda0ac3-63b7-4f30-971c-303597406d28,429c47f2-f0af-4b73-906b-76d66d1fabef,1 Sandwich Gà Giòn Vui Vẻ + 1 Khoai tây lắc vị thịt nướng BBQ vừa + 1 Nước ngọt lớn,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-m0cuk4o3hk7j96
+34ea16af-552f-4b41-a889-4e313b4849cd,429c47f2-f0af-4b73-906b-76d66d1fabef,Nước suối,8.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0cuzbi79bl912
+af7edec0-0147-441e-b151-71bb35af3d0d,429c47f2-f0af-4b73-906b-76d66d1fabef,Nước ép xoài đào,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0cuyg4x5vxpc3
+5aa608f5-140a-4aee-a9f9-a5ed2d2808cc,429c47f2-f0af-4b73-906b-76d66d1fabef,Nước ép xoài đào,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m0cuyg4x5vxpc3
+79fb0ec8-a972-4537-b879-cfb8f0ab8fec,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Ice Cream Oolong Tea Latte,93.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45rps7643x72
+bb83dae0-f620-47bf-9b41-21ebf50c00e4,54d72bd3-fe5b-46a4-8a18-12f22463e05e,S-Grass Jelly Milk Tea,60.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45s9h4cp7le1
+7dae4361-86df-4104-bd78-39eac02c3238,54d72bd3-fe5b-46a4-8a18-12f22463e05e,L-Lemon Green Tea,82.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lznq0gmoxgo158
+fdb1f0e1-6816-4b96-9626-07bc98db7998,54d72bd3-fe5b-46a4-8a18-12f22463e05e,L-Lychee Lemon Green Tea,102.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lznq0lh7u2e917
+5c6a883c-0fd2-4cd5-808b-b264fc77ce49,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Assam Black Tea,58.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45rmgc1irx2c
+2429ad7c-8e6f-4cdc-8581-3eed03d9be3e,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Golden Oolong Tea,58.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45rrzjxzttbc
+9bbba6d5-92d8-4882-8d32-745d0aa94bbe,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Golden Buckwheat Tea,58.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7pfv3afftm981
+2d62d3c6-1067-4eb1-9efe-3414048c37d2,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Peach Pulp Green Milk Tea,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45sfixhydp46
+3a7cabbb-a334-474e-9b5e-1b510f49d2c5,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Lychee Milk Tea,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45s2v212kt74
+f7b62688-17d1-4ce3-a58a-aaf196ef3eb9,54d72bd3-fe5b-46a4-8a18-12f22463e05e,S-Peach Pulp Oolong Milk Tea,58.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45rjfuga4t7a
+240ba20a-aa09-4dde-a003-d6cdf5d30560,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Green Tea Latte,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45rhbjjxvx78
+26e5284e-3b97-45da-9105-ab65d87be2e2,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Brown Sugar Fresh Milk,98.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m1slh70ltnlr34
+2d4146ed-2791-4554-a42e-5eef72bd818c,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Hazelnut Green Tea Macchiato,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45rl0g5ggx50
+0376f4c3-7323-4705-8124-a19d732317e8,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-Lychee Green Tea Macchiato,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45s4dzsocte1
+ba485348-fe35-4479-9650-f865fd52ae78,54d72bd3-fe5b-46a4-8a18-12f22463e05e,S-Hazelnut Black Tea Macchiato,58.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45s3wii98t85
+43cf919d-55f6-4ebe-ab87-1967690ebe39,54d72bd3-fe5b-46a4-8a18-12f22463e05e,S-Hazelnut Milk Tea Macchiato,68.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45sbdnkeqpfb
+5db5f1a3-eafc-45b6-ad60-ec6861c96abb,54d72bd3-fe5b-46a4-8a18-12f22463e05e,S-Lychee Oolong Tea Macchiato,58.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45ri3kexsx52
+451c478e-37f4-471a-a725-a4c1b51df7c0,54d72bd3-fe5b-46a4-8a18-12f22463e05e,L-Buckwheat Tea Macchiato,88.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7pfv6l6m1f5f8
+94c8aa35-ffa3-4f33-844e-524f2c0982f2,54d72bd3-fe5b-46a4-8a18-12f22463e05e,S-Lychee Lemon Honey Juice,65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz45rk1rk7d972
+3cd5a003-57fe-423f-9bef-1e34d27a4f41,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-HOT Green Tea Macchiato,72.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4jgq89pc04g8d
+57cb4b48-3091-4e50-9f30-c4e55552d78f,54d72bd3-fe5b-46a4-8a18-12f22463e05e,M-HOT Milo O Latte,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4jgpm67o2uo8c
+858a7f8f-dbe5-42eb-a045-290e295386fd,54d72bd3-fe5b-46a4-8a18-12f22463e05e,HOT-Buckwheat Tea Macchiato,72.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7pfv408e27l40
+2102fc7b-5a2a-463a-90fd-41e6a6c2fdd5,54d72bd3-fe5b-46a4-8a18-12f22463e05e,HOT-Buckwheat Tea Macchiato,72.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7pfv408e27l40
+c0268a8b-bf50-4777-9647-73f3b686e100,2496ecac-91fc-402e-a91e-59e52b0be888,"257834 Bánh kem sinh nhật ngon Size 18cm-319,000đ",369.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4114u2pbixb9
+c14a0beb-abc0-4683-b625-43e6b4b80476,2496ecac-91fc-402e-a91e-59e52b0be888,A59. Bánh Kem Màu Xanh Nhẹ Nhangg,299.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6njdrsommx22
+83dd62cf-5ce3-43dc-afaf-d6b2a17ad7f1,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem sinh nhật A22 màu đỏ với hoa kem viền ở mặt trên cùng socola trắng và phụ kiện đẹp,349.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzna4fgc1w9d7
+7edb1764-e083-4443-be92-6faa68f2eaf5,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng vợ/người yêu A36 nền màu hồng tạo hình đám mây và nhiều phụ kiện bộ nến khung sinh nhậ,379.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzna6wir4ck33
+60940da5-5e3f-4195-a6af-35da6ec630c5,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng vợ/người yêu A40 màu vàng nhạt kem ở giữa có trái tim màu trắng ấn tượng,349.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzna683pg3o3c
+1ef8fbf4-b2a5-4893-aace-2f54eed42954,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem sinh nhật A19 màu hồng viền trắng xung quanh ghi chữ màu trắng phong cách Hàn Quốc,349.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6nma8tstdwe7
+ed9750a6-a0f4-4322-ab3e-e3b74c723f75,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem người yêu R03 đơn giản như đang giỡn .,299.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzgztj6bxl096
+6417cc4f-ef29-449d-8a81-703ad031f8d8,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem trái tim T17 nền trắng kèm hoa xanh vàng ở nửa bên cực ấn tượng dành cho nam.,429.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3z4d6tiev84a
+9b9c6028-d0b2-4f9c-9c07-657ec4650359,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem sinh nhật đơn giản A44 nền màu xanh hoa kem màu trắng ở nửa bên cắm phụ kiện tim.,349.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr40l4zvdgp06d
+0f9a31b4-fe60-4fb3-827a-fedd5a1c5f6b,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng phái nam H10 trái tim trắng tinh khôi điểm xuyết tim đỏ bé xinh khắp bánh cực tinh tế,429.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzmr71dguro8c
+e45f319f-7e1f-4025-a06f-db24a7c1773f,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem công chúa E12,399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6q2oiux5ll93
+e7e2b9a6-ba4b-4fb0-bb91-5767288a0154,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem búp bê E17,749.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3xyvgte5l0d1
+c156f3e3-554d-41c0-8dc2-e8f73931f913,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem búp bê E13,399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6q2lqf052133
+9ca615e3-21ce-48f4-a104-afe071e4ebf8,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem người nhện Q01 (20cm),349.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzgvf3c6t3876
+1615238c-ba12-42a7-ad50-1f8fa73d3c34,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem người nhện Q12 (21cm),379.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzgvc5wh3no86
+b3ca44b9-b386-4abf-9157-45c7529d2dfa,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem xe ô tô J02 ( 22cm),399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3xz9dd1o049b
+c280f9ce-dae6-493a-b825-9951b5d2378b,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem xe ô tô J10 (23cm),429.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzjbr56khqcd1
+77ac2ad3-d12f-4734-9e14-b75ed511906a,2496ecac-91fc-402e-a91e-59e52b0be888,"Bánh kem bắp B13,",399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6q04jbj6vt40
+297c1b95-8b20-4364-8030-a97827a608af,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem B04 (20cm),449.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqznn4k3a9axc1
+de6056b9-0c06-4637-ba9d-64446f3e7bc4,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem socola S21,479.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6q0176f078a8
+e432d65f-82e6-4cec-b88d-abaa70309257,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem Socola S14,379.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6kr6h9ipw9a5
+e67d62c1-bc44-4834-ab73-f501fc7d3fb2,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh bông lan trứng muối Y04,349.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6nvf9ibk5ga3
+732546f4-fa27-4997-9aea-948364be4e34,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem hũ vàng tiền đô U09 màu đỏ nơ vàng đính nhiều xu tiền vàng.,449.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr40ntxjir4457
+6da3f0c2-c974-49e4-9f0e-1235f2d9bbfe,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem hũ vàng U03.,449.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr40nsvj2dndec
+fd5b49b3-b711-434c-95ee-f07e81b86766,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem vuông F20.,479.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzjecam958k1a
+23d57336-633e-4308-9f14-aaa684b9e6e0,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng cha C05 nền trắng viết chữ thư pháp tặng Cha viền xung quanh là những bông hoa màu nâu,399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3z3ubv3zbt16
+a9846a0a-d3d9-45a6-8807-dc2a54fc962d,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng cha C09 màu nâu trắng với đóa hoa tạo thành hình chiếc nơ ruy băng bằng hoa ấn tượng.,399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr40kd5o42bo14
+c8bce1d9-95a9-4848-855f-37700a844e2e,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng cha C19 siêu đơn giản nền trắng viền cỏ hoa nhiều màu cực xinh kiểu Hàn Quốc.,349.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzmqq1ackhw57
+42f61d0d-ae5b-4e2a-af21-86ff2b403cf9,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng mẹ M03 (22cm),399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzgvgs3pvwk5e
+856b7cd5-3e13-47d7-bd7a-da9e4378da79,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng mẹ M27 (22cm),399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6q4i60uy6x21
+4ae1b02b-2085-40ad-b521-12dae3f6e39a,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng mẹ M02 (21cm),379.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3xvb6f4m8pe1
+321bb6ff-482c-4faf-9621-a68ff487e2d2,2496ecac-91fc-402e-a91e-59e52b0be888,Bánh kem tặng mẹ M29 (22cm),429.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzm1zgtl6f8f2
+61f642a3-bf80-4fce-b40b-88d3382ba37a,2496ecac-91fc-402e-a91e-59e52b0be888,N52 Bánh Kem Merry X'mas,379.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3y4w7e80wpc2
+515af12d-5c3a-42dc-8565-210b6c19b715,2496ecac-91fc-402e-a91e-59e52b0be888,F1 - Bánh Kem Giáng Sinh,399.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3yj2ezl9y12a
+3a1ecb4b-bf83-4660-97bb-e0222febedea,2496ecac-91fc-402e-a91e-59e52b0be888,Giỏ hoa hồng đỏ,650.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr42h61lhlll64
+db4e2f31-7afc-4d52-844b-7360d2f03ac4,2496ecac-91fc-402e-a91e-59e52b0be888,Giỏ hoa hồng đỏ,650.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr42h61lhlll64
+8c1303f1-228f-49fb-8264-12853c77ed66,7b3d8145-2663-44e9-9d16-5f9a331df203,Flan Caramel,120.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy2yganc4gp01
+54baeb97-a29b-417e-9606-ec8e8f95d10a,7b3d8145-2663-44e9-9d16-5f9a331df203,Flan Caramel,120.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy2yganc4gp01
+cf144bfd-1eac-4641-815d-dcb3c3c3322a,734fc522-10b0-4d77-a199-7ba774cfcff0,Đá bào Matcha,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxhovlp2nix2e
+a8d680aa-b56c-4f27-bce6-64c9a99e0b56,734fc522-10b0-4d77-a199-7ba774cfcff0,Trà sữa,17.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx372ics5vo28
+08470581-62fe-411a-8a5e-4443e11df9ba,734fc522-10b0-4d77-a199-7ba774cfcff0,Trà sữa viên thuỷ tinh,27.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx34gxxpfpg38
+8142adb5-3bfb-4627-8ac4-7cff2cf5e1ad,734fc522-10b0-4d77-a199-7ba774cfcff0,Trà sữa đào + miếng đào 1L,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx350kwyuu1d9
+67e5e2ce-917a-48b5-8dc0-07a164c2ad0f,734fc522-10b0-4d77-a199-7ba774cfcff0,Hồng trà đào,13.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx33ulkej6hdb
+704e826d-7c01-47b4-b2c6-3c39fc358363,734fc522-10b0-4d77-a199-7ba774cfcff0,Trà Vải Dầm,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy2irx18hqc27
+36c28260-1d40-457e-831b-5de7e935b0d7,734fc522-10b0-4d77-a199-7ba774cfcff0,Soda dưa lưới,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx33boe3cn888
+c8d60376-465d-4e7d-8af3-d2da3751e774,734fc522-10b0-4d77-a199-7ba774cfcff0,Sữa tươi cafe,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx33xfeax7d79
+5289a01d-cc58-41ad-86bd-26943f6d95e0,734fc522-10b0-4d77-a199-7ba774cfcff0,Sữa tươi cafe,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx33xfeax7d79
+4365aa5c-18d9-49ea-930a-dd7afc2f598f,0d34d669-dc2d-420e-ab74-ffc1cb862eb0,Bún thái mực tôm,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m3ob6anpranwfa
+899ac628-b150-42e2-8f46-c3c87f7d6b07,0d34d669-dc2d-420e-ab74-ffc1cb862eb0,Bì Thịt Thêm,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3h90g8g42hb2
+9952006d-2665-4788-b3d6-7550a9bd7122,0d34d669-dc2d-420e-ab74-ffc1cb862eb0,Nước xâm nhà nấu,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6ycydtd2v8ad
+ed0ae6f1-9571-4a21-9ea6-21c9b1e35f32,0d34d669-dc2d-420e-ab74-ffc1cb862eb0,Nem Nướng,19.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lquln112k2op58
+4aad2d14-1b97-449e-aef7-2a64c0340a9b,0d34d669-dc2d-420e-ab74-ffc1cb862eb0,Nem Nướng,19.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lquln112k2op58
+1955481e-ff32-4d7c-9946-d394f9d5336b,6e6382bb-5105-42a6-8e72-282b4bb37e84,Hoành Thánh Sốt Cay (size L),70.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lyw5n9imy6chca
+24092d2d-2dd1-4594-9b1e-fb8cee6de155,6e6382bb-5105-42a6-8e72-282b4bb37e84,Sủi Cảo không,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4a72s9jxt4063
+e55573c6-11e5-4b59-b077-c5b289b30636,6e6382bb-5105-42a6-8e72-282b4bb37e84,Cơm Gà Nướng,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lyw6bfllot5t14
+d6580c01-c1b7-4705-ab21-d90320e20435,6e6382bb-5105-42a6-8e72-282b4bb37e84,Trà táo đỏ nhãn nhục,42.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lyw6mjv5y5hpda
+19e2c2ad-6e41-46c3-874b-c71e8fedd868,6e6382bb-5105-42a6-8e72-282b4bb37e84,Cải Thìa Sốt Dầu Hào,31.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4a6z7aqo0jzd9
+6a6a3fa7-32c7-44c6-9bf4-08c822cfbf05,6e6382bb-5105-42a6-8e72-282b4bb37e84,Cải Thìa Sốt Dầu Hào,31.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4a6z7aqo0jzd9
+f6472262-7b72-45ba-8ddd-f137a52a328c,832e7129-a327-4f73-98c2-0896ed557ffb,Mi Tron Xa Xiu,48.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqz9ii808s7883
+d1e195de-f42f-4adf-acb0-c999f9e4dd9d,832e7129-a327-4f73-98c2-0896ed557ffb,Mi Tron Xa Xiu,48.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqz9ii808s7883
+68bb73c0-e027-4182-8d73-a14c4a11b7a0,aa425bc2-f55e-43cd-927d-b5d25d13df0f,Lòng thập cẩm (chọn chiên hoặc luộc),51.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvt8anl0m2s4d
+5cb845f1-8c37-43a6-afff-27adc15ccfab,aa425bc2-f55e-43cd-927d-b5d25d13df0f,Sấu đá/ Nước mơ,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2vknqgqh092c
+1f094587-4cee-4350-84ee-3009696b79f4,aa425bc2-f55e-43cd-927d-b5d25d13df0f,Nước suối,8.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2vobmfqe1lcf
+dc80c343-fee6-44b9-bbe6-d5529b13c67a,aa425bc2-f55e-43cd-927d-b5d25d13df0f,Nước suối,8.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2vobmfqe1lcf
+a3591be8-1980-4926-b8a0-06b629774aec,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,Phô Mai Dâu,10.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4xfiewnxa8399
+e59acacf-dfab-47b5-abc9-4359c618cab5,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,Hồng Trà Truyền Thống XL Khổng Lồ,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m5c5sp6qczsm86
+b1578107-44d2-4584-a373-ec3578158b16,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,Trà sữa Đậu Đỏ,31.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lzfxw4z1ngp9e8
+62159030-66c1-4577-9688-f863c7a71861,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,Trà Sữa Đào Phô Mai Đào,39.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2q6549yac5i36
+ca2eb27d-29e6-4fcf-ba71-cd8bc01208c0,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,Lục TS Phô Mai Khoai Môn Nghiền,36.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2l6xz6528062a
+1abdd3c7-2223-4621-9ca1-27fbb0790593,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,Trà Lựu Đỏ Thạch Dừa,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lrh2ya7jivusb1
+8571476e-821c-40f8-9d46-b7c2b474579b,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,Trà Olong Mãng Cầu,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lykkcttvifmp31
+08b46bec-f199-4283-bfdc-ecb2c902b5f4,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,TRÀ SỮA TRÂN CHÂU,26.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8x7ksesm16v91
+4f858425-7a18-4443-8fac-6f8ee7200297,f7c9dda6-2bc3-41ea-8b02-6a71644cd8ff,TRÀ SỮA TRÂN CHÂU,26.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8x7ksesm16v91
+3e82c044-3d86-48fe-80eb-0631c70803a9,48d98950-021d-429b-9ea3-31ab97efc29c,Big Party Combo,359.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m9dcsv1a4gg4b2
+de387ed8-7567-4b57-9822-0a05862ab797,48d98950-021d-429b-9ea3-31ab97efc29c,Pizza Núi Lửa Phô Mai Bơ Gơ Bò Mỹ Xốt Phô Mai/ Cheese Volcano Bacon Cheeseburger Pizza,365.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8lesr3m6ezy7b
+e3b82cb2-d506-4b1b-a4e7-bafb24b0f8cb,48d98950-021d-429b-9ea3-31ab97efc29c,Pizza Thập Cẩm Thượng Hạng/ Extravaganza Pizza,125.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxz7yoqg0job9
+5a446b8f-8b79-4d44-89c6-5efb9bab475c,48d98950-021d-429b-9ea3-31ab97efc29c,Pizza Bơ Gơ Bò Mỹ Xốt Phô Mai Ngập Vị Siêu Topping/ Super Topping American Cheeseburger Pizza,265.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz76cqjhizil7a
+e23ec171-26cc-4e47-a9c2-0013d4ebb3fd,48d98950-021d-429b-9ea3-31ab97efc29c,Pizza Thanh Cua Dứa Xốt Phô Mai/ Cheesy Crab Stick & Pineapple Pizza,105.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lzjyrdbopphp7e
+57617e0e-192d-484d-bc00-fe8853ad6369,48d98950-021d-429b-9ea3-31ab97efc29c,Gà Viên Phô Mai Đút Lò/ Cheesy Chicken Popcorn,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzgn05li1fode
+20f5611e-c188-4270-b464-b57809e20f38,48d98950-021d-429b-9ea3-31ab97efc29c,Bánh Sừng Bò Xúc Xích/ Sausage Croissant,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m3ybf82zdbxx5f
+2cebbf48-23e3-4bfc-84fa-39948cf76720,48d98950-021d-429b-9ea3-31ab97efc29c,Bánh Cuộn Xốt Sô-Cô-La/ Chocolate Roll,59.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzjrn7zehtwcf
+1a83d59d-491b-4711-939b-e03ec40767fe,48d98950-021d-429b-9ea3-31ab97efc29c,Chai Trà Đào Hạt Chia/ Chia Seed Peach Tea 350ML,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4e5awzx0h2odf
+10c14b18-4c9d-4dab-843e-26c30768f079,48d98950-021d-429b-9ea3-31ab97efc29c,Chai Trà Đào Hạt Chia/ Chia Seed Peach Tea 350ML,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4e5awzx0h2odf
+618fe291-0736-42ac-a851-39b7a85b0ded,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Trà nhài chanh dây 330ml - ăn kiêng Das / Keto / Lowcarb,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-m05sihnorjzha9
+5f2d3c75-6704-44b8-a293-b2974c09ac70,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Tiramisu matcha - for Das / Keto / Lowcarb/ tiểu đường,95.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz75ghkgs6rxca
+1e50aec2-05dc-4664-8570-44f1fe64ea09,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Sương sáo dầm,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz75u7x11tn1c9
+f22304ae-5ea3-45c2-b167-01c9c54877ab,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,100g sốt dầu trứng,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz768fqw1t1p4c
+38753741-c126-4d53-8ad9-8fee287d0775,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Bông lan hạnh nhân topping sốt dầu trứng - ăn kiêng Das / Keto / Lowcarb / tiểu đường,69.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lz76fhjingi536
+b2b056a0-6ef3-4fe9-9bd2-9d412b306666,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Bông lan chà bông size S ăn kiêng Keto / Lowcarb,53.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-ltcoin2vinx562
+27fd0908-0e35-418f-a10a-a94b605b2832,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Trà sữa vị đào 330ml keto - das - lowcarb,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzlfilr9eisb3
+00b7ca64-5b58-4700-ac4e-6f7e7f71e63f,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Pate ăn kiêng Das / Keto / Lowcarb,24.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0qefu9vv6h8a
+85fd1b64-c191-40c8-8590-5e5b7699c65f,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Chả lụa 500g - for Das / Keto / Lowcarb,110.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0kqz9si6dgcb
+06d82df5-1e67-4347-af3d-84e850771c4a,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Bột sương sáo,26.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxyepefsujd8f
+d73e7b19-81b4-44d3-8831-1fcfc9a74f5a,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Rau câu dẻo,11.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5vincyffyx15
+122851d8-b366-4b4d-8dc8-202f28ce455d,9ac173ba-fd4b-48b7-8af2-3da73ef0a72b,Rau câu dẻo,11.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5vincyffyx15
+1b4a9c35-e6e6-497e-a690-85d8cfd1b42a,64a777da-d844-425e-988f-ab0e758abbbc,7up,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2ukx3e7bime01
+3dea027f-c491-4351-8f2a-6d344b813d3e,64a777da-d844-425e-988f-ab0e758abbbc,Hủ tiếu sườn,72.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2kh8u4ywkjqb5
+8f12cec1-a1cb-41d1-bd23-43ab17f0a3e8,64a777da-d844-425e-988f-ab0e758abbbc,Hủ tiếu sườn,72.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m2kh8u4ywkjqb5
+2538a60d-428e-4079-a8f6-f89fc94b68c0,cb97c388-6283-4799-828a-91d4e10ccedf,Bò xào cà ri,140.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxov0n5u0uc2a
+8e6feef2-688a-40f4-a62d-3cd01e847cb5,cb97c388-6283-4799-828a-91d4e10ccedf,Ếch chiên nước mắm,140.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxpdtwiquu137
+156fb64a-d496-41db-87cc-6fb2fde188e1,cb97c388-6283-4799-828a-91d4e10ccedf,Tôm rang me,140.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxoj7ce7h6sa6
+a66d8d82-3ad5-467a-b9c1-7d4953c55a1d,cb97c388-6283-4799-828a-91d4e10ccedf,Cá Diêu Hồng Chiên Xù,300.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5y0pyfbjx5c7
+e783d11a-0a71-4c80-b247-05de3ed992a1,cb97c388-6283-4799-828a-91d4e10ccedf,Hủ tiếu xào hải sản,100.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxov3rt966x98
+cb48be55-d7ec-427e-bc1a-12d77bd8b0ab,cb97c388-6283-4799-828a-91d4e10ccedf,Mì Xào Rau Muống,90.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5ybv8c2b2xd7
+a12941ac-38aa-4d7c-93de-6b98c5ba8b2d,cb97c388-6283-4799-828a-91d4e10ccedf,Lẩu cá gộc nạc,300.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5npll4kbrt88
+0dd88187-83a7-4a2e-971d-8098d8a1374b,cb97c388-6283-4799-828a-91d4e10ccedf,Lẩu tôm,320.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr323goavq8p84
+31dd964c-a925-43f7-9eb2-9084aa161b69,cb97c388-6283-4799-828a-91d4e10ccedf,Rau Muống,10.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr37ae0hb5c4dc
+0028b1a2-6e85-4f93-83b6-c2f2e3c35a5e,cb97c388-6283-4799-828a-91d4e10ccedf,Thêm Cá Gộc Nhỏ,140.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy1t76amqah7e
+4bf38cac-56d9-4dde-9d89-90aaf710d4d9,cb97c388-6283-4799-828a-91d4e10ccedf,Thêm Mực Lớn,300.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy1t9sct32c44
+284a79e6-b30f-4031-b66e-df374f8d1c0a,cb97c388-6283-4799-828a-91d4e10ccedf,Thêm Lẩu Tôm Mực lớn,300.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8zpy2jwe7wif4
+55810f0e-5609-49bc-a14f-b108276f7058,cb97c388-6283-4799-828a-91d4e10ccedf,Thêm Lẩu Tôm Mực lớn,300.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m8zpy2jwe7wif4
+9f4b4e58-f2a3-4d34-a6e0-bf1426fa09b3,8e5d906c-c75b-44a9-b330-0284dba329ae,Lẩu tôm,200.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+e557f7b8-1f61-4ed5-a9b7-0dcc7d4c2b48,8e5d906c-c75b-44a9-b330-0284dba329ae,Lẩu tôm,200.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+fb626aa7-d864-4883-b5ab-8218369a9504,a4eca0f2-c56c-4020-968d-aca131c289f3,Trà sữa socola Size M,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5uwhdy5xvo3f
+cc25cb1e-d01a-4d8f-a375-f820cbc29e16,a4eca0f2-c56c-4020-968d-aca131c289f3,Trà Sữa Olong Gạo Size L,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqz05wtol6mc85
+47f072a3-4b01-4614-a1da-10fef1ad1ae7,a4eca0f2-c56c-4020-968d-aca131c289f3,Thái đỏ L,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m3ag4eqw4quka4
+030827a1-26b5-4174-8104-fef6a4af025e,a4eca0f2-c56c-4020-968d-aca131c289f3,Trà ổi đỏ,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr35oxrfy07t0c
+2bd0ae53-425f-446a-aece-342a912641c4,a4eca0f2-c56c-4020-968d-aca131c289f3,Hồng Trà Milkfoam,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5yc2fhj2jd3b
+d6a9e375-82f2-4e59-a34f-9043b3265cd9,a4eca0f2-c56c-4020-968d-aca131c289f3,Soda Bạc Hà,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy9goy762f8e3
+d36e0774-7360-44d6-80fd-b0d6f37ac631,a4eca0f2-c56c-4020-968d-aca131c289f3,Cacao Kem Phô Mai Size M,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5xu5allvpged
+20dcdf71-913f-4480-95d1-828a70277d4e,a4eca0f2-c56c-4020-968d-aca131c289f3,Milo dằm thập cẩm Size L,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr33t92rql6s24
+c2fd1684-58a4-42d7-abab-2246bdc20e8b,a4eca0f2-c56c-4020-968d-aca131c289f3,Sữa Chua Đào Dằm size L,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr37yp24samc81
+7ac8dae2-46af-4d22-ae63-736bd4e53339,a4eca0f2-c56c-4020-968d-aca131c289f3,Sữa Chua Đào Dằm size L,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr37yp24samc81
+0d508efa-5b83-4225-8b60-0947955a757d,0e7d74ff-2227-4f6c-bcb1-ba6fbd7042bb,Đùi gà phủ xốt,37.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqyy26dqu4lg1b
+5b22401f-5445-4613-90f1-b6f3c027bf1e,0e7d74ff-2227-4f6c-bcb1-ba6fbd7042bb,Cơm xèo thịt viên,55.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+f9ca790e-9869-4341-9267-e90f6a215703,0e7d74ff-2227-4f6c-bcb1-ba6fbd7042bb,Udon xèo bò,99.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+77bedadc-d951-459c-8718-911f387a8c59,0e7d74ff-2227-4f6c-bcb1-ba6fbd7042bb,Rau xèo thêm,15.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+1c6011a7-e22f-4223-afc9-cb69aa8ae112,0e7d74ff-2227-4f6c-bcb1-ba6fbd7042bb,Trà Đác Thơm,45.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lx266esx2qc92c
+1796d65f-0df6-4b18-ba97-86846f68288d,0e7d74ff-2227-4f6c-bcb1-ba6fbd7042bb,Xốt tiêu ớt,6.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+374e39b8-e1c9-4f27-8e31-d5e6035887b8,0e7d74ff-2227-4f6c-bcb1-ba6fbd7042bb,Xốt tiêu ớt,6.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+f474804e-3274-4916-bfe1-6bdca7627fc1,9bdb5ba7-133a-4306-b939-882c451f2b17,Tôm thẻ nướng mọi,99.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-luc86y73ia7307
+a53ddca6-1ef9-4484-9b34-21633df3d447,9bdb5ba7-133a-4306-b939-882c451f2b17,Ốc mỡ sốt tiêu đen,99.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+299862ca-d555-459e-baca-5a5f6644c154,9bdb5ba7-133a-4306-b939-882c451f2b17,Sò huyết rang me tóp mỡ,89.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzxfjhdl2ftd3
+57ad404d-cfbb-4e37-adb0-07f0614f1bad,9bdb5ba7-133a-4306-b939-882c451f2b17,Ốc len xào dừa,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzjyrhydehl6e
+0cb3bc03-153e-4071-aa99-0e3bc2fba0a4,9bdb5ba7-133a-4306-b939-882c451f2b17,Nghêu hấp sả,69.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzfojnetvwk5b
+b529f29c-ae81-4c72-8e70-bc8e84a13bc4,9bdb5ba7-133a-4306-b939-882c451f2b17,Ốc hương trứng muối (không phô mai),109.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr73zc9pcnus66
+1e5fc18c-ea75-43ef-89f3-1c22f53d8f2e,9bdb5ba7-133a-4306-b939-882c451f2b17,Ốc bulot hấp sả,99.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzirn009km142
+2d2fb2d6-8c5e-431e-a9ee-26854efa0f38,9bdb5ba7-133a-4306-b939-882c451f2b17,Chân gà rút xương sốt mắm tắc,79.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lzyuctxbo2fha2
+c448ef6f-ffef-48ec-bb66-620be0774ea1,9bdb5ba7-133a-4306-b939-882c451f2b17,Bắp xào,39.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+caeeb72d-00b4-4d60-89b4-f70d9d66412d,9bdb5ba7-133a-4306-b939-882c451f2b17,7-Up,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzsixfhqvusfd
+6e1850fa-3359-4b29-bb39-2e0d41adf50e,9bdb5ba7-133a-4306-b939-882c451f2b17,Nước suối,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-ly6hxrb071vxae
+fa4bc9a3-3d58-4f6f-adc0-3949c918efe2,9bdb5ba7-133a-4306-b939-882c451f2b17,Nước suối,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-ly6hxrb071vxae
+c1f45b6c-0d79-4bfa-81d9-28e7f01344ef,94fffb95-0ff4-43a0-b13f-700135702201,Nem Chua Rán Giòn,38.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2r5gzozg6165
+fcb223e8-b762-4327-a226-f77af4f51c13,94fffb95-0ff4-43a0-b13f-700135702201,Trà Tắc Vàng Mật Ong,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2r52ujoix03f
+2f024685-74ef-43b8-99c5-ec65d42fa499,94fffb95-0ff4-43a0-b13f-700135702201,Trà Tắc Vàng Mật Ong,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2r52ujoix03f
+7e156988-9cfb-4b30-b41c-c7fc902c8e3a,e48c8040-7e8e-4dd8-aa77-d73b3bbe3946,Trà Sữa Sầu Riêng Kem Muối,55.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-m0442hcwgcjzed
+71904f89-861a-482c-84d7-09c8d5626035,e48c8040-7e8e-4dd8-aa77-d73b3bbe3946,Chè Khoai dẻo Đậu đỏ mix viên phomai,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lsvm50fqjdfo6e
+464500bd-f278-424b-8aee-0f87a66c5ffe,e48c8040-7e8e-4dd8-aa77-d73b3bbe3946,Chè Khúc Bạch Chang Hi,38.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy4kqhcw81w70
+5d988aeb-5d35-4578-80fa-957a96dc1e5a,e48c8040-7e8e-4dd8-aa77-d73b3bbe3946,Chè Pudding Xoài Trân Châu Thạch,22.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr08uidgz3ix8b
+ec946576-6b26-4f3f-8b34-46f739887b90,e48c8040-7e8e-4dd8-aa77-d73b3bbe3946,Nem chua rán Hà Nội,57.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lrck8qq2ep5040
+8015d808-aa16-4c8b-a9e5-7e8095a88332,e48c8040-7e8e-4dd8-aa77-d73b3bbe3946,Măng cầu rim,10.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4fre9xm9w9df
+816b2b63-7de5-4dc3-81dc-f7e1394f0eaf,e48c8040-7e8e-4dd8-aa77-d73b3bbe3946,Măng cầu rim,10.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr4fre9xm9w9df
+34b9d609-e68c-4878-9413-faf53c7e548e,c0318f87-b890-4fbd-8147-47b695ca6788,Tàu hũ đá,20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+14f46b72-2f0d-41a0-8063-8f22bdf32106,c0318f87-b890-4fbd-8147-47b695ca6788,Trái vải,20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+63ea5a99-3d54-4ef9-85db-697690ca08e5,c0318f87-b890-4fbd-8147-47b695ca6788,Trái vải,20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+8bb8fb25-a62b-48cd-968b-2c4274a6ad81,ca409f10-1802-49e1-a063-5162a79c9994,Tré trộn cốc xoài tỏi ớt rau răm + 1 bich phong tom,64.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4q1wocxxt9sad
+be4021d7-9249-4731-b9ca-ce3f9964c4d4,ca409f10-1802-49e1-a063-5162a79c9994,COMBO TRÉ TRỘN SIÊU KHỦNG LỒ+1 CHÂN GÀ SỐT THÁI +1 PEPSI 2 BÁNH PHỒNG TÔM,175.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4kng1lmrna8fe
+38afad65-8b95-4253-bd2c-2d37db08ea8e,ca409f10-1802-49e1-a063-5162a79c9994,TRỨNG GÀ NON MIX CHÂN GÀ SỐT THÁI HỘP SIÊU TO,129.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7jdgdfodc70c7
+dc3dacb2-95b0-4cb9-bda3-57932b8787bb,ca409f10-1802-49e1-a063-5162a79c9994,Bánh Tráng Trộn Nem Xoài Cut,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m4q1y808i807b1
+71ca3c9f-3cdf-47ff-a7af-2991f2ad0fa5,ca409f10-1802-49e1-a063-5162a79c9994,Bánh tráng chấm sốt muối béo,13.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m44se07lxg5j69
+36373585-8ddb-44df-bc3c-d9e8ea273dca,ca409f10-1802-49e1-a063-5162a79c9994,Tré cây,10.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxx1jtfdf2xf0
+6d94d6ae-51c7-4564-856f-4f612176bac4,ca409f10-1802-49e1-a063-5162a79c9994,Coca-cola,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx1rhly4pmsca
+8425c6c8-83a3-4842-9695-effb3d2e2f55,ca409f10-1802-49e1-a063-5162a79c9994,Coca-cola,15.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx1rhly4pmsca
+6bd62120-8601-462c-8909-c0c4c39fb3e8,3c3ee5cc-59be-4dff-b4ec-e7131a6fe696,Gỏi xoài,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxbng6bkcsk12
+ed5a1ebc-0de7-40d0-ac6e-35dc0ef29045,3c3ee5cc-59be-4dff-b4ec-e7131a6fe696,Gỏi xoài,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxbng6bkcsk12
+a6a10915-6bc1-4790-b73d-992467401b29,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Sò điệp chiên giòn,165.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+30da8f95-8ab4-445e-861e-80c9470a8b4a,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Canh rau cải tàu hủ thịt heo bằm,195.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+cf7b0ab8-cb6a-4ac9-a27a-dc6fca255758,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Gỏi xoài cá diêu hồng,245.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2r482crmx0ac
+b1ce962f-37da-4759-b190-674f83631299,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Trứng chiên heo bằm,155.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx2j1b0wiboc5
+aae8e77d-6035-4c3c-8031-dade46e723cb,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Cá hồi nướng tiêu,245.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+409fd86c-32f8-4028-9960-48c7699d33dc,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Cua sốt BangKok,650.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+8914a563-3a3a-423a-859b-746ea654a2b4,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Cơm nếp,20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+d8a00dfd-b3e4-43dd-a1ab-0e5950da64c9,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Miến áp chảo tôm,195.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx2iwp3nbgk65
+94486cfd-de42-458a-a14e-88311316d807,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Cà ri đậu phộng đậu hũ,145.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+cc492370-db6e-4db1-af3c-3f6117918beb,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Bánh flan,20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+673c8031-44ec-4153-a0e6-ada5d6910562,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Trà lipton sữa,40.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+dc1bd12b-aab3-48c1-851c-98453cbd2046,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Sinh tố kem khoai môn,65.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+a41c131a-d2f7-41ed-b4af-3033e8609c7d,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Chanh dây,45.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+097238ad-7762-4028-83ce-ab0ca2d371b1,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Dừa tươi,35.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+530ba1d7-8086-42e0-a83e-4ae25fdbed23,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Bia tươi Heineken lớn,75.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+10193787-0e36-4bd0-a696-2a0af8b285da,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Bia tươi Tiger nhỏ,35.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+6f8ed18b-9f09-437c-93a5-ccd00ddf89b7,32f4fdd1-fd7c-4265-a6eb-b06e94c8819e,Bia tươi Tiger nhỏ,35.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+b916e2ff-8386-4aa2-8fac-ae204032160d,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Cơm cá kèo kho tiêu,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvtdvvciu1lcc
+8a70820c-5a6e-4491-82dc-703e273aa0e0,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Cơm chiên hải sản,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvyte4kvxqxed
+c4af5c5d-d526-4e89-a232-d068e1d804cb,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Canh xà lách xoong cá thác lác,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvtfvw9jvrt19
+0d119bc8-3eaa-456b-9f8f-482762ed2c10,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Canh bẹ xanh thác lác,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy1g1v79dqc55
+38800c33-6ddf-4654-a4df-5f63e9c7665e,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Hủ tiếu Nam Vang,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvtm05wsc7812
+60513a4d-8c1f-4a29-8d60-333172b624e2,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Mì gà quay,95.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqy1ljtbl61033
+104086bd-f1bd-4d69-bcd7-bbff26d96f67,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Miến thập cẩm,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvz41z5655l6e
+312b9fa1-9dab-4267-9936-1c41dabca5a6,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Sủi cảo mì,75.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxy9f4o8nfd68
+b3f86de7-d973-446f-8091-319bf5792349,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Gỏi gà xé rau muống bào,179.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvyqvghkjh51b
+a4c639f0-16ff-41d2-b38d-a7c5e78d6b0f,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Hủ tiếu xào hải sản,85.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvyvh7d0qs96d
+cf5a20a8-21d0-4e21-9a7e-c18e820340ce,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Miến xào cua,85.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvyr5jew97d33
+8786b87f-ff13-44dd-b2a6-7e7f2f245701,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Nui xào bò bít tết,90.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr37mtboq1zt03
+cbc707c4-efdc-4d32-a4ef-b0509fe4a90b,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Bò xào tương hột,99.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ras8-m1y6oyjefbtne7
+9df3691c-412c-4828-a5b3-e641ed795900,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Tim gan cật xào sa tế,99.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvtmqu7r1qx33
+cb78da01-ff36-44c7-83fd-cb35c13a6480,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Cá bống mú sốt chua ngọt,890.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx4j0zsa55l9e
+721a3b55-db08-40a6-b34e-ddb75941a473,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Ếch xào xả ớt,89.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvtjkc7qkecc4
+350733cd-1393-45bc-a484-b35a603c21a1,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Tôm xào chua ngọt,109.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvte5jucuqh0c
+aa6ebb65-f40a-45d7-b5f5-6768f6dac7d3,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Mực xào cải rổ,109.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx8vbd4rpac52
+de14fca4-1429-4c29-9731-f52fb8b10b08,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Thêm rau,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx4j1th2p508e
+d614993a-c4d2-47da-aa12-a30fce149217,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Tôm xào tương phong vị (chay),89.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5whkqiesas53
+5314801f-a789-490d-a073-b6b95e219867,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Súp thập cẩm đông cô (chay),65.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvyr665w5g96a
+02c676bc-c3dc-40d6-9e4b-35f4957957d5,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Mướp hương xào nấm (chay),89.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr36twaa5p5l5e
+0b08fb85-83e9-498a-8ff6-dbf44cadb1fa,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Cơm Gà Tay Cầm (Chay),80.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr38ayvi8pehf7
+f0b64019-8fa2-4b3e-bf09-f8c94150b957,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Miến thập cẩm (chay),70.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5w26zsqtnd17
+a11e6a06-07e7-4ef3-b83e-4791e6bbc6f5,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Mì xào Singapore (chay),80.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqvytfguxac997
+41861edb-40a5-4d35-a9c5-94e2fa147710,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Lẩu chao (chay),290.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr36axdjihlla5
+fc6705b2-6271-49e1-b6e2-de4b957390e5,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Sinh tố bơ,39.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx4jij0meu1ff
+d7f9361c-ac7e-4a8b-ac9c-79187428d2cc,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Sting,20.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxoy4asfs7t69
+ddfd528c-0d8b-494f-beee-a76c63a90382,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Cà phê đá,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx4igwfooex6e
+6f3f31d7-951b-4c63-aebf-e577e7434278,947e9c8a-5f73-496c-8f1f-9f6ad8443c2b,Cà phê đá,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx4igwfooex6e
+4cd2e553-82af-4b2d-890e-2be2b4e85ca3,fa7843df-55f6-4974-9512-41516d0e4f70,Cà-ri Bò Rau Củ,162.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqznm08oa8ckdb
+ad426441-12b0-4bf2-a5de-6da1ed6a4b2d,fa7843df-55f6-4974-9512-41516d0e4f70,Cà-ri Kim Chi,88.560đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxt5gcfvsg4ac
+19ff8afa-a265-4e8c-b06e-8c345e9c3549,fa7843df-55f6-4974-9512-41516d0e4f70,Cà-ri Heo Cắt Lát,102.600đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqznsl8pi1eh13
+ac8de155-45e6-4d98-a474-bcb52574e4c7,fa7843df-55f6-4974-9512-41516d0e4f70,Cà-ri Đậu Tương,113.400đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr0azfbmybh571
+53897d66-4125-4072-b98c-a6ff931e2060,fa7843df-55f6-4974-9512-41516d0e4f70,Gà Viên Chiên Giòn,73.440đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr33adunpakkc2
+530073fc-7b0d-4a8d-8519-c1b2c686b941,fa7843df-55f6-4974-9512-41516d0e4f70,Khoai Tây Chiên,51.840đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr33acc9wvk4c7
+ff78e63e-c443-4e7a-a82a-60c4809a505f,fa7843df-55f6-4974-9512-41516d0e4f70,Khoai Tây Chiên,51.840đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr33acc9wvk4c7
+c67a44b4-1cb4-4066-83fd-3877b9a014eb,15ec2688-f351-455e-9562-20467a27b013,Chè Malaysia xoài,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5pf0ib85hg65
+050d4585-4b2e-4182-b80f-c45d3407197f,15ec2688-f351-455e-9562-20467a27b013,Sữa chua thạch trái cây đào,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3vwcm7gihl22
+0960e157-89f0-40ae-9090-a684cce491ad,15ec2688-f351-455e-9562-20467a27b013,NƯỚC SUỐI,10.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzuwx79w0qsd3
+510c077b-ed8b-48f4-84a9-78d3ef48a422,15ec2688-f351-455e-9562-20467a27b013,Đậu xanh đánh,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2ulrmewjicc2
+68afdb7b-30d7-4e92-9d63-69148f26b21d,15ec2688-f351-455e-9562-20467a27b013,Cao quy linh,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5pf32fejesd4
+287cf557-9127-44f3-bd9f-77d482a02840,15ec2688-f351-455e-9562-20467a27b013,Yaourt sốt chanh dây,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2ysa0dqyzd69
+5eeef749-e1ac-47e9-b57c-fa98de9390b3,15ec2688-f351-455e-9562-20467a27b013,Bò viên chiên,25.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2unikqs1j809
+99f1eafb-79c9-4d60-bc29-f4f2de604e3a,15ec2688-f351-455e-9562-20467a27b013,Khô gà lá chanh lớn,150.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3b0uszeaop4d
+a7a06605-65a7-4714-871e-c3efef58d35b,15ec2688-f351-455e-9562-20467a27b013,Trái cây dĩa nhỏ,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2unrzj09spcf
+eaaab775-7446-4f6b-b59b-ce28ec6a1e3d,15ec2688-f351-455e-9562-20467a27b013,Trái cây dĩa nhỏ,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2unrzj09spcf
+59ea9751-b606-4877-8a91-96e7389ce3aa,543ffaf8-ff48-4db6-9284-f110064ff842,Chè Sen Nhãn,28.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx2mzsie4k9de
+ccafceff-0bc4-4dd5-ad21-5c8d729813ea,543ffaf8-ff48-4db6-9284-f110064ff842,Chè Khoai Dẻo nóng,18.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3crtq8122sdf
+50a439a7-f89f-4be8-a190-9758a341ca21,543ffaf8-ff48-4db6-9284-f110064ff842,Mì Gói Bò Kho,50.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr35i3l86sas75
+9391b288-8970-4c4c-8f36-0b1908cbe560,543ffaf8-ff48-4db6-9284-f110064ff842,Bánh Flan nước dừa,14.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m7mb0yqaxo6pb6
+48d026a3-34b0-4c96-a29e-3024465c3ea8,543ffaf8-ff48-4db6-9284-f110064ff842,Phô Mai Que,14.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx2qogs8mmx11
+6a9d0c3d-d130-4cd9-9649-adffc9d5019c,543ffaf8-ff48-4db6-9284-f110064ff842,Bột Chiên,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx2ngeq2pp5e8
+0dda330f-d959-4490-9ba8-394fef059d24,543ffaf8-ff48-4db6-9284-f110064ff842,Bánh Mì Ốp La - Pate - Xúc Xích,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx2pp1a36bo25
+8b79c5d4-162e-44fa-9b25-5b52146a670c,543ffaf8-ff48-4db6-9284-f110064ff842,Bánh Mì Ốp La - Pate - Xúc Xích,30.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqx2pp1a36bo25
+34d1474b-5448-4598-9444-1858c5f41481,e6738f05-3043-4386-8cc5-9c3eac66145d,Ếch phần 3 con( không cháo),115.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+e45473ed-3394-4b73-8aac-7d3309170f06,e6738f05-3043-4386-8cc5-9c3eac66145d,Ếch phần 3 con( không cháo),115.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+450297ba-0173-49cf-896c-3e2eda996e69,ac78c780-c35a-401f-9e48-ad59e08a949c,DL117- Cơm Gà Chiên Taremayo,201.150đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3jjpsrhxuh64
+48fa6ac8-106b-454a-9ac7-f9effce05365,ac78c780-c35a-401f-9e48-ad59e08a949c,DL104- Cơm Lươn Đặc Biệt 2,592.650đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqznjwmgxuise5
+308438a8-472c-4ff0-afee-198e4354c883,ac78c780-c35a-401f-9e48-ad59e08a949c,DL137- Cơm Cá Hồi,268.650đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqznrm0yzt8k3b
+400b6b76-971d-4d82-a5e2-d7a691bdefd2,ac78c780-c35a-401f-9e48-ad59e08a949c,DL131- Cơm Sashimi Cá Ngừ (Size Lớn),229.500đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6l3ijnokhwb7
+8425db6e-5595-419d-84b3-8336dd85fc77,ac78c780-c35a-401f-9e48-ad59e08a949c,DL159- Sụn Gà Chiên,79.650đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3jlsfq8hi135
+bbcbe8b6-cd06-4bb2-a944-2ccbf24cf6cc,ac78c780-c35a-401f-9e48-ad59e08a949c,DL210- Sushi Lươn Bơ Khè Lửa,187.650đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqzxicgzpz153f
+61ff20f8-b57d-4c18-b6ea-1f30a8d26cbb,ac78c780-c35a-401f-9e48-ad59e08a949c,DL185- Xiên Mề Gà Nướng,32.400đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6ajrziw23dcc
+de5a0ff0-6598-401c-9456-222d14cf28ae,ac78c780-c35a-401f-9e48-ad59e08a949c,DL177- Xiên Lươn Lòng Đỏ Trứng,93.150đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr44sm57co7tbc
+ca2574a5-7016-4fe5-98bc-5ccd4a67f1f0,ac78c780-c35a-401f-9e48-ad59e08a949c,DL257- Đậu Bắp,27.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr69g06y5axldc
+4d09a8c0-0468-446f-affe-2db1ac222a9d,ac78c780-c35a-401f-9e48-ad59e08a949c,DL281- Trà Xanh Vị Dâu,79.650đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3jjqr626qh22
+8bc8ce31-3993-4a1d-9c16-9512b4c6ca86,ac78c780-c35a-401f-9e48-ad59e08a949c,DL281- Trà Xanh Vị Dâu,79.650đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3jjqr626qh22
+db25231a-495f-446f-9298-06590da962ec,cf69790d-59c2-4029-bef6-b42fd2fd164f,Bắp bò nhúng mẻ cuốn rau rừng,215.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+aff199d3-6717-46d9-9359-3c4b8e02df6b,cf69790d-59c2-4029-bef6-b42fd2fd164f,"Lẩu Đuôi , Gân , Thịt , Bắp",360.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+1fc6dea1-e4c9-4ce0-bac6-8e80f55ac24b,cf69790d-59c2-4029-bef6-b42fd2fd164f,Nước lẩu thêm,40.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+08310d17-e401-4932-aa70-fd1187f4214f,cf69790d-59c2-4029-bef6-b42fd2fd164f,Óc thêm,65.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+122cfb4b-10f5-4c88-9095-ea8661056d70,cf69790d-59c2-4029-bef6-b42fd2fd164f,Phèo bò nguyên cục nướng muối ớt,170.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+7c21c6bb-a759-4889-a9f6-be105b653aef,cf69790d-59c2-4029-bef6-b42fd2fd164f,Nấm nướng giấy bạc,160.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+a233d2ef-ac86-4b1d-9fb1-874c951e182a,cf69790d-59c2-4029-bef6-b42fd2fd164f,Chả giò mayonaise hải sản,125.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+5838aa8a-a0d5-4d0a-b4ef-5320a11b4c04,cf69790d-59c2-4029-bef6-b42fd2fd164f,Gỏi hải sản,155.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+05d50d95-9a75-4738-9c98-e8b6f1fbef27,cf69790d-59c2-4029-bef6-b42fd2fd164f,Lẩu đầu cá hồi măng chua lớn,290.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+9de9005e-7f47-4e95-8d65-2b91b33197b2,cf69790d-59c2-4029-bef6-b42fd2fd164f,Lẩu đầu cá hồi măng chua nhỏ,230.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+f144505b-04f0-4864-b256-03fffd774e6b,cf69790d-59c2-4029-bef6-b42fd2fd164f,Cháo nghêu lớn,150.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+ac46038b-9692-4f8b-b432-a2e547b1594c,cf69790d-59c2-4029-bef6-b42fd2fd164f,Cá Diêu Hồng Chiên xù cuốn rau rừng,260.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+20674190-fbf0-4263-9e75-0a21248daeff,cf69790d-59c2-4029-bef6-b42fd2fd164f,"Đậu bắp hấp mỡ hành, chấm chao",75.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+7be1f76b-3f9f-4fff-8cbb-74a2bdd9fae4,cf69790d-59c2-4029-bef6-b42fd2fd164f,"Sà lách trộn dầu dấm, trứng chiên",105.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+b9cbf75a-4286-489f-bbb3-76b79cef596a,cf69790d-59c2-4029-bef6-b42fd2fd164f,Chim cút chiên nước mắm,135.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+eb009944-f35c-4f72-b508-b2068be560e5,cf69790d-59c2-4029-bef6-b42fd2fd164f,Nghêu xào lá quế,130.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+b5a28a2a-b95a-414d-9b6d-351c122d6074,cf69790d-59c2-4029-bef6-b42fd2fd164f,Thịt bò nướng ngũ vị,155.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+39d854dc-2087-42a0-a345-02ff8207f4af,cf69790d-59c2-4029-bef6-b42fd2fd164f,Thăn bò nướng mắm nhỉ,230.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+182fefa1-c5cc-443b-83b9-458b3aaeef33,cf69790d-59c2-4029-bef6-b42fd2fd164f,Lá sách xào cần nước,175.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+db545bd7-20aa-47fb-bc7f-3a57133f9215,cf69790d-59c2-4029-bef6-b42fd2fd164f,Bò lúc lắc khoai tây chiên,185.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5l75w8vh5l47
+32a0f23b-54e6-4198-b1c7-c6bc1d42cfba,cf69790d-59c2-4029-bef6-b42fd2fd164f,Lưỡi bò sốt pate gan tiêu xanh,230.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+e3474ce7-9aae-4f89-86ec-745a33ce78bd,cf69790d-59c2-4029-bef6-b42fd2fd164f,Trứng gà non xào hành tiêu,115.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+7d0d4ec7-763e-47f5-91bc-010f72b7fbf3,cf69790d-59c2-4029-bef6-b42fd2fd164f,Ốc bullot hấp sả,95.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+cc08294e-ef4d-40c3-b73c-6aeeb301b553,cf69790d-59c2-4029-bef6-b42fd2fd164f,Mì gói xào thịt bò cái ngọt,125.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+67e70b85-ceb7-4658-8689-954ac6b16d12,cf69790d-59c2-4029-bef6-b42fd2fd164f,Canh chua cá diêu hồng,105.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+abb8d803-94c3-4a83-affc-0f3145fa8b3e,cf69790d-59c2-4029-bef6-b42fd2fd164f,Pepsi lon,16.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+52da625a-4e48-4d65-8eed-3d123a2ff590,cf69790d-59c2-4029-bef6-b42fd2fd164f,Trà ô long,12.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+dda67e96-7569-4a52-b595-906f86af61c5,cf69790d-59c2-4029-bef6-b42fd2fd164f,Trà ô long,12.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+85b2e8f3-d05f-460e-8d09-c79fcb68dbfc,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Combo: 1 Pate Gan Ngỗng 200g + 1 Bánh Mì Không,235.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr3kz5f3u4ec45
+8adb5a02-2b76-432b-a62d-86ae09c3fd8b,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Giò Lụa Đặc Biệt (100gr),39.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxn6r3op02hab
+97227b27-20cd-4b91-89ca-21ed059b55d9,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Chả Da Ớt Xiêm Xanh 100gr,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr6pcio57ixlcb
+327ff248-78fc-408e-ad5d-30f36c4221f2,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Xúc Xích Đức 500g (đã hấp chín và cấp đông),200.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lvogp7k3ncuyb6
+fa0478e7-c7fc-4214-9c57-e0e12a3b15df,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Bánh Mì Bơ Lạt Anchor,29.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr2zxdx62uft64
+1544ab17-040e-4b3f-a8ab-4a50343892f7,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Chà bông gà 200g,80.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqyo6ic3kslg53
+d348b294-58ef-4843-aeb9-bf4823dda7dd,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Phomai Xông Khói Grand’Or,155.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5qzj2tsuxl71
+2a8fd633-a7fb-4905-ae30-d1d56d396545,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Olive Đen Fragata,105.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxus1y2qjrtd1
+25d32bce-43e7-42e1-aea1-d9693c215068,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Nha Đam Lá Dứa Đường Phèn,40.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr321xn7etnd91
+515be326-8a5d-424c-b410-465cc84302c8,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Cà Phê Đá,35.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr5rntzrgwpl58
+68c2da13-7bdb-4fb5-8e78-bc4de1b1b81a,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Súp Kem Cá Hồi Nauy Với Bí Đỏ,105.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxotxwwicnt88
+fca436dc-e9d9-49ec-9291-0f89e67abb5e,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Ức Vịt Xông Khói Sốt Chanh Dây,220.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lr30rgyr6b4419
+84da7f93-e2ff-4732-8e5a-056d5b4e9a22,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Khoai Tây Chiên,90.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxukvc16o5gd5
+18abb49f-461f-4ae3-97b6-8272c619c632,b68dd034-839e-4ddd-86aa-3ded2bf75b39,Khoai Tây Chiên,90.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxukvc16o5gd5
+4c35e9f2-039e-45ed-a83c-98d318f6adf0,03839377-e4f0-41ae-a319-8f1231066270,Trà Chanh Ổi Hồng (Màu Hồng Lãng Mạn),29.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-ls12knfhlfwk0c
+92a1d59d-d0b2-4f01-887b-ba82e04df55b,03839377-e4f0-41ae-a319-8f1231066270,Trà Sữa Ô Long,24.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-ls12qririoqs73
+445aafd7-258e-438a-af6a-b878a0f6458e,03839377-e4f0-41ae-a319-8f1231066270,Sữa Tươi Khoai Môn Nghiền - 芋泥鮮奶,41.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7ra0g-m6rxzf3pj8tj54
+58fd4e4f-954e-407b-b8a6-e819f68616ac,03839377-e4f0-41ae-a319-8f1231066270,Bí Đao Chanh,24.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxkjtmtqu9w98
+0b0dc826-4698-4d72-b5f9-1b0add7bd870,03839377-e4f0-41ae-a319-8f1231066270,Bí Đao Chanh,24.000đ,https://down-bs-vn.img.susercontent.com/vn-11134517-7r98o-lqxkjtmtqu9w98
+17d3a0f8-5733-4fce-bb67-555684e79131,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Bào Ngư Cánh Phượng Với Mè,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lqyxtzyb9n6h7e
+222c1eab-8c24-4974-8130-a9e6a5e16d6e,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Tàu Hủ Ki Non Trộn Rau Răm,70.200đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lqyvh47oz0ec2b
+c04b52e8-24b0-4182-ab19-fd25ea27970c,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Đậu Kết Quay Với Bánh Hỏi,91.800đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lqywkol2ks0471
+75382e37-a866-4009-bad1-9ca2e05fb15c,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Cơm Cháy Sốt Rau Củ,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lqyx93gwfpvod4
+5db8a81a-c683-4bce-b06c-9f1cf00e7432,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Đậu Nành Cuốn Rong Biển Kho Tộ,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lr6brq2np490f4
+de921ab6-b12e-47ff-afe2-1e8177ee3142,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Đậu Kết Boomarang Sốt Tiêu Xanh,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lr3lqayrbee14d
+cb9321b4-2eae-470d-80f0-1fd36e75877e,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Cháo Trắng Củ Cải Muối,63.720đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lr3mf63hef2c38
+7d1635b6-def7-43b4-a22a-bf55a70d89a8,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Mì Tiềm,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m94akii1nj9g7e
+ee8984e5-1030-44df-ae15-a92010e935bf,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Ngó Sen Xào Tỏi,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m94ak22rorcead
+7841e8ee-8e4f-4af1-bf3e-bf5493910da2,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Đậu Bắp Sốt Nấm,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m8x4h0jv1jeved
+7bf1c519-e93b-46fa-9bb3-da1446c627cd,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Canh Nấm Tuyết,74.520đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m94aj3im9f9j19
+ac35503c-e259-4efa-a683-8cc3ea603066,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Lẩu Sen Nhỏ,322.920đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m94ak911ijwk25
+313d3c6c-0e11-48a8-b765-597975040bab,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Nước Tắc Tưoi,37.800đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m94ajf7t53k464
+18b28fc8-670f-4a4e-8e7e-1086053d17e3,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Sữa Đậu Nành Lá Dứa,37.800đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m94ajyyy8e3y9d
+0f9eff78-626a-4ac9-b959-ce7a44c52b28,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Trà Tắc,37.800đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m8x4g0cm3jiad8
+ec929623-feb2-4aa7-b551-942ddc8d4d67,3ba12402-e0f4-4812-a8bc-c2369e78a5cb,Trà Tắc,37.800đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7ra0g-m8x4g0cm3jiad8
+1896b68b-4322-4c56-9e3e-b08d39bee73c,13083281-2f02-4a1a-924c-57f7da608565,Chè Thơm,20.000đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lr366zu6mxeh7f
+f38ddd3f-965f-4e78-a5a1-0a4e860ef11c,13083281-2f02-4a1a-924c-57f7da608565,Chè Thơm,20.000đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lr366zu6mxeh7f
+f737f545-8d8b-404f-a4ec-326533ef6292,215ec8e6-3e77-4b6f-8804-9d07698c1131,Mì khô,65.000đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lr5m0el6dwp0b0
+ecbd6cb6-3622-4ff3-956d-a80d9443aa76,215ec8e6-3e77-4b6f-8804-9d07698c1131,Coca-Cola,15.000đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lr331qj1aahlff
+0bbe1e7d-1937-4aba-9bd7-cf860f4c88e9,215ec8e6-3e77-4b6f-8804-9d07698c1131,Pepsi,15.000đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lqzguug0eksk62
+9da12192-3498-4f29-91eb-5955f12b3d69,215ec8e6-3e77-4b6f-8804-9d07698c1131,Pepsi,15.000đ,https://down-ws-vn.img.susercontent.com/vn-11134517-7r98o-lqzguug0eksk62
+eb6e81db-6a27-42bf-9d2c-c5996cbc98c9,0d772cdd-cdea-496d-95d5-b1b8f5355592,Bún thang cánh,75.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+6f7b9f1b-de6f-4eb4-afbb-1e89f3be78d9,0d772cdd-cdea-496d-95d5-b1b8f5355592,Miến Đùi Gà Trộn,75.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+4c6c3595-f26d-4675-98f4-9019a93a5592,0d772cdd-cdea-496d-95d5-b1b8f5355592,Bún Cánh Trộn,75.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+f37a80c2-b2e6-4ada-b8f2-116425d46b04,0d772cdd-cdea-496d-95d5-b1b8f5355592,Hũ mơ ngâm,350.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+39869cfa-2453-49a2-9403-975736981f22,0d772cdd-cdea-496d-95d5-b1b8f5355592,Hũ mơ ngâm,350.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+f9a1807e-ebc7-458a-912e-5905f200e209,c822c8d9-2939-41b1-a064-67f740f13f25,Rau má kem Machiato (Mặn/ ngọt),20.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+c055564c-0eef-4f37-b48e-9c4b64f1a0db,c822c8d9-2939-41b1-a064-67f740f13f25,Rau má sinh tố khoai môn đậu phộng,35.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+502e8558-e2b8-4f69-a200-a30e114bf0d2,c822c8d9-2939-41b1-a064-67f740f13f25,Sinh tố sầu riêng,42.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+5c4c40e8-609a-406f-86cd-21c084a7c8fc,c822c8d9-2939-41b1-a064-67f740f13f25,Sinh tố khoai môn,30.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+71774bed-407a-476f-b4c1-a988cb5a1e65,c822c8d9-2939-41b1-a064-67f740f13f25,Sinh tố dâu kiwi,40.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+b86c84a5-0864-4281-b5f6-94c24afb4d0a,c822c8d9-2939-41b1-a064-67f740f13f25,Sinh tố dưa lưới dâu tây,38.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+ef08ede7-004c-41ac-b8ba-617a692e3948,c822c8d9-2939-41b1-a064-67f740f13f25,Sinh tố dâu tằm,30.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+146e5593-1e67-4cbf-851f-3153e68bc450,c822c8d9-2939-41b1-a064-67f740f13f25,Soda blue chanh dây,30.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+fa943429-d187-41e7-bab6-4b19cfc37d52,c822c8d9-2939-41b1-a064-67f740f13f25,Soda dâu tằm,28.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+20208d1e-85ab-4006-9c2e-96621eb14f6b,c822c8d9-2939-41b1-a064-67f740f13f25,Ép cóc,25.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+49e1dac1-f1bd-415a-8ad2-7a51381dad1b,c822c8d9-2939-41b1-a064-67f740f13f25,Ép cam dâu tây,45.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+5f844cd8-91af-4980-b312-0dc8bef78e89,c822c8d9-2939-41b1-a064-67f740f13f25,Ép carrot cà chua dây tây,48.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+adf22be4-ed87-4453-864d-ce1347c8e760,c822c8d9-2939-41b1-a064-67f740f13f25,Ép chanh dây dâu syrup,30.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+488b5316-953e-4e8c-b771-794a2f3abfc4,c822c8d9-2939-41b1-a064-67f740f13f25,Trà tắc xí muội,30.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+35e52629-cd5e-439f-b25c-e07c71282e64,c822c8d9-2939-41b1-a064-67f740f13f25,Trà dâu xí muội,35.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+40946f02-bb96-445c-afd2-ccfb7b538ee0,c822c8d9-2939-41b1-a064-67f740f13f25,Trà đào hoa nhài,35.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+8c37a4d1-7831-4b04-88fb-9ed947d37af4,c822c8d9-2939-41b1-a064-67f740f13f25,Trà bưởi hồng hoa nhài,40.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+e4a78f38-add5-4171-a254-d0638a0c0e93,c822c8d9-2939-41b1-a064-67f740f13f25,Yogurt táo ĐX,40.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+5b512d37-af55-42ef-a686-353402ef876d,c822c8d9-2939-41b1-a064-67f740f13f25,Cookie Cafe Đá Xay,42.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+debccde9-f901-4cf5-82a9-422d20ed6214,c822c8d9-2939-41b1-a064-67f740f13f25,Chanh dây đá xay,35.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+53e24d20-06a3-4815-b18c-4eda8f9772f3,c822c8d9-2939-41b1-a064-67f740f13f25,Sâm Dứa Sữa,25.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+6c006ccc-15ff-4be3-9640-496b445c5c2e,c822c8d9-2939-41b1-a064-67f740f13f25,BT Mỡ Hành Trứng Cút,29.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT
+05ac9f28-cbbc-44dd-b50e-e001a786ba2d,c822c8d9-2939-41b1-a064-67f740f13f25,BT Mỡ Hành Trứng Cút,29.000đ,https://mms.img.susercontent.com/vn-11134517-7r98o-lqn24i7chcfw9c@resize_ss120x120!@crop_w120_h120_cT

@@ -16,7 +16,7 @@ set -e # Dừng script nếu bất kỳ lệnh nào thất bại
 # jars/postgresql-42.7.3.jar \
 #   restaurant_data_processing/main.py
 
-# python resrestaurant_data_processing/load_data.py
+# python restaurant_data_processing/load_data.py
 
 # echo "✅  Step 2 complete, go to http://localhost:8088/ to view the data."
 
