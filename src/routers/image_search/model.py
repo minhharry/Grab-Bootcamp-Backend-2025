@@ -10,4 +10,6 @@ class ImageResultItem(BaseModel):
     address: Optional[str] = None
     restaurant_rating: Optional[float] = None
     price_level: Optional[int] = None
+    longitude: Optional[float] = None
+    latitude: Optional[float] = None
 

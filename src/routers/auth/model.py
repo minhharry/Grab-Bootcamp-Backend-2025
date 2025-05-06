@@ -6,7 +6,6 @@ class UserSignup(BaseModel):
     email: str
     password: str
     username: Optional[str] = None
-    location: Optional[str] = None
     gender: Optional[str] = None
     date_of_birth: Optional[date] = None
 

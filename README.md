@@ -32,7 +32,9 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}
 ```
 ## Run the database
 
-`Running these commands for the first time may take a while.`
+`Note: These commands should be run in Windows Subsystem for Linux (WSL) for best results.`
+
+Running these commands for the first time may take a while.
 
 Navigate to the `database` directory:
 ```sh
@@ -69,15 +71,32 @@ API_KEY=
 ```
 
 ## If using qdrant local
-In folder vector_db, download image_vectors.csv in this folder [Image Embedding](https://drive.google.com/drive/folders/1nKzVk1eyjutBAYo34F7gatrBIcarMyNY?usp=sharing) and add to vector_db folder  
+In folder vector_db, download image_vectors.csv in this folder [Image Embedding](https://drive.google.com/drive/folders/1Av97Umx2i_e0iRPeUA4ddK7DOmJHj5D1?usp=sharing) and add to vector_db folder  
 
 In folder root (Grab-Bootcamp-Backend-2025)
 ```bash
 docker run -d -p 6333:6333 qdrant/qdrant
 python -m vector_db.load_embedding
 ```
-Stop and remove this container to update embedding if necessary
 
+Or you can generate image embeddings yourself using our Kaggle notebook:
+ 👉 [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/grab-images-embedding) 
+Steps:
+1. Click "Copy and Edit" to create your own version of the notebook.
+
+2. In the notebook editor, click "Save Version" → "Advanced Settings".
+
+3. Under the "Accelerator" dropdown, select GPU for all sections.
+
+4. Click "Save & Run All (Commit)".
+
+- Kaggle will execute the entire notebook automatically in the background — you can safely close your browser or shut down your device.
+
+5. Once the run completes, go to the "Versions" tab of your notebook.
+
+6. Open the latest version and navigate to the "Output" section.
+
+7. Download the generated image_vectors.csv file.
 ## Dev
 
 ```bash
