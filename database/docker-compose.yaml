@@ -39,6 +39,7 @@ services:
       - SPARK_CONF_DIR=/opt/bitnami/spark/conf
       - MINIO_ROOT_USER=${MINIO_ROOT_USER}
       - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}
+      - PYTHONPATH=/opt/bitnami/spark/restaurant_data_processing:$PYTHONPATH
     ports:
       - "8080:8080"
       - "7077:7077"
@@ -51,8 +52,9 @@ services:
       - ./jars/antlr4-runtime-4.9.3.jar:/opt/bitnami/spark/jars/antlr4-runtime-4.9.3.jar
       - ./jars/postgresql-42.7.3.jar:/opt/bitnami/spark/jars/postgresql-42.7.3.jar
       # - ./spark-logs:/opt/bitnami/spark/logs
-      - ./normalize-raw-data.py:/opt/bitnami/spark/normalize-raw-data.py
-      - ./utils:/opt/bitnami/spark/utils
+      - ./processed_data:/opt/bitnami/spark/processed_data
+      - ./restaurant_data_processing:/opt/bitnami/spark/restaurant_data_processing
+      - ./images_table_data:/opt/bitnami/spark/images_table_data
     networks:
       - delta-network
 
