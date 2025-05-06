@@ -2,10 +2,11 @@ from .restaurant import RestaurantModel
 from .image import ImageModel
 from .review import ReviewModel
 from .user import UserModel
-
+from .user_restaurant_clicks import UserRestaurantClickModel
 __all__ = [
     "RestaurantModel",
     "ImageModel",
     "ReviewModel",
-    "UserModel"
+    "UserModel",
+    "UserRestaurantClickModel"
 ]
