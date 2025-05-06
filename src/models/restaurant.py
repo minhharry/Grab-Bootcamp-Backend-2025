@@ -25,3 +25,4 @@ class RestaurantModel(Base):
 
     images = relationship("ImageModel", back_populates="restaurant")
     reviews = relationship("ReviewModel", back_populates="restaurant")
+    user_restaurant_clicks = relationship("UserRestaurantClickModel", back_populates="restaurant")

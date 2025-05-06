@@ -12,3 +12,5 @@ class UserModel(Base):
     username = Column(String(50), nullable=True)
     email = Column(String(100), nullable=True, unique=True, index=True)
     password_hash = Column(String(255), nullable=True)
+
+    user_restaurant_clicks = relationship("UserRestaurantClickModel", back_populates="user")
