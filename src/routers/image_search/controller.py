@@ -23,14 +23,11 @@ async def search_image(file: UploadFile = File(...), db: Session = Depends(get_d
     if not file.content_type.startswith("image/"):
         raise HTTPException(status_code=400, detail="File isn't an image")
 
-    # Read the image file
     image_bytes = await file.read()
 
-    # Fetch search results using the service layer
     results = await search_similar_images(image_bytes, db)
     
     if not results:
-        # Raise HTTPException if no similar images are found
         raise HTTPException(
             status_code=404,
             detail="No similar images found"
