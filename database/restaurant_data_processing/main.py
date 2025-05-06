@@ -6,6 +6,7 @@ from data_processing.googlemaps_processing import process_google_data
 from data_processing.unified_processing import unify_data
 from load_to_database.writer import write_to_postgres
 from load_to_database.download_processed import download_processed_data
+from load_to_database.download_processed import save_images_tables_as_csv
 
 def main():
     # Khởi tạo MinIO
@@ -28,6 +29,8 @@ def main():
     # write_to_postgres(df_unified, postgres_config)
     
     download_processed_data(client, minio_bucket, df_unified)
+    
+    save_images_tables_as_csv(df_unified, "images_table_data/images.csv")
 
     spark.stop()
 
