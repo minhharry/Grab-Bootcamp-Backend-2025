@@ -35,7 +35,7 @@ def test_get_dummy():
 def test_get_dummy_not_found():
     response = client.get("/dummy/9999") 
     assert response.status_code == 404
-    assert response.json() == {"detail": "Item not found"}
+    assert response.json() == {"message": "Item not found"}
     
 def test_search_image():
     with open("./tests/KimBap.jpg", "rb") as f:
@@ -44,3 +44,37 @@ def test_search_image():
     data = response.json()
     assert "results" in data
     assert len(data["results"]) > 0
+
+def test_valid_restaurant_id():
+    restaurant_id = "ca26fd25-8de3-473b-b5e2-1cfaa571caf8"
+    response = client.get(f"restaurant/{restaurant_id}")
+    assert response.status_code == 200
+    data = response.json()
+    assert "restaurant_id" in data["data"]
+    assert data["data"]["restaurant_id"] == restaurant_id
+    assert data["data"]["restaurant_name"] == "Trà Sữa Handmade Bông Sao"
+
+def test_valid_restaurant_dishes():
+    restaurant_id = "ca26fd25-8de3-473b-b5e2-1cfaa571caf8"
+    response = client.get(f"restaurant/{restaurant_id}/dishes?page=1&page_size=10")
+    assert response.status_code == 200
+    data = response.json()
+    assert "data" in data
+    assert len(data["data"]) > 0
+    assert "metadata" in data
+    assert "page" in data["metadata"]
+    assert "size" in data["metadata"]
+    assert "total" in data["metadata"]
+
+
+def test_valid_restaurant_reviews():
+    restaurant_id = "ca26fd25-8de3-473b-b5e2-1cfaa571caf8"
+    response = client.get(f"restaurant/{restaurant_id}/reviews?page=1&page_size=10")
+    assert response.status_code == 200
+    data = response.json()
+    assert "data" in data
+    assert len(data["data"]) > 0
+    assert "metadata" in data
+    assert "page" in data["metadata"]
+    assert "size" in data["metadata"]
+    assert "total" in data["metadata"]
