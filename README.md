@@ -59,6 +59,12 @@ bash load_data.sh
 
 Go to `http://localhost:8088/` to view all the data. (`Note: Adminer port has been change from 8080 to 8088.`)
 
+If needed, add dummy User and User clicks data:
+```sh
+cd dummy_users_data
+python createDummyUserAndUserClicksData.py
+```
+
 Delete everything with the `-v` flag:
 ```sh
 docker compose down -v

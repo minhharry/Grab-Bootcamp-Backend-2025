@@ -38,12 +38,12 @@ def test_get_dummy_not_found():
     assert response.json()["message"] == "Item not found"
     
 def test_search_image():
-    with open("./tests/KimBap.jpg", "rb") as f:
-        response = client.post("/image_search/search-image", files={"file": f})
-    assert response.status_code == 200
-    data = response.json()
-    assert "results" in data
-    assert len(data["results"]) > 0
+    with TestClient(app) as client:
+        with open("./tests/KimBap.jpg", "rb") as f:
+            response = client.post("/image_search/search-image", files={"file": f})
+        assert response.status_code == 200
+        data = response.json()
+        assert len(data['data']) > 0
 
 def test_valid_restaurant_id():
     restaurant_id = "ca26fd25-8de3-473b-b5e2-1cfaa571caf8"
@@ -78,3 +78,13 @@ def test_valid_restaurant_reviews():
     assert "page" in data["metadata"]
     assert "size" in data["metadata"]
     assert "total" in data["metadata"]
+
+def test_valid_collaborative_filtering():
+    user_id = "bf12d0ce-11bd-407e-abb1-e9cbba669232"
+    response = client.get(f"collaborative_filtering/?user_uuid={user_id}&top_n=20")
+    assert response.status_code == 200
+    data = response.json()
+    assert "data" in data
+    assert len(data["data"]) > 0
+    assert "score" in data["data"][0]
+    assert "restaurant_id" in data["data"][0]
