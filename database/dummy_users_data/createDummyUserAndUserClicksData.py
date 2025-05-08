@@ -1,8 +1,8 @@
 import sqlalchemy
 from dotenv import load_dotenv
 import os
-from sqlalchemy import Column, String, UUID
-from sqlalchemy.dialects.postgresql import UUID
+# from sqlalchemy import Column, String, UUID
+# from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import declarative_base, sessionmaker
 import pandas as pd
 import random
