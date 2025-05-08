@@ -13,7 +13,8 @@ CREATE TABLE restaurants (
     restaurant_rating_count INTEGER,
     restaurant_url TEXT,
     crawl_time TIMESTAMP,
-    crawl_id TEXT
+    crawl_id TEXT,
+    restaurant_hash TEXT UNIQUE
 );
 
 CREATE TABLE reviews (
@@ -22,7 +23,10 @@ CREATE TABLE reviews (
     user_rating FLOAT,
     user_review TEXT,
     review_user_name TEXT,
-    review_date TEXT
+    review_date TEXT,
+    crawl_time TIMESTAMP,
+    crawl_id TEXT,
+    review_hash TEXT UNIQUE
 );
 
 CREATE TABLE images (
@@ -30,7 +34,10 @@ CREATE TABLE images (
     restaurant_id UUID REFERENCES restaurants(restaurant_id),
     food_name TEXT,
     food_price TEXT,
-    img_url TEXT
+    img_url TEXT,
+    crawl_time TIMESTAMP,
+    crawl_id TEXT,
+    img_hash TEXT UNIQUE
 );
 
 CREATE TABLE users (
