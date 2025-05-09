@@ -1,39 +1,8 @@
 from sqlalchemy.orm import Session
-from typing import Optional
+from utils import extract_price_level
 from models import RestaurantModel, ImageModel, ReviewModel
-
-def extract_price_level(price_range: dict) -> Optional[int]:
-    """
-    Extracts the price level based on the price_max value in the price_range dictionary.
-    Returns an integer representing the price level (1, 2, 3) or None if invalid.
-
-    Args:
-        price_range (dict): A dictionary containing 'price_min' and 'price_max'.
-
-    Returns:
-        Optional[int]: Price level (1, 2, 3) or None.
-    """
-    if not isinstance(price_range, dict):
-        return None
-
-    # Ensure that the price_range has 'price_max' key and it has a valid value
-    price_max = price_range.get("price_max", None)
-    if price_max is None:
-        return None
-
-    try:
-        price_max = float(price_max)
-        if price_max > 150000:
-            return 3
-        elif 50000 < price_max <= 150000:
-            return 2
-        elif price_max <= 50000:
-            return 1
-        return None
-    except (ValueError, TypeError):
-        return None
-    
-def get_restaurant_detail(db: Session, restaurant_id: str) -> dict | None:
+from typing import Dict, List, Tuple
+def get_restaurant_detail(db: Session, restaurant_id: str) -> Dict | None:
     """
     Fetches the restaurant details from the database.
     
@@ -63,7 +32,7 @@ def get_restaurant_detail(db: Session, restaurant_id: str) -> dict | None:
         "restaurant_url": restaurant.restaurant_url,
     }
 
-def get_restaurant_dishes(db: Session, restaurant_id: str, skip: int, limit: int):
+def get_restaurant_dishes(db: Session, restaurant_id: str, skip: int, limit: int) -> Tuple[List[Dict], int]:
     """
     Fetches a paginated list of dishes for a specific restaurant.
     
@@ -91,7 +60,7 @@ def get_restaurant_dishes(db: Session, restaurant_id: str, skip: int, limit: int
     return result, total
 
 
-def get_restaurant_reviews(db: Session, restaurant_id: str, skip: int, limit: int):
+def get_restaurant_reviews(db: Session, restaurant_id: str, skip: int, limit: int) -> Tuple[List[Dict], int]:
     """
     Fetches a paginated list of reviews for a specific restaurant.
     

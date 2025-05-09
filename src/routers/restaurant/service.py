@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from .model import RestaurantDetailResponse, FoodItem, ReviewItem
 from .repository import get_restaurant_detail, get_restaurant_dishes, get_restaurant_reviews
 import math
-
+from typing import List, Dict, Union
     
 def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetailResponse | None:
     """
@@ -32,7 +32,7 @@ def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetail
         restaurant_url=raw_data.get("restaurant_url"),
     )
 
-def fetch_restaurant_dishes(restaurant_id: str, db: Session, page: int, page_size: int):
+def fetch_restaurant_dishes(restaurant_id: str, db: Session, page: int, page_size: int) -> Dict[str, Union[List[FoodItem], int]]:
     """
     Fetches a paginated list of dishes for a specific restaurant.
     
@@ -59,7 +59,7 @@ def fetch_restaurant_dishes(restaurant_id: str, db: Session, page: int, page_siz
         "total_pages": total_pages
     }
 
-def fetch_restaurant_reviews(restaurant_id: str, db: Session, page: int, page_size: int):
+def fetch_restaurant_reviews(restaurant_id: str, db: Session, page: int, page_size: int) -> Dict[str, Union[List[ReviewItem], int]]:
     """
     Fetches a paginated list of reviews for a specific restaurant.
     
@@ -85,3 +85,4 @@ def fetch_restaurant_reviews(restaurant_id: str, db: Session, page: int, page_si
         "total_reviews": total,
         "total_pages": total_pages
     }
+

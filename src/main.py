@@ -23,11 +23,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.include_router(dummy.router, prefix="/dummy")
-app.include_router(image_search.router, prefix="/image_search")
+app.include_router(image_search.router, prefix="/image-search")
 app.include_router(restaurant.router, prefix="/restaurant")
 app.include_router(auth.router, prefix="/auth")
 app.include_router(recommendation.router, prefix="/recommendation")
-app.include_router(collaborative_filtering.router, prefix="/collaborative_filtering")
+#app.include_router(collaborative_filtering.router, prefix="/collaborative_filtering")
 
 app.add_exception_handler(HTTPException, http_exception_handler)
 
