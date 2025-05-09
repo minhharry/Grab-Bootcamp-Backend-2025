@@ -6,14 +6,15 @@ from database import get_db
 
 router = APIRouter()
 
-@router.post("/search-image", response_model=ApiResponse)
-async def search_image(file: UploadFile = File(...), db: Session = Depends(get_db)):
+@router.post("/", response_model=ApiResponse)
+async def search_image(file: UploadFile = File(...), top_n: int = 5, db: Session = Depends(get_db))-> ApiResponse:
     """
     Endpoint to search for similar images using a given image file.
     Validates the file type, reads the file content, and searches for similar images.
 
     Args:
         file (UploadFile): The image file uploaded by the user.
+        top_n: The maximum number of restaurant to return
         db (Session): Database session for interacting with the DB.
 
     Returns:
@@ -25,7 +26,7 @@ async def search_image(file: UploadFile = File(...), db: Session = Depends(get_d
 
     image_bytes = await file.read()
 
-    results = await search_similar_images(image_bytes, db)
+    results = await search_similar_images(image_bytes, db, top_n)
     
     if not results:
         raise HTTPException(

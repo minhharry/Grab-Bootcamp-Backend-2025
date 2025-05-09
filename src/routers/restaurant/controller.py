@@ -9,7 +9,7 @@ router = APIRouter()
 
 # Endpoint to get restaurant details
 @router.get("/{restaurant_id}", response_model=ApiResponse)
-def get_restaurant_info(restaurant_id: UUID, db: Session = Depends(get_db)):
+def get_restaurant_info(restaurant_id: UUID, db: Session = Depends(get_db)) -> ApiResponse:
     """
     Endpoint to retrieve detailed information about a restaurant.
     Returns the restaurant details along with metadata (if necessary).
@@ -42,7 +42,7 @@ def get_restaurant_dishes(
     page: int = Query(1, ge=1),
     page_size: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db)
-):
+) -> ApiResponse:
     """
     Endpoint to retrieve a paginated list of dishes from a restaurant.
     Returns the dishes with pagination metadata.
@@ -81,7 +81,7 @@ def get_restaurant_reviews(
     page: int = Query(1, ge=1),
     page_size: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db)
-):
+) -> ApiResponse:
     """
     Endpoint to retrieve a paginated list of user reviews for a restaurant.
     Returns the reviews with pagination metadata.
