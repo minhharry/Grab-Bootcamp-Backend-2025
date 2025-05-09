@@ -52,7 +52,6 @@ async def get_recommendations_for_user(
     user_uuid = UUID(user_uuid)
     try:
         recommendations = get_recommendations(user_uuid, top_n, session)
-        print(recommendations)
         if not recommendations:
             raise HTTPException(status_code=404, detail="No recommendations found")
         
@@ -99,5 +98,4 @@ async def get_recommendations_for_guest(
         )
     
     except Exception as e:
-        print(e)
         raise HTTPException(status_code=500, detail=f"Failed to get random restaurants{e}")
