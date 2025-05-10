@@ -91,7 +91,7 @@ def test_valid_restaurant_reviews():
     
 def test_valid_collaborative_filtering():
     user_id = "bf12d0ce-11bd-407e-abb1-e9cbba669232"
-    response = client.get(f"recommendation/{user_id}?top_n=20")
+    response = client.get(f"recommendation/user/{user_id}?top_n=20")
     assert response.status_code == 200
     data = response.json()
     assert "data" in data
@@ -101,7 +101,7 @@ def test_valid_collaborative_filtering():
 
 def test_valid_random_recommendation():
     user_id = "bf12d0ce-11bd-407e-abb1-e9cbba669232"
-    response = client.get(f"recommendation")
+    response = client.get(f"recommendation/guest")
     assert response.status_code == 200
     data = response.json()
     assert "data" in data

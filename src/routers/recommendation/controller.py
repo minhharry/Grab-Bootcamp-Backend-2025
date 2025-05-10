@@ -4,35 +4,33 @@ from .service import add_click_to_restaurant, get_recommendations, get_random_re
 from common_schemas.response import ApiResponse
 from database import get_db
 from uuid import UUID
+from .model import AddClickRequest
 
 
 router = APIRouter()
 
-@router.post("/add-click", response_model=ApiResponse)
+@router.post("/add-click", response_model = ApiResponse, tags = ["Recommendation"])
 def add_click(
-    user_id: UUID,
-    restaurant_id: UUID,
+    data: AddClickRequest,  # Receive the data as a Pydantic model
     db: Session = Depends(get_db)
 ) -> ApiResponse:
     """
     Endpoint for adding a click from the current user to a specific restaurant.
 
     Args:
-        token (str): The JWT token passed in the Authorization header.
-        restaurant_id (UUID): The restaurant's ID
-        db (Session): The database session for querying
+        data (AddClickRequest): The request body containing user_id and restaurant_id.
+        db (Session): The database session for querying.
 
     Returns:
         ApiResponse: The result of the operation, containing status and message.
     """
-
-    result = add_click_to_restaurant(db, user_id, restaurant_id)
+    result = add_click_to_restaurant(db, data.user_id, data.restaurant_id)
     if result.status != 200:
         raise HTTPException(status_code=result.status, detail=result.message)
     
     return result
 
-@router.get("/{user_uuid}", response_model=ApiResponse)
+@router.get("/user/{user_uuid}", response_model=ApiResponse, tags=["Recommendation"])
 async def get_recommendations_for_user(
     user_uuid: str, 
     top_n: int = 20, 
@@ -67,7 +65,7 @@ async def get_recommendations_for_user(
     except Exception:
         raise HTTPException(status_code=500, detail="Failed to get recommendations")
     
-@router.get("/", response_model=ApiResponse)
+@router.get("/guest", response_model=ApiResponse, tags=["Recommendation"])
 async def get_recommendations_for_guest(
     top_n: int = 8,
     session: Session = Depends(get_db)

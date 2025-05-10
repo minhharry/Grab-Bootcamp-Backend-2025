@@ -6,7 +6,7 @@ from database import get_db
 
 router = APIRouter()
 
-@router.post("/", response_model=ApiResponse)
+@router.post("", response_model=ApiResponse, tags = ["Image Search"])
 async def search_image(file: UploadFile = File(...), top_n: int = 5, db: Session = Depends(get_db))-> ApiResponse:
     """
     Endpoint to search for similar images using a given image file.
