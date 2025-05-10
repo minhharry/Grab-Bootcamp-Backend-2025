@@ -11,7 +11,7 @@ router = APIRouter()
 
 @router.post("/add-click", response_model = ApiResponse, tags = ["Recommendation"])
 def add_click(
-    data: AddClickRequest,  # Receive the data as a Pydantic model
+    data: AddClickRequest,
     db: Session = Depends(get_db)
 ) -> ApiResponse:
     """
@@ -51,7 +51,7 @@ async def get_recommendations_for_user(
     try:
         recommendations = get_recommendations(user_uuid, top_n, session)
         if not recommendations:
-            raise HTTPException(status_code=404, detail="No recommendations found")
+            recommendations = get_random_restaurants_details(session, top_n)
         
         return ApiResponse(
             status=200,
@@ -96,4 +96,4 @@ async def get_recommendations_for_guest(
         )
     
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to get random restaurants{e}")
+        raise HTTPException(status_code=500, detail=f"Failed to get random restaurants")

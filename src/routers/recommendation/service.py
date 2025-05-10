@@ -49,7 +49,6 @@ def get_recommendations(user_uuid: UUID, top_n: int, session) -> List:
         HTTPException: If there is an error during the recommendation calculation.
     """
     clicks = get_user_clicks(session)
-
     if clicks:
         records = [(click.user_id, click.restaurant_id, click.click_count) for click in clicks]
         
@@ -62,7 +61,10 @@ def get_recommendations(user_uuid: UUID, top_n: int, session) -> List:
     try:
         matrix = df.pivot(index="user_id", columns="restaurant_id", values="click_count").fillna(0)
         arr = cosine_similarity(matrix, matrix)
-        row_position = matrix.index.get_loc(user_uuid)
+        if user_uuid in matrix.index:
+            row_position = matrix.index.get_loc(user_uuid)
+        else:
+            return []
         user_row = matrix.iloc[row_position]
         user_non_zero_columns = user_row[user_row > 0.1].index.tolist()
         user_sim = arr[row_position].tolist()
@@ -103,10 +105,7 @@ def get_recommendations(user_uuid: UUID, top_n: int, session) -> List:
                     "latitude": restaurant_data.get("latitude"),
                 })
         if not res:
-            raise HTTPException(
-                status_code=404,
-                detail="No recommendations found"
-            )
+            return []
 
         return detail_res
 
