@@ -1,9 +1,12 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from utils.delays import random_delay
-from utils.safe_click import safe_click
-from utils.add_locations import mock_get_location
+from crawl_ggmaps_utils.delays import random_delay
+from crawl_ggmaps_utils.safe_click import safe_click
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from utils.get_locations import mock_get_location
 import datetime
 import json
 import re

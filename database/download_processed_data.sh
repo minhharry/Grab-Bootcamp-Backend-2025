@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# dos2unix download_processed_data.sh  # convert line endings from Windows to Unix
+
 set -e # Dừng script nếu bất kỳ lệnh nào thất bại
 
 echo "▶️  Step 1: Uploading data to datalake..."

@@ -46,10 +46,10 @@ def insert_data(jsonl_data):
             restaurant_id = entry.get("restaurant_id")
             restaurant_hash = entry.get("restaurant_hash")
             
-            existing_restaurant_id = get_existing_restaurant_id(conn, restaurant_hash)
-            if existing_restaurant_id:
-                print(f"Trùng lặp restaurant_hash: {restaurant_hash}. Sử dụng restaurant_id: {existing_restaurant_id}")
-                restaurant_id = existing_restaurant_id
+            # existing_restaurant_id = get_existing_restaurant_id(conn, restaurant_hash)
+            # if existing_restaurant_id:
+            #     print(f"Trùng lặp restaurant_hash: {restaurant_hash}. Sử dụng restaurant_id: {existing_restaurant_id}")
+            #     restaurant_id = existing_restaurant_id
 
             conn.execute(text("""
                 INSERT INTO restaurants (

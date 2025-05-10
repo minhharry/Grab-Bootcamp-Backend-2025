@@ -1,10 +1,13 @@
 import os
 from pyspark.sql.functions import col, explode
 
-def save_processed_data_to_minIO(spark, client, bucket_name, df_unified):
+def save_processed_data_to_minIO(spark, bucket_name, df_unified):
     output_path = f"s3a://{bucket_name}/processed/output/restaurants_unified/"
     
     try:
+        
+        a = 1/0 # cố tình gây lỗi để vào exception
+        
         df_old = spark.read.json(output_path)
         # Lấy danh sách hash từ dữ liệu cũ
         old_hashes = df_old.select("hash").distinct()

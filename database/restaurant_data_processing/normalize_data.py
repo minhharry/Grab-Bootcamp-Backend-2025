@@ -64,7 +64,7 @@ def main():
     # write_to_postgres(df_unified, postgres_config)
     
     if df_unified is not None:
-        save_processed_data_to_minIO(spark, client, bucket_name, df_unified)
+        save_processed_data_to_minIO(spark, bucket_name, df_unified)
         
         prefix = "processed/output/restaurants_unified/"
         local_dir = "processed_data/"

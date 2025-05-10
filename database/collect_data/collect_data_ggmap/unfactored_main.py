@@ -12,8 +12,8 @@ import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 from collect_data.utils.get_next_output_file import get_next_output_file
-from crawl_ggmaps_utils.add_locations import mock_get_location
-from crawl_ggmaps_utils.add_locations import get_location
+from collect_data.utils.get_locations import mock_get_location
+from collect_data.utils.get_locations import get_location
 import datetime
 import json
 import time
