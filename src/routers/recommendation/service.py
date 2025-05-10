@@ -1,7 +1,6 @@
 from sqlalchemy.orm import Session
-from .repository import add_click, get_user_restaurant_clicks_by_restaurant, get_restaurants_by_ids, get_random_restaurants, get_user_clicks
+from .repository import add_click, get_restaurants_by_ids, get_random_restaurants, get_user_clicks
 from common_schemas.response import ApiResponse
-from sqlalchemy.exc import SQLAlchemyError
 from fastapi import HTTPException
 from sklearn.metrics.pairwise import cosine_similarity
 from uuid import UUID
