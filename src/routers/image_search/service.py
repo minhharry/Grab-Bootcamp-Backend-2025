@@ -21,7 +21,7 @@ async def search_similar_images(
     db: Session,
     top_n: int = 5,
     collection_name: str = "images_embedding",
-    limit: int = 20
+    limit: int = 100
 ) -> List[ImageResultItem]:
     """
     Searches for similar images based on the provided image bytes using a model and a Qdrant database.
