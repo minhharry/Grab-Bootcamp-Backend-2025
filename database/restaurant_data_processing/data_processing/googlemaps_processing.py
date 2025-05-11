@@ -2,8 +2,8 @@ from pyspark.sql.functions import concat_ws, sha2, expr, col, lit, to_timestamp,
 from udfs.price_range_udf import parse_price_range_udf
 
 def process_google_data(spark, google_path):
-    df_google = spark.read.json(google_path)
-    df_google_normalized = df_google.select(
+    # df_google = spark.read.json(google_path)
+    df_google_normalized = google_path.select(
         expr("uuid()").alias("restaurant_id"),
         col("name").alias("restaurant_name"),
         col("avatar_url"),

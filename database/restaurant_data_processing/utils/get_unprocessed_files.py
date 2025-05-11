@@ -6,9 +6,10 @@ def get_unprocessed_files(client, bucket_name, source, date_str):
 
     unprocessed_files = []
     for file_name in raw_files:
-        processed_prefix = f"processed/restaurants_unified/{date_str}/{file_name}/"
+        processed_prefix = f"processed/{source}/{date_str}/{file_name}/"
         processed_objects = list(client.list_objects(bucket_name, prefix=processed_prefix, recursive=True))
         
+        # if 0:
         if processed_objects:
             print(f"File {file_name} đã được xử lý (tìm thấy {len(processed_objects)} object).")
         else:

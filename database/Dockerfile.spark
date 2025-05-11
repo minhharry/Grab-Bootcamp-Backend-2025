@@ -3,3 +3,5 @@ FROM bitnami/spark:3.4.1
 RUN pip install delta-spark==2.4.0
 Run pip install minio==7.2.15 
 RUN pip install dotenv
+RUN pip install retry
+RUN pip install boto3

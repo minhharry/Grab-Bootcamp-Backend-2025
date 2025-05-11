@@ -6,9 +6,16 @@ def init_spark():
         .appName("RestaurantDataProcessing") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog") \
-        .config("ipc.maximum.data.length", "100000000")
+        .config("ipc.maximum.data.length", "100000000") \
+        .config("spark.executor.jvm.options", "-XX:+UseG1GC -XX:InitiatingHeapOccupancyPercent=35") \
+        .config("spark.sql.files.maxPartitionBytes", "512k") \
+        .config("spark.sql.parquet.compression.codec", "snappy") \
+        .config("spark.sql.parquet.output.rowGroupSize", "512k") \
+        .config("spark.sql.shuffle.partitions", "1") \
+        .config("spark.default.parallelism", "1")  \
     
     spark = builder.getOrCreate()
+    spark.sparkContext.setLogLevel("WARN")
     sc = spark.sparkContext
     sc._jsc.hadoopConfiguration().set("fs.s3a.access.key", os.getenv("MINIO_ROOT_USER"))
     sc._jsc.hadoopConfiguration().set("fs.s3a.secret.key", os.getenv("MINIO_ROOT_PASSWORD"))

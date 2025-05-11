@@ -2,8 +2,8 @@ from pyspark.sql.functions import array, size, when, sha2, expr, col, lit, to_ti
 from udfs.price_range_udf import parse_price_range_udf
 
 def process_shopee_data(spark, shopee_path):
-    df_shopee = spark.read.json(shopee_path)
-    df_shopee_normalized = df_shopee.select(
+    # df_shopee = spark.read.json(shopee_path)
+    df_shopee_normalized = shopee_path.select(
         expr("uuid()").alias("restaurant_id"),
         col("name").alias("restaurant_name"),
         col("avatar_url"),

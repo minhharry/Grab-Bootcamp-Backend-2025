@@ -59,14 +59,16 @@ def main():
         print("Không có file mới để xử lý.")
         df_unified = None
 
-    # Ghi vào PostgreSQL
-    # postgres_config = get_postgres_config()
-    # write_to_postgres(df_unified, postgres_config)
-    
     if df_unified is not None:
+        # Ghi vào PostgreSQL
+        # postgres_config = get_postgres_config()
+        # write_to_postgres(df_unified, postgres_config)
+    
+        # Lưu vào MinIO
         save_processed_data_to_minIO(spark, bucket_name, df_unified)
         
-        prefix = "processed/output/restaurants_unified/"
+        # Lưu vào thư mục processed_data ở local
+        prefix = "processed/restaurants_unified/"
         local_dir = "processed_data/"
         save_processed_data_to_local(client, bucket_name, prefix, local_dir)
     

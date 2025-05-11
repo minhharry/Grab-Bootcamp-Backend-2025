@@ -34,6 +34,8 @@ services:
       - SPARK_CONF_DIR=/opt/bitnami/spark/conf
       - MINIO_ROOT_USER=${MINIO_ROOT_USER}
       - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - PYTHONPATH=/opt/bitnami/spark/restaurant_data_processing:$PYTHONPATH
     ports:
       - "8080:8080"
@@ -51,6 +53,7 @@ services:
       - ./restaurant_data_processing:/opt/bitnami/spark/restaurant_data_processing
       # - ./images_table_data:/opt/bitnami/spark/images_table_data
       - ./global_config.py:/opt/bitnami/spark/restaurant_data_processing/global_config.py
+      - ./collect_data/raw_data/shopeefood/2025-05-01/shopeefood_20250501_001_2000000_lines.json:/opt/bitnami/spark/collect_data/raw_data/shopeefood/2025-05-01/shopeefood_20250501_001_2000000_lines.json
     networks:
       - delta-network
 
