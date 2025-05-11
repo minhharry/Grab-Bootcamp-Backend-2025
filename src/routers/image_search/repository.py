@@ -36,7 +36,11 @@ def get_image_restaurant_data(db: Session, img_ids: List[str]) -> List[ImageResu
                 "price_level": price_level,
                 "restaurant_rating": rest.restaurant_rating if rest else None,
                 "longitude": rest.longitude if rest else None,
-                "latitude": rest.latitude if rest else None
+                "latitude": rest.latitude if rest else None,
+                "img_id": img.img_id,
+                "food_name": img.food_name,
+                "food_price": img.food_price,
+                "img_url": img.img_url
             }
 
 
