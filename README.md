@@ -35,17 +35,17 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}
 Running these commands for the first time may take a while.
 
 ### Load The Provided Restaurant data:
-Navigate to the `database` directory:
+1. **Navigate to the `database` directory**:
 ```sh
 cd database
 ```
 
-Run Docker Compose to initialize the containers:
+2. **Run Docker Compose to initialize the containers**:
 ```sh
 docker compose up -d
 ```
 
-Load the provided processed data to Postgres:
+3. **Load the provided processed data to Postgres**:
 ```sh
 bash load_data.sh
 ```
@@ -53,12 +53,12 @@ bash load_data.sh
 Go to `http://localhost:8088/` to view all the data. (`Note: Adminer port has been change from 8080 to 8088.`)
 
 ### (Optional) Collecting and Processing More Restaurant Data:
-1. Download Spark libraries: (skip if previously done)
+1. **Download Spark libraries: (skip if previously done)**
 ```sh
 bash download_jars.sh
 pip install minio==7.2.15 
 ```
-2. Collect restaurant data:
+2. **Collect restaurant data**:
 - From GoogleMaps:
 ```sh
 python database/collect_data/collect_data_ggmap/main.py
@@ -67,23 +67,23 @@ python database/collect_data/collect_data_ggmap/main.py
 ```sh
 python database/collect_data/collect_data_shopeefood/main.py
 ```
-2. Select the collection date:
-Set the target date in global_config.py.
 
-3. Process the raw data:
-```sh
-bash normalize_data.sh
-```
+3. **Process the raw data**:
+   - Select the collection date to process: set the target date in `global_config.py`.
+   - Run the normalization script:
+     ```bash
+     bash normalize_data.sh
+     ```
+   - Use the food recognition model to fill missing values in the `food_name` column:  
+     [Image Embedding](https://drive.google.com/drive/folders/1nKzVk1eyjutBAYo34F7gatrBIcarMyNY?usp=drive_link)
 
-4. Use the food recognition model to fill missing values in the food_name column: [Image Embedding](https://drive.google.com/drive/folders/1nKzVk1eyjutBAYo34F7gatrBIcarMyNY?usp=drive_link)
-
-5. Get restaurant coordinates (longitude, latitude):
-- Add `GOMAPS_API_KEY` to `database/.env`.  
-     You can get a free API key at [GoMaps](https://app.gomaps.pro/)
-- Get locations:
-  ```sh
-  python get_locations.py
-  ```
+   - Get restaurant coordinates (longitude, latitude):
+     - Add `GOMAPS_API_KEY` to `database/.env`.  
+       You can get a free API key at [GoMaps](https://app.gomaps.pro/)
+     - Get locations:
+       ```bash
+       python get_locations.py
+       ```
 
 ### (Optional) Add dummy User and User clicks data:
 ```sh
