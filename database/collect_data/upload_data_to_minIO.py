@@ -48,25 +48,25 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 print("Script directory:", script_dir)
 
-date_str = config.SELLECT_CRAWL_DATE
+date_str_array = config.SELLECT_CRAWL_DATE_ARRAY
+for date_str in date_str_array:
+    # Upload file ShopeeFood
+    local_shopee_dir = f"{script_dir}/raw_data/shopeefood/{date_str}"
 
-# Upload file ShopeeFood
-local_shopee_dir = f"{script_dir}/raw_data/shopeefood/{date_str}"
-
-if os.path.exists(local_shopee_dir):
-    for filename in os.listdir(local_shopee_dir):
-        local_path = os.path.join(local_shopee_dir, filename)
-        upload_to_minio(client, bucket_name, local_path, "shopeefood", date_str)
-else:
-    print(f"Directory {local_shopee_dir} does not exist.")
+    if os.path.exists(local_shopee_dir):
+        for filename in os.listdir(local_shopee_dir):
+            local_path = os.path.join(local_shopee_dir, filename)
+            upload_to_minio(client, bucket_name, local_path, "shopeefood", date_str)
+    else:
+        print(f"Directory {local_shopee_dir} does not exist.")
 
 
-# Upload file Google Maps
-local_google_dir = f"{script_dir}/raw_data/googlemaps/{date_str}"
+    # Upload file Google Maps
+    local_google_dir = f"{script_dir}/raw_data/googlemaps/{date_str}"
 
-if os.path.exists(local_google_dir):
-    for filename in os.listdir(local_google_dir):
-        local_path = os.path.join(local_google_dir, filename)
-        upload_to_minio(client, bucket_name, local_path, "googlemaps", date_str)
-else:
-    print(f"Directory {local_google_dir} does not exist.")
+    if os.path.exists(local_google_dir):
+        for filename in os.listdir(local_google_dir):
+            local_path = os.path.join(local_google_dir, filename)
+            upload_to_minio(client, bucket_name, local_path, "googlemaps", date_str)
+    else:
+        print(f"Directory {local_google_dir} does not exist.")

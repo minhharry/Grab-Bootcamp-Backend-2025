@@ -25,8 +25,8 @@ def get_list_place(count = 5, page=1):
     params = {
         "t": timestamp,
         "page": page,
-        "lat": "10.823099",
-        "lon": "106.629664",
+        "lat": "10.77238",
+        "lon": "106.74721",
         "count": str(count),
         "type": "1"
     }
