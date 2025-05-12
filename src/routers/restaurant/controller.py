@@ -4,24 +4,31 @@ from uuid import UUID
 from .service import fetch_restaurant_detail, fetch_restaurant_dishes, fetch_restaurant_reviews
 from common_schemas.response import ApiResponse, Metadata
 from database import get_db
+from geopy.distance import geodesic
 
 router = APIRouter()
 
 # Endpoint to get restaurant details
 @router.get("/{restaurant_id}", response_model=ApiResponse, tags = ["Restaurant Information"])
-def get_restaurant_info(restaurant_id: UUID, db: Session = Depends(get_db)) -> ApiResponse:
+def get_restaurant_info(
+    restaurant_id: UUID, 
+    user_lat: float = 10.768778567106164, 
+    user_long: float = 106.74621772556752,
+    db: Session = Depends(get_db)) -> ApiResponse:
     """
     Endpoint to retrieve detailed information about a restaurant.
     Returns the restaurant details along with metadata (if necessary).
     
     Args:
         restaurant_id (UUID): The unique identifier of the restaurant.
+        user_lat (float): The user's latitude.
+        user_long (float): The user's longitude.
         db (Session): Database session for querying.
 
     Returns:
         ApiResponse: The restaurant's data and metadata.
     """
-    data = fetch_restaurant_detail(restaurant_id, db)
+    data = fetch_restaurant_detail(restaurant_id, db, user_lat, user_long)
     if not data:
         raise HTTPException(
             status_code=404,

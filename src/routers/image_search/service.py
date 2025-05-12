@@ -10,6 +10,7 @@ from typing import List
 from .model import ImageResultItem
 from model_loader import ml_models
 from .repository import get_image_restaurant_data
+from geopy.distance import geodesic
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=env_path)
@@ -20,8 +21,10 @@ async def search_similar_images(
     image_bytes: bytes,
     db: Session,
     top_n: int = 5,
+    user_lat: float = 10.768778567106164,
+    user_long: float = 106.74621772556752,
     collection_name: str = "images_embedding",
-    limit: int = 100
+    limit: int = 200
 ) -> List[ImageResultItem]:
     """
     Searches for similar images based on the provided image bytes using a model and a Qdrant database.
@@ -62,7 +65,7 @@ async def search_similar_images(
         collection_name=collection_name,
         query_vector=embedding.tolist(),
         with_payload=True,
-        limit=50,
+        limit=limit,
     )
 
     # Get image restaurant data from the repository
@@ -81,6 +84,7 @@ async def search_similar_images(
             if restaurant_id not in seen_restaurant_ids:
                 seen_restaurant_ids.add(restaurant_id)
                 result = ImageResultItem(score=r.score, **data)
+                result.distance = geodesic((data.get("latitude", 0), data.get("longitude", 0)), (user_lat, user_long)).km
                 results.append(result)
 
     # Sort the results by score
