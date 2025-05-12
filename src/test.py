@@ -40,7 +40,14 @@ def test_get_dummy_not_found():
 def test_search_image():
     with TestClient(app) as client:
         with open("./tests/KimBap.jpg", "rb") as f:
-            response = client.post("/image-search", files={"file": f})
+            response = client.post(
+                "/image-search?top_n=5", 
+                files={"file": f},  
+                data={
+                    "latitude": 10.7757081,
+                    "longitude": 106.70312
+                }
+            )
         assert response.status_code == 200
         data = response.json()
         assert len(data['data']) > 0

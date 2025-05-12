@@ -1,9 +1,11 @@
 from pydantic import BaseModel
 from typing import List, Optional
 from uuid import UUID
+from fastapi import UploadFile, File
 
 class ImageResultItem(BaseModel):
-    score: float
+    similar_score: float
+    final_score: float
     restaurant_id: Optional[UUID]
     restaurant_name: Optional[str]
     avatar_url: Optional[str] = None
@@ -17,3 +19,10 @@ class ImageResultItem(BaseModel):
     food_price: Optional[str] = None  
     img_url: Optional[str] = None
 
+class UserLocation(BaseModel):
+    latitude: float
+    longitude: float
+
+class ImageSearchRequest(BaseModel):
+    user_location: UserLocation
+    file: UploadFile = File(...)

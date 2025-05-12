@@ -1,5 +1,6 @@
 
 from typing import Optional
+from math import radians, sin, cos, sqrt, atan2
 
 def extract_price_level(price_range: dict) -> Optional[int]:
     """
@@ -32,3 +33,18 @@ def extract_price_level(price_range: dict) -> Optional[int]:
     except (ValueError, TypeError):
         return None
     
+
+
+
+def haversine(lat1, lon1, lat2, lon2):
+    # Convert degrees to radians
+    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
+
+    # Haversine formula
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    radius = 6371  # Radius of the Earth in kilometers. Use 3956 for miles.
+
+    return radius * c
