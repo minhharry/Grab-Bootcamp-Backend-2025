@@ -20,7 +20,7 @@ driver.maximize_window()
 
 output_file_path, crawl_id = get_next_output_file("shopeefood")
 
-list_places = get_list_place(200)
+list_places = get_list_place(50)
 
 for place in list_places:    
     try:

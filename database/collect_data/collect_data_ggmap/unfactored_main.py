@@ -5,15 +5,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from fake_useragent import UserAgent
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 from collect_data.utils.get_next_output_file import get_next_output_file
-from crawl_ggmaps_utils.add_locations import mock_get_location
-from crawl_ggmaps_utils.add_locations import get_location
+# from collect_data.utils.get_locations import mock_get_location
+# from collect_data.utils.get_locations import get_location
 import datetime
 import json
 import time
@@ -21,9 +20,9 @@ import random
 import re
 output_file_path, crawl_id = get_next_output_file("googlemaps")
 
-search_keys = ["restaurants in district 1 Ho Chi Minh City",
+search_keys = ["Quán ăn ở Thành phố Hồ Chí Minh",
+                    "restaurants in district 7 Ho Chi Minh City",
                    "Món chay thành phố Hồ Chí Minh",
-                   "Quán ăn ở quận 2 Thành phố Hồ Chí Minh",
                    "Nhà hàng ở quận 3 TP HCM",
                    "Quán ăn ngon ở quận 4 TP HCM",
                    "Đồ ăn ở quận 5 TP HCM",
@@ -195,8 +194,8 @@ try:
 
     # Cuộn trang để tải thêm nhà hàng
     print("Đang cuộn trang để tải thêm nhà hàng...")
-    target_count = 50  # Số nhà hàng mong muốn
-    max_scrolls = 20  # Giới hạn số lần cuộn để tránh vòng lặp vô hạn
+    target_count = 150  # Số nhà hàng mong muốn
+    max_scrolls = 30  # Giới hạn số lần cuộn để tránh vòng lặp vô hạn
 
     restaurants = scroll_to_load_restaurants(driver, target_count, max_scrolls)
     for index, restaurant in enumerate(restaurants):
@@ -325,7 +324,7 @@ try:
 
             crawl_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             
-            location = mock_get_location(address) # search for location
+            # location = mock_get_location(address) # search for location
             
             restaurant_data = {
                 "name": name,
@@ -340,8 +339,7 @@ try:
                 "reviews": reviews,
                 "source": "GoogleMaps",
                 "crawl_time": crawl_time,
-                "crawl_id": crawl_id,
-                "search_results": location
+                "crawl_id": crawl_id
             }
             
             try:

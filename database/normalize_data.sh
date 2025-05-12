@@ -1,9 +1,13 @@
 #!/bin/bash
 
+# dos2unix normalize_data.sh  # convert line endings from Windows to Unix
+
 set -e # Dừng script nếu bất kỳ lệnh nào thất bại
 
 echo "▶️  Step 1: Uploading data to datalake..."
-python collect_data/upload_data_to_minIO.py
+# python collect_data/upload_data_to_minIO.py
+../.venv/Scripts/python.exe collect_data/upload_data_to_minIO.py
+
 
 echo "✅  Step 1 complete."
 
