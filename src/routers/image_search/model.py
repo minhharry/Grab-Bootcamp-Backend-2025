@@ -16,4 +16,5 @@ class ImageResultItem(BaseModel):
     food_name: Optional[str] = None  
     food_price: Optional[str] = None  
     img_url: Optional[str] = None
+    distance: Optional[float] = None
 

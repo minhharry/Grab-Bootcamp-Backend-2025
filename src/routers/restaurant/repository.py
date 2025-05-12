@@ -30,6 +30,8 @@ def get_restaurant_detail(db: Session, restaurant_id: str) -> Dict | None:
         "restaurant_rating": restaurant.restaurant_rating,
         "restaurant_rating_count": restaurant.restaurant_rating_count,
         "restaurant_url": restaurant.restaurant_url,
+        "latitude": restaurant.latitude,
+        "longitude": restaurant.longitude,
     }
 
 def get_restaurant_dishes(db: Session, restaurant_id: str, skip: int, limit: int) -> Tuple[List[Dict], int]:
