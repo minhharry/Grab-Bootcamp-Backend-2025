@@ -19,8 +19,9 @@ client = QdrantClient(host="localhost", port=6333)
 async def search_similar_images(
     image_bytes: bytes,
     db: Session,
+    top_n: int = 5,
     collection_name: str = "images_embedding",
-    limit: int = 10
+    limit: int = 100
 ) -> List[ImageResultItem]:
     """
     Searches for similar images based on the provided image bytes using a model and a Qdrant database.
@@ -28,8 +29,9 @@ async def search_similar_images(
     Args:
         image_bytes (bytes): The byte data of the image to search for.
         db (Session): The database session to interact with the database.
+        top_n: The maximum number of restaurant to return
         collection_name (str): The name of the Qdrant collection to search in.
-        limit (int): The maximum number of similar images to return.
+        limit (int): The maximum number of similar images to search.
 
     Returns:
         List[ImageResult]: A list of `ImageResult` models containing image and restaurant data.
@@ -60,7 +62,7 @@ async def search_similar_images(
         collection_name=collection_name,
         query_vector=embedding.tolist(),
         with_payload=True,
-        limit=limit,
+        limit=50,
     )
 
     # Get image restaurant data from the repository
@@ -77,11 +79,11 @@ async def search_similar_images(
         if data:
             restaurant_id = data.get("restaurant_id")
             if restaurant_id not in seen_restaurant_ids:
-                seen_restaurant_ids.add(restaurant_id)  # Mark this restaurant_id as processed
+                seen_restaurant_ids.add(restaurant_id)
                 result = ImageResultItem(score=r.score, **data)
                 results.append(result)
 
     # Sort the results by score
     results.sort(key=lambda x: x.score, reverse=True)
 
-    return results[:5]
+    return results[:top_n]

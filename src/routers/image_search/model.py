@@ -12,4 +12,8 @@ class ImageResultItem(BaseModel):
     price_level: Optional[int] = None
     longitude: Optional[float] = None
     latitude: Optional[float] = None
+    img_id: Optional[UUID] = None 
+    food_name: Optional[str] = None  
+    food_price: Optional[str] = None  
+    img_url: Optional[str] = None
 

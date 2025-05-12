@@ -9,8 +9,8 @@ from fastapi.security import OAuth2PasswordBearer
 router = APIRouter()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
-@router.post("/signup", response_model=ApiResponse)
-def signup(data: UserSignup, db: Session = Depends(get_db)):
+@router.post("/auth/signup", response_model=ApiResponse, tags=["Authentication"])
+def signup(data: UserSignup, db: Session = Depends(get_db)) -> ApiResponse:
     """
     Endpoint for user signup. Signs up a new user and logs them in to return a token.
 
@@ -25,8 +25,8 @@ def signup(data: UserSignup, db: Session = Depends(get_db)):
     return result 
 
 
-@router.post("/login", response_model=ApiResponse)
-def login(data: UserLogin, db: Session = Depends(get_db)):
+@router.post("/auth/login", response_model=ApiResponse, tags=["Authentication"])
+def login(data: UserLogin, db: Session = Depends(get_db)) -> ApiResponse:
     """
     Endpoint for user login. Authenticates the user and returns a token.
 
@@ -40,8 +40,8 @@ def login(data: UserLogin, db: Session = Depends(get_db)):
     result = login_user(db, data)
     return result
 
-@router.post("/logout", response_model=ApiResponse)
-def logout(token: str = Depends(oauth2_scheme)):
+@router.post("/auth/logout", response_model=ApiResponse, tags=["Authentication"])
+def logout(token: str = Depends(oauth2_scheme)) -> ApiResponse:
     """
     Endpoint for logging out a user.
     
@@ -53,8 +53,8 @@ def logout(token: str = Depends(oauth2_scheme)):
     """
     return logout_user()
 
-@router.get("/profile", response_model=ApiResponse)
-def get_profile(current_user: dict = Depends(get_current_user), db: Session = Depends(get_db)):
+@router.get("/me", response_model=ApiResponse, tags=["Authentication"])
+def get_profile(current_user: dict = Depends(get_current_user), db: Session = Depends(get_db)) -> ApiResponse:
     user_id = current_user.data.get("user_id")
     
     result = get_profile_current_user(db, user_id)  

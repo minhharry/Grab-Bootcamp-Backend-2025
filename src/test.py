@@ -40,7 +40,7 @@ def test_get_dummy_not_found():
 def test_search_image():
     with TestClient(app) as client:
         with open("./tests/KimBap.jpg", "rb") as f:
-            response = client.post("/image_search/search-image", files={"file": f})
+            response = client.post("/image-search", files={"file": f})
         assert response.status_code == 200
         data = response.json()
         assert len(data['data']) > 0
@@ -78,13 +78,33 @@ def test_valid_restaurant_reviews():
     assert "page" in data["metadata"]
     assert "size" in data["metadata"]
     assert "total" in data["metadata"]
-
+    
 def test_valid_collaborative_filtering():
     user_id = "bf12d0ce-11bd-407e-abb1-e9cbba669232"
-    response = client.get(f"collaborative_filtering/?user_uuid={user_id}&top_n=20")
+    response = client.get(f"recommendation/user/{user_id}?top_n=20")
     assert response.status_code == 200
     data = response.json()
     assert "data" in data
     assert len(data["data"]) > 0
     assert "score" in data["data"][0]
     assert "restaurant_id" in data["data"][0]
+
+def test_valid_random_recommendation():
+    response = client.get(f"recommendation/guest")
+    assert response.status_code == 200
+    data = response.json()
+    assert "data" in data
+    assert len(data["data"]) > 0
+    assert "restaurant_id" in data["data"][0]
+
+def test_get_dish():
+    valid_img_id = "6a6d044a-6a8f-4684-bcd7-7a60ee619db0"
+    response = client.get(f"/dish/{valid_img_id}")
+    assert response.status_code == 200
+    response_data = response.json()
+    assert "status" in response_data
+    assert response_data["status"] == 200
+    assert "data" in response_data
+    assert isinstance(response_data["data"], dict) 
+    assert "img_id" in response_data["data"]
+    assert response_data["data"]["img_id"] == str(valid_img_id)
