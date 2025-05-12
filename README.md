@@ -12,39 +12,32 @@ uv pip install -r requirements.txt
 ```
 ## In database/ add file .env
 ```bash
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=example
-POSTGRES_DB=restaurants
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=
+POSTGRES_PORT=
 DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
-MINIO_ROOT_USER=admin
-MINIO_ROOT_PASSWORD=12345678
+MINIO_ROOT_USER=
+MINIO_ROOT_PASSWORD=
 ```
 ## In src/ add file .env
 ```bash
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=example
-POSTGRES_DB=restaurants
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=
+POSTGRES_PORT=
 DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
 ```
 ## Run the database
 
-`Note: These commands should be run in Windows Subsystem for Linux (WSL) for best results.`
-
 Running these commands for the first time may take a while.
 
+### Load The Provided Restaurant data:
 Navigate to the `database` directory:
 ```sh
 cd database
-```
-
-Download Spark libraries: (skip if previously done)
-```sh
-bash download_jars.sh
-pip install minio==7.2.15 
 ```
 
 Run Docker Compose to initialize the containers:
@@ -52,22 +45,50 @@ Run Docker Compose to initialize the containers:
 docker compose up -d
 ```
 
-Load data to Postgres:
+Load the provided processed data to Postgres:
 ```sh
 bash load_data.sh
 ```
 
 Go to `http://localhost:8088/` to view all the data. (`Note: Adminer port has been change from 8080 to 8088.`)
 
-If needed, add dummy User and User clicks data:
+### (Optional) Collecting and Processing More Restaurant Data:
+1. Download Spark libraries: (skip if previously done)
+```sh
+bash download_jars.sh
+pip install minio==7.2.15 
+```
+2. Collect restaurant data:
+- From GoogleMaps:
+```sh
+python database/collect_data/collect_data_ggmap/main.py
+```
+- From Shopeefood:
+```sh
+python database/collect_data/collect_data_shopeefood/main.py
+```
+2. Select the collection date:
+Set the target date in global_config.py.
+
+3. Process the raw data:
+```sh
+bash normalize_data.sh
+```
+
+4. Use the food recognition model to fill missing values in the food_name column: [Image Embedding](https://drive.google.com/drive/folders/1nKzVk1eyjutBAYo34F7gatrBIcarMyNY?usp=drive_link)
+
+5. Get restaurant coordinates (longitude, latitude):
+- Add `GOMAPS_API_KEY` to `database/.env`.  
+     You can get a free API key at [GoMaps](https://app.gomaps.pro/)
+- Get locations:
+  ```sh
+  python get_locations.py
+  ```
+
+### (Optional) Add dummy User and User clicks data:
 ```sh
 cd dummy_users_data
 python createDummyUserAndUserClicksData.py
-```
-
-Delete everything with the `-v` flag:
-```sh
-docker compose down -v
 ```
 
 ## In src/routers/image_search add file .env
