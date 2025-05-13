@@ -53,17 +53,19 @@ async def get_recommendations_for_user(
     """
     user_uuid = UUID(user_uuid)
     try:
-        recommendations = get_recommendations(user_uuid, top_n, session)
+        recommendations = get_recommendations(user_uuid, top_n*5, session)
         if not recommendations:
             recommendations = get_random_restaurants_details(session, top_n)
         
         for rec in recommendations:
             rec.update({"distance": geodesic((rec.get("latitude", 0), rec.get("longitude", 0)), (user_lat, user_long)).km})
+        
+        sorted_restaurants = sorted(recommendations, key=lambda x: x['distance'])
 
         return ApiResponse(
             status=200,
             message="Data retrieved successfully",
-            data=recommendations,
+            data=sorted_restaurants[:top_n],
             metadata=None
         )
     
@@ -93,19 +95,23 @@ async def get_recommendations_for_guest(
     """
     try:
         # Get random restaurant details from the service
-        restaurants = get_random_restaurants_details(session, top_n)
+        restaurants = get_random_restaurants_details(session, top_n*5)
 
         for rec in restaurants:
-            rec.update({"distance": geodesic((rec.get("latitude", 0), rec.get("longitude", 0)), (user_lat, user_long)).km})
+            distance = geodesic((rec.get("latitude", 0), rec.get("longitude", 0)), (user_lat, user_long)).km
+            rec.update({"distance": distance})
+
 
         if not restaurants:
             raise HTTPException(status_code=404, detail="No restaurants found")
+
+        sorted_restaurants = sorted(restaurants, key=lambda x: x['distance'])
 
         # Return the response with data and metadata
         return ApiResponse(
             status=200,
             message="Random restaurants retrieved successfully",
-            data=restaurants,
+            data=sorted_restaurants[:top_n],
             metadata=None
         )
     
