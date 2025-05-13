@@ -88,5 +88,5 @@ async def search_similar_images(
                 results.append(result)
 
     results.sort(key=lambda x: x.score, reverse=True)
-
+    results = [r for r in results if r.distance <= 20]
     return results[:top_n]
