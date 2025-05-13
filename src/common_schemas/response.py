@@ -1,5 +1,9 @@
 from pydantic import BaseModel
-from typing import Optional, Any
+from typing import Optional, Any, Union
+
+class ErrorMetadata(BaseModel):
+    timestamp: str
+    path: str
 
 class Metadata(BaseModel):
     """
@@ -23,4 +27,5 @@ class ApiResponse(BaseModel):
     status: int
     message: str
     data: Optional[Any] = None
-    metadata: Optional[Metadata] = None
+    metadata: Optional[Union[Metadata, ErrorMetadata]] = None
+
