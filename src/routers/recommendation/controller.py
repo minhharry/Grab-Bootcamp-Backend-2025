@@ -53,15 +53,17 @@ async def get_recommendations_for_user(
     """
     user_uuid = UUID(user_uuid)
     try:
-        recommendations = get_recommendations(user_uuid, top_n*5, session)
+        recommendations = get_recommendations(user_uuid, top_n*3, session)
         if not recommendations:
             recommendations = get_random_restaurants_details(session, top_n)
         
         for rec in recommendations:
             rec.update({"distance": geodesic((rec.get("latitude", 0), rec.get("longitude", 0)), (user_lat, user_long)).km})
         
-        sorted_restaurants = sorted(recommendations, key=lambda x: x['distance'])
+        filtered = [r for r in recommendations if r["distance"] <= 20]
 
+        sorted_restaurants = sorted(filtered, key=lambda x: x['score'], reverse=True)
+        
         return ApiResponse(
             status=200,
             message="Data retrieved successfully",
@@ -95,7 +97,7 @@ async def get_recommendations_for_guest(
     """
     try:
         # Get random restaurant details from the service
-        restaurants = get_random_restaurants_details(session, top_n*5)
+        restaurants = get_random_restaurants_details(session, top_n*3)
 
         for rec in restaurants:
             distance = geodesic((rec.get("latitude", 0), rec.get("longitude", 0)), (user_lat, user_long)).km
