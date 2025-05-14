@@ -8,3 +8,4 @@ vector_db/image_vectors.csv
 .vscode
 luutru
 jars
+database/dummy_users_data/qdrant_storage/

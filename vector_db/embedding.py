@@ -1,5 +1,5 @@
 # Or you can generate image embeddings yourself using our Kaggle notebook:
-#  👉 [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/grab-images-embedding)
+#  👉 [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/recognize-food-name-and-embedding)
 
 import pandas as pd
 import requests

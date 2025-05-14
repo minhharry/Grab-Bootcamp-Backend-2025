@@ -14,11 +14,6 @@ x-minio-common: &minio-common
 services:
   minio:
     <<: *minio-common
-    # hostname: minio-1
-    # volumes:
-    #   - type: bind
-    #     source: ./minio-data
-    #     target: /mnt/data
     volumes:
       - minio-data:/mnt/data
     environment:
@@ -54,7 +49,8 @@ services:
       # - ./spark-logs:/opt/bitnami/spark/logs
       - ./processed_data:/opt/bitnami/spark/processed_data
       - ./restaurant_data_processing:/opt/bitnami/spark/restaurant_data_processing
-      - ./images_table_data:/opt/bitnami/spark/images_table_data
+      # - ./images_table_data:/opt/bitnami/spark/images_table_data
+      - ./global_config.py:/opt/bitnami/spark/global_config.py
     networks:
       - delta-network
 
@@ -70,7 +66,7 @@ services:
       - spark-master
     volumes:
       - ./spark-conf:/opt/bitnami/spark/conf
-      - ./spark-logs:/opt/bitnami/spark/logs
+      - spark-logs:/opt/bitnami/spark/logs
     networks:
       - delta-network
   db:
@@ -105,6 +101,7 @@ services:
 volumes:
   pgdata:
   minio-data:
+  spark-logs:
 
 networks:
   delta-network:

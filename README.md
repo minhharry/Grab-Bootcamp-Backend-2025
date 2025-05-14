@@ -12,56 +12,83 @@ uv pip install -r requirements.txt
 ```
 ## In database/ add file .env
 ```bash
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=example
-POSTGRES_DB=restaurants
-POSTGRES_HOST=db
-POSTGRES_PORT=5432
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=
+POSTGRES_PORT=
 DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
-MINIO_ROOT_USER=admin
-MINIO_ROOT_PASSWORD=12345678
+MINIO_ROOT_USER=
+MINIO_ROOT_PASSWORD=
 ```
 ## In src/ add file .env
 ```bash
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=example
-POSTGRES_DB=restaurants
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=
+POSTGRES_PORT=
 DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
 ```
 ## Run the database
 
-`Note: These commands should be run in Windows Subsystem for Linux (WSL) for best results.`
-
 Running these commands for the first time may take a while.
 
-Navigate to the `database` directory:
+### Load The Provided Restaurant data:
+1. **Navigate to the `database` directory**:
 ```sh
 cd database
 ```
 
-Download Spark libraries: (skip if previously done)
-```sh
-bash download_jars.sh
-pip install minio==7.2.15 
-```
-
-Run Docker Compose to initialize the containers:
+2. **Run Docker Compose to initialize the containers**:
 ```sh
 docker compose up -d
 ```
 
-Load data to Postgres:
+3. **Load the provided processed data to Postgres**:
 ```sh
 bash load_data.sh
 ```
 
 Go to `http://localhost:8088/` to view all the data. (`Note: Adminer port has been change from 8080 to 8088.`)
 
-Delete everything with the `-v` flag:
+### (Optional) Collecting and Processing More Restaurant Data:
+1. **Download Spark libraries: (skip if previously done)**
 ```sh
-docker compose down -v
+bash download_jars.sh
+pip install minio==7.2.15 
+```
+2. **Collect restaurant data**:
+- From GoogleMaps:
+```sh
+python database/collect_data/collect_data_ggmap/main.py
+```
+- From Shopeefood:
+```sh
+python database/collect_data/collect_data_shopeefood/main.py
+```
+
+3. **Process the raw data**:
+   - Select the collection date to process: set the target date in `global_config.py`.
+   - Run the normalization script:
+     ```bash
+     bash normalize_data.sh
+     ```
+   - Use the food recognition model to fill missing values in the `food_name` column:  
+     [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/recognize-food-name-and-embedding) 
+
+   - Get restaurant coordinates (longitude, latitude):
+     - Add `GOMAPS_API_KEY` to `database/.env`.  
+       You can get a free API key at [GoMaps](https://app.gomaps.pro/)
+     - Get locations:
+       ```bash
+       python get_locations.py
+       ```
+
+### (Optional) Add dummy User and User clicks data:
+```sh
+cd dummy_users_data
+python createDummyUserAndUserClicksData.py
 ```
 
 ## In src/routers/image_search add file .env
@@ -71,7 +98,7 @@ API_KEY=
 ```
 
 ## If using qdrant local
-In folder vector_db, download image_vectors.csv in this folder [Image Embedding](https://drive.google.com/drive/folders/1Av97Umx2i_e0iRPeUA4ddK7DOmJHj5D1?usp=sharing) and add to vector_db folder  
+In folder vector_db, download image_vectors.csv in this folder [Image Embedding](https://drive.google.com/drive/folders/1nKzVk1eyjutBAYo34F7gatrBIcarMyNY?usp=drive_link) and add to vector_db folder  
 
 In folder root (Grab-Bootcamp-Backend-2025)
 ```bash
@@ -80,7 +107,7 @@ python -m vector_db.load_embedding
 ```
 
 Or you can generate image embeddings yourself using our Kaggle notebook:
- 👉 [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/grab-images-embedding) 
+ 👉 [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/recognize-food-name-and-embedding) 
 Steps:
 1. Click "Copy and Edit" to create your own version of the notebook.
 

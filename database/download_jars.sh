@@ -18,7 +18,7 @@ for url in "${urls[@]}"; do
     continue
   fi
   echo "Downloading $url"
-  wget -q --show-progress -P database/jars "$url"
+  wget -q --show-progress -P jars "$url"
 done
 
 echo "✅ All JARs downloaded to ./jars"
