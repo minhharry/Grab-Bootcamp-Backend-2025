@@ -54,20 +54,22 @@ async def get_recommendations_for_user(
     user_uuid = UUID(user_uuid)
     try:
         recommendations = get_recommendations(user_uuid, top_n*3, session)
-        if not recommendations:
+        click_history = True
+        if (not recommendations) or (len(recommendations) == 0):
             recommendations = get_random_restaurants_details(session, top_n)
-        
+            click_history = False
         for rec in recommendations:
             rec.update({"distance": geodesic((rec.get("latitude", 0), rec.get("longitude", 0)), (user_lat, user_long)).km})
-        
+
         filtered = [r for r in recommendations if r["distance"] <= 20]
 
-        sorted_restaurants = sorted(filtered, key=lambda x: x['score'], reverse=True)
-        
+        if (click_history):
+            filtered = sorted(filtered, key=lambda x: x['score'], reverse=True)
+
         return ApiResponse(
             status=200,
             message="Data retrieved successfully",
-            data=sorted_restaurants[:top_n],
+            data=filtered[:top_n],
             metadata=None
         )
     
