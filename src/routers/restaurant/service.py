@@ -3,8 +3,14 @@ from .model import RestaurantDetailResponse, FoodItem, ReviewItem
 from .repository import get_restaurant_detail, get_restaurant_dishes, get_restaurant_reviews
 import math
 from typing import List, Dict, Union
-    
-def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetailResponse | None:
+from geopy.distance import geodesic
+
+def fetch_restaurant_detail(
+    restaurant_id: str, 
+    db: Session, 
+    user_lat: float = 10.768778567106164, 
+    user_long: float = 106.74621772556752
+) -> RestaurantDetailResponse | None:
     """
     Fetches restaurant details from the database.
     
@@ -30,6 +36,7 @@ def fetch_restaurant_detail(restaurant_id: str, db: Session) -> RestaurantDetail
         restaurant_rating=raw_data.get("restaurant_rating"),
         restaurant_rating_count=raw_data.get("restaurant_rating_count"),
         restaurant_url=raw_data.get("restaurant_url"),
+        distance=geodesic((raw_data.get("latitude", 0), raw_data.get("longitude", 0)), (user_lat, user_long)).km
     )
 
 def fetch_restaurant_dishes(restaurant_id: str, db: Session, page: int, page_size: int) -> Dict[str, Union[List[FoodItem], int]]:

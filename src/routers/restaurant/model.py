@@ -24,3 +24,4 @@ class RestaurantDetailResponse(BaseModel):
     restaurant_rating: Optional[float] = None
     restaurant_rating_count: Optional[int] = None
     restaurant_url: Optional[str] = None
+    distance: Optional[float] = None

@@ -46,16 +46,16 @@ def test_search_image():
         assert len(data['data']) > 0
 
 def test_valid_restaurant_id():
-    restaurant_id = "ca26fd25-8de3-473b-b5e2-1cfaa571caf8"
+    restaurant_id = "1bb6891b-b737-4de9-a98a-444178854e8e"
     response = client.get(f"restaurant/{restaurant_id}")
     assert response.status_code == 200
     data = response.json()
     assert "restaurant_id" in data["data"]
     assert data["data"]["restaurant_id"] == restaurant_id
-    assert data["data"]["restaurant_name"] == "Trà Sữa Handmade Bông Sao"
+    assert data["data"]["restaurant_name"] == "3A Korean Food - Gà Sốt Phô Mai, Mì Cay Hàn Quốc & Tokbokki - Nguyễn Văn Luông"
 
 def test_valid_restaurant_dishes():
-    restaurant_id = "ca26fd25-8de3-473b-b5e2-1cfaa571caf8"
+    restaurant_id = "1bb6891b-b737-4de9-a98a-444178854e8e"
     response = client.get(f"restaurant/{restaurant_id}/dishes?page=1&page_size=10")
     assert response.status_code == 200
     data = response.json()
@@ -68,7 +68,7 @@ def test_valid_restaurant_dishes():
 
 
 def test_valid_restaurant_reviews():
-    restaurant_id = "ca26fd25-8de3-473b-b5e2-1cfaa571caf8"
+    restaurant_id = "1bb6891b-b737-4de9-a98a-444178854e8e"
     response = client.get(f"restaurant/{restaurant_id}/reviews?page=1&page_size=10")
     assert response.status_code == 200
     data = response.json()
@@ -98,7 +98,7 @@ def test_valid_random_recommendation():
     assert "restaurant_id" in data["data"][0]
 
 def test_get_dish():
-    valid_img_id = "6a6d044a-6a8f-4684-bcd7-7a60ee619db0"
+    valid_img_id = "3d665b19-5cf6-4590-85ce-4c1596b997aa"
     response = client.get(f"/dish/{valid_img_id}")
     assert response.status_code == 200
     response_data = response.json()

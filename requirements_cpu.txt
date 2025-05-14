@@ -84,3 +84,4 @@ watchfiles==1.0.5
 wcwidth==0.2.13
 websockets==15.0.1
 minio==7.2.15
+geopy==2.4.1

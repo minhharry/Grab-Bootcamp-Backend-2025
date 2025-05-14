@@ -3,11 +3,17 @@ from sqlalchemy.orm import Session
 from .service import search_similar_images
 from common_schemas.response import ApiResponse
 from database import get_db
-
+from geopy.distance import geodesic
 router = APIRouter()
 
 @router.post("", response_model=ApiResponse, tags = ["Image Search"])
-async def search_image(file: UploadFile = File(...), top_n: int = 5, db: Session = Depends(get_db))-> ApiResponse:
+async def search_image(
+    file: UploadFile = File(...), 
+    top_n: int = 5, 
+    user_lat: float = 10.768778567106164, 
+    user_long: float = 106.74621772556752, 
+    db: Session = Depends(get_db)
+    )-> ApiResponse:
     """
     Endpoint to search for similar images using a given image file.
     Validates the file type, reads the file content, and searches for similar images.
@@ -26,7 +32,7 @@ async def search_image(file: UploadFile = File(...), top_n: int = 5, db: Session
 
     image_bytes = await file.read()
 
-    results = await search_similar_images(image_bytes, db, top_n)
+    results = await search_similar_images(image_bytes, db, top_n, user_lat, user_long)
     
     if not results:
         raise HTTPException(
