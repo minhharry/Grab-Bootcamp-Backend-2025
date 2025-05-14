@@ -24,7 +24,7 @@ async def search_similar_images(
     user_lat: float = 10.768778567106164,
     user_long: float = 106.74621772556752,
     collection_name: str = "images_embedding",
-    limit: int = 200
+    limit: int = 100
 ) -> List[ImageResultItem]:
     """
     Searches for similar images based on the provided image bytes using a model and a Qdrant database.
@@ -87,7 +87,6 @@ async def search_similar_images(
                 result.distance = geodesic((data.get("latitude", 0), data.get("longitude", 0)), (user_lat, user_long)).km
                 results.append(result)
 
-    # Sort the results by score
     results.sort(key=lambda x: x.score, reverse=True)
-
+    results = [r for r in results if r.distance <= 20]
     return results[:top_n]

@@ -4,6 +4,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from typing import Dict, List, Optional
 from utils import extract_price_level
 from sqlalchemy import func
+from sqlalchemy import text
 
 
     
@@ -104,7 +105,15 @@ def get_random_restaurants(db: Session, limit: int = 10) -> List[Dict]:
     Returns:
         list: A list of restaurant objects with their details and price level.
     """
-    restaurants = db.query(RestaurantModel).order_by(func.random()).limit(limit).all()
+    query = text("""
+            SELECT * FROM restaurants
+            TABLESAMPLE SYSTEM (15)  
+            LIMIT :limit;           
+        """)
+
+    result = db.execute(query, {"limit": limit})
+
+    restaurants = result.fetchall()
 
     if not restaurants:
         return []
