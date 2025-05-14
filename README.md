@@ -86,7 +86,7 @@ python -m vector_db.load_embedding
 ```
 
 Or you can generate image embeddings yourself using our Kaggle notebook:
- 👉 [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/grab-images-embedding) 
+ 👉 [Open the Kaggle Notebook](https://www.kaggle.com/code/colabnguyen/recognize-food-name-and-embedding) 
 Steps:
 1. Click "Copy and Edit" to create your own version of the notebook.
 

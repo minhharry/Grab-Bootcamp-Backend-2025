@@ -9,6 +9,9 @@ from load_data.save_processed_data_to_local import save_processed_data_to_local
 from load_data.save_processed_data_to_minIO import save_processed_data_to_minIO
 # from load_to_database.download_processed import save_images_tables_as_csv
 from utils.get_unprocessed_files import get_unprocessed_files
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import global_config as config
 
 def main():

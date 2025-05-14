@@ -11,7 +11,7 @@ load_dotenv()
 # Đọc biến môi trường
 POSTGRES_USER = os.getenv('POSTGRES_USER', 'default_user')
 POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD', 'default_password')
-POSTGRES_HOST = "localhost"  
+POSTGRES_HOST = os.getenv('POSTGRES_HOST', 'localhost')  
 POSTGRES_PORT = os.getenv('POSTGRES_PORT', '5432')
 POSTGRES_DB = os.getenv('POSTGRES_DB', 'default_db')
 
@@ -157,7 +157,7 @@ def insert_data(jsonl_data):
                         img_url = EXCLUDED.img_url,
                         crawl_time = EXCLUDED.crawl_time,
                         crawl_id = EXCLUDED.crawl_id
-                    WHERE EXCLUDED.crawl_time > images.crawl_time OR images.crawl_time IS NULL
+                    WHERE EXCLUDED.crawl_time > images.crawl_time
                 """), {
                     "img_id": img.get("img_id"),
                     "restaurant_id": restaurant_id,

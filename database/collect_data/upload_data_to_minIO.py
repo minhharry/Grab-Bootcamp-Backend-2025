@@ -22,9 +22,6 @@ def upload_to_minio(client, bucket_name, local_path, source, date_str):
 
 print("Start uploading data to MinIO")
 
-print(os.getenv("MINIO_ROOT_USER"))
-print(os.getenv("MINIO_ROOT_PASSWORD"))
-
 client = Minio(
     "localhost:9000",
     access_key=os.getenv("MINIO_ROOT_USER"),
