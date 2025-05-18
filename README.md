@@ -1,6 +1,6 @@
 # Grab-Bootcamp-Backend-2025
 
-<img src="https://github.com/minhharry/Grab-Bootcamp-Backend-2025/issues/31#issue-3071456307" width="700">
+<img src="https://private-user-images.githubusercontent.com/122473375/444859039-e20210db-0545-4f62-a070-a7d90d5445fa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc1NDg0NTAsIm5iZiI6MTc0NzU0ODE1MCwicGF0aCI6Ii8xMjI0NzMzNzUvNDQ0ODU5MDM5LWUyMDIxMGRiLTA1NDUtNGY2Mi1hMDcwLWE3ZDkwZDU0NDVmYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOFQwNjAyMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNzdhYjM4NTg1ZGE2YTcwOWRhMWU2NWZkNDZkNzg1NjhiODUxN2MxZDYzNDEyYTVmNzNhMGZhNTQ3MzU0M2IwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xdzroWwowqec8711s4xjOx-N341FDdFOL79IdFPhHH0" width="700">
 
 
 I recommend using [uv](https://github.com/astral-sh/uv) for package management but you can use `pip` or `conda` if you prefer.
